@@ -1,0 +1,47 @@
+{
+  "name": "utrecht-icon-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "libs/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w icon-web-component-stencil && npm run build -w icon-web-component-react",
+    "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
+    "lint:css": "stylelint '**/*.{css,scss}'",
+    "lint:check": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --report-unused-disable-directives .",
+    "lint:package-json": "npmPkgJsonLint '**/package.json'",
+    "lint:package-lock": "npm ls",
+    "lint:prettier": "prettier --check .",
+    "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
+    "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
+    "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --fix --report-unused-disable-directives .",
+    "lint-workspaces": "npm run lint --workspaces",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.43",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-react": "^7.30.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-order": "^5.0.0",
+    "typescript": "^4.0.8"
+  }
+}

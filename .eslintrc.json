@@ -1,0 +1,50 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "amd": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.ts", "**/*.spec.tsx"],
+      "env": {
+        "jest": true
+      }
+    },
+    {
+      "extends": ["plugin:json/recommended"],
+      "files": ["*.json"]
+    },
+    {
+      "extends": ["eslint-config-prettier", "./.eslintrc.js.json"],
+      "files": ["*.js", "*.jsx"],
+      "plugins": ["import", "jest"]
+    },
+    {
+      "extends": ["eslint-config-prettier", "./.eslintrc.js.json"],
+      "files": ["*.ts", "*.tsx"],
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["@typescript-eslint", "import", "jest"],
+      "parserOptions": {
+        "project": [
+          "libs/icon-web-component-react/tsconfig.json",
+          "libs/icon-web-component-vue/tsconfig.json",
+          "libs/icon-web-component-stencil/tsconfig.json"
+        ]
+      }
+    }
+  ]
+}
