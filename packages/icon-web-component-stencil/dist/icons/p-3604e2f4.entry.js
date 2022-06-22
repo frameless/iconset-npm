@@ -1,0 +1,1 @@
+import{r as e,h as n}from"./p-60de404b.js";const o=class{constructor(n){e(this,n)}render(){return n("div",{class:"opengemeenten-icon-container"},n("slot",null))}};o.style=".opengemeenten-icon-container{color:var(--opengemeenten-icon-color);height:var(--opengemeenten-icon-size);width:var(--opengemeenten-icon-size)}";export{o as opengemeenten_icon_container}

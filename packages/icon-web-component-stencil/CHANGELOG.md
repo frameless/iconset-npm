@@ -1,3 +1,15 @@
+# @frameless/icon-web-component-stencil [3.0.0](https://github.com/frameless/opengemeenten-iconset/compare/@frameless/icon-web-component-stencil@2.0.0...@frameless/icon-web-component-stencil@3.0.0) (2022-06-22)
+
+
+### Features
+
+* **iconset-web-component:** change prefix to opengemeenten ([677126e](https://github.com/frameless/opengemeenten-iconset/commit/677126edb2539eea259b67e8e8c99285f3543cfb))
+
+
+### BREAKING CHANGES
+
+* **iconset-web-component:** all icons prefix renamed opengemeenten
+
 # @frameless/icon-web-component-stencil [2.0.0](https://github.com/frameless/opengemeenten-iconset/compare/@frameless/icon-web-component-stencil@1.0.0...@frameless/icon-web-component-stencil@2.0.0) (2022-06-21)
 
 ### Features

@@ -1,0 +1,36 @@
+import { proxyCustomElement, HTMLElement, h } from '@stencil/core/internal/client';
+import { d as defineCustomElement$2 } from './opengemeenten-icon-container2.js';
+
+const OpengemeentenIconKerstbomen$1 = /*@__PURE__*/ proxyCustomElement(class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    this.__attachShadow();
+  }
+  render() {
+    return (h("opengemeenten-icon-container", null, h("svg", { fill: "CurrentColor", viewBox: "0 0 48 48", xmlns: "http://www.w3.org/2000/svg" }, h("path", { d: "m8.63 20.04-.96 1.49h16.71l-1.02-2.07 1.64.27-1.74-3.87 1.13.18-2.36-5.24-3.79 4.26 1.14.18-2.8 3.15 1.65.26-2.59 2.62-1.87-1.95 1.65-.24-2.74-3.19 1.13-.16-3.71-4.33-2.45 5.19 1.14-.16-1.81 3.84z" }), h("path", { d: "m37.48 23-2.69-7.5h-2.27v-.74a.75.75 0 1 0-1.5 0v.74h-4.55V23H7v7.5h.81a6 6 0 0 1 10.38 0h13.6a6 6 0 0 1 10.38 0H43V24l-5.52-1zm-8 .05v-5.39h3.36L34.63 23l-5.15.05zM18.78 32a5.73 5.73 0 0 1 0 3h12.4a5.73 5.73 0 0 1 0-3h-12.4z" }), h("path", { d: "M13 29a4.5 4.5 0 1 0 4.5 4.5A4.51 4.51 0 0 0 13 29zm0 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm24-6a4.5 4.5 0 1 0 4.5 4.5A4.51 4.51 0 0 0 37 29zm0 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" }))));
+  }
+}, [1, "opengemeenten-icon-kerstbomen"]);
+function defineCustomElement$1() {
+  if (typeof customElements === "undefined") {
+    return;
+  }
+  const components = ["opengemeenten-icon-kerstbomen", "opengemeenten-icon-container"];
+  components.forEach(tagName => { switch (tagName) {
+    case "opengemeenten-icon-kerstbomen":
+      if (!customElements.get(tagName)) {
+        customElements.define(tagName, OpengemeentenIconKerstbomen$1);
+      }
+      break;
+    case "opengemeenten-icon-container":
+      if (!customElements.get(tagName)) {
+        defineCustomElement$2();
+      }
+      break;
+  } });
+}
+
+const OpengemeentenIconKerstbomen = OpengemeentenIconKerstbomen$1;
+const defineCustomElement = defineCustomElement$1;
+
+export { OpengemeentenIconKerstbomen, defineCustomElement };
