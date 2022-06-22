@@ -28,12 +28,14 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
-  publish-npm:
-    if: github.ref == 'refs/heads/main'
-    needs: continuous-integration
-    runs-on: ubuntu-latest
-    steps:
+      - name: GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          branch: gh-pages
+          folder: packages/iconset-web-component/www/
       - name: Release
+        if: github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ secrets.ICON_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -41,12 +43,3 @@ jobs:
           npm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
           npm run release
           npm config delete "//registry.npmjs.org/:_authToken"
-  deploy-to-github-pages-npm:
-    if: github.ref == 'refs/heads/main'
-    needs: continuous-integration
-    runs-on: ubuntu-latest
-    steps:
-      - uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: packages/iconset-web-component/www/
