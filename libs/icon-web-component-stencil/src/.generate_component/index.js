@@ -9,7 +9,7 @@ const { component, test, generateIconsName, generateIconsSetPage } = require('./
 
 const componentPrefix = `${argv.prefix}-`;
 const componentsPath = argv.path;
-console.log({ componentsPath });
+
 if (fs.existsSync(componentsPath)) throw new Error(`A component with that name already exists.`);
 
 if (!componentsPath) throw new Error('You must include a components path name.');
