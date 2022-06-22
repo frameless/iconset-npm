@@ -61,7 +61,7 @@ typings/
 .next
 
 # Produced build files
-dist
+/dist
 
 # Ignore generated files from Stencil
 src/vue-component-lib
