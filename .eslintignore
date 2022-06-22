@@ -12,6 +12,7 @@ tmp
 
 # Ignore generated files from Stencil
 packages/*/dist
+packages/*/CHANGELOG.md
 packages/icon-web-component-react/src/components
 packages/icon-web-component-vue/src/vue-component-lib
 packages/icon-web-component-vue/src/components.ts
