@@ -1,3 +1,15 @@
+# @wip/iconset-vue 1.0.0 (2022-06-22)
+
+
+### chore
+
+* **iconset-vue:** rename package to iconset-vue ([940f3a8](https://github.com/frameless/iconset-npm/commit/940f3a8dea0dec886e93e2b66a383706d6271c9c))
+
+
+### BREAKING CHANGES
+
+* **iconset-vue:** rename package name to @opengemeenten/iconset-vue
+
 # @frameless/icon-web-component-vue 1.0.0 (2022-06-17)
 
 
