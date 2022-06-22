@@ -1,17 +1,16 @@
 {
-  "name": "icon-web-component-react",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@frameless/icon-web-component-react",
+  "version": "0.0.0-development",
+  "private": false,
   "description": "",
   "repository": {
-    "type": "git",
-    "url": ""
+    "type": "git+ssh",
+    "url": "git@github.com:frameless/opengemeenten-iconset.git"
   },
   "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rimraf dist",
-    "compile": "npm run tsc",
-    "tsc": "tsc -p ."
+    "prebuild": "npm run clean",
+    "build": "tsc -p .",
+    "clean": "rimraf dist"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
