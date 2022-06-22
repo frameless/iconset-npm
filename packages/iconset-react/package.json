@@ -1,0 +1,32 @@
+{
+  "name": "@opengemeenten/iconset-react",
+  "version": "0.0.0-development",
+  "private": false,
+  "description": "",
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:frameless/iconset-npm.git"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p .",
+    "clean": "rimraf node_modules && rimraf dist"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
