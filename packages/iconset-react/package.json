@@ -31,5 +31,8 @@
   "peerDependencies": {
     "react": "17 - 18",
     "react-dom": "17 - 18"
+  },
+  "dependencies": {
+    "@wip/iconset-web-component": "^1.1.0"
   }
 }
