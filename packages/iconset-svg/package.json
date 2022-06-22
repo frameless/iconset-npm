@@ -2,6 +2,9 @@
   "name": "@wip/iconset-svg",
   "version": "0.0.0-development",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "OpenGemeenten Iconset as SVG",
   "repository": {
     "type": "git+ssh",
