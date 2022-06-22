@@ -31,4 +31,4 @@ jobs:
       - name: Release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run release
+        run: npm run semantic-release
