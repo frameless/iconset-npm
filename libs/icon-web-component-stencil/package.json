@@ -1,6 +1,7 @@
 {
   "name": "icon-web-component-stencil",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
+  "private": false,
   "description": "Icon Web Component Stencil",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -11,8 +12,8 @@
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/icons/icons.esm.js",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/frameless/opengemeenten-iconset"
+    "type": "git+ssh",
+    "url": "git@github.com:frameless/opengemeenten-iconset.git"
   },
   "files": [
     "dist/",
