@@ -13,9 +13,9 @@ exports.component = (name, svg) => {
 export class ${ComponentName} {
   render() {
     return (
-      <utrecht-icon-container>
+      <opengemeenten-icon-container>
         ${svg}
-      </utrecht-icon-container>
+      </opengemeenten-icon-container>
     );
   }
 }
@@ -56,8 +56,8 @@ exports.generateIconsSetPage = (iconsNames) => {
 
     <style>
     :root {
-      --utrecht-icon-size: 3rem;
-      --utrecht-icon-color: tomato;
+      --opengemeenten-icon-size: 3rem;
+      --opengemeenten-icon-color: tomato;
     }
 
     h1, p{

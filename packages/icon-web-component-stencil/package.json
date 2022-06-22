@@ -30,7 +30,7 @@
     "svgo": "svgo -f ./src/svg -o ./src/optimized-svgs",
     "postgc": "npm run build",
     "pregc": "rimraf src/components/icons",
-    "gc": "node src/.generate_component $1 --prefix utrecht-icon --path src/components/icons",
+    "gc": "node src/.generate_component $1 --prefix opengemeenten-icon --path src/components/icons",
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
     "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
     "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --fix",
