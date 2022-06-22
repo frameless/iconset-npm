@@ -1,5 +1,5 @@
 {
-  "name": "@frameless/utrecht-icon-library",
+  "name": "@opengemeenten/iconset",
   "version": "0.0.0-development",
   "description": "",
   "repository": {
@@ -7,17 +7,18 @@
     "url": "https:git@github.com:frameless/iconset-npm.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@frameless"
+    "registry": "https://registry.npmjs.org"
   },
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "build": "npm-run-all build:**",
-    "build:iwcs": "npm run build -w  @frameless/icon-web-component-stencil",
-    "build:iwcr": "npm run build -w  @frameless/icon-web-component-react",
-    "build:iwcv": "npm run build -w  @frameless/icon-web-component-vue",
+    "build:web-component": "npm run build -w  @opengemeenten/iconset-web-component",
+    "build:react": "npm run build -w  @opengemeenten/iconset-react",
+    "build:vue": "npm run build -w  @opengemeenten/iconset-vue",
     "test": "npm run test --workspaces --if-present",
+    "clean": "rimraf node_modules && npm run clean -ws",
     "lint": "npm-run-all --continue-on-error lint:**",
     "lint:css": "stylelint '**/*.{css,scss}'",
     "lint:check": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --report-unused-disable-directives .",

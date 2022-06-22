@@ -1,5 +1,0 @@
-/dist
-/node_modules
-/src/components
-/src/index.ts
-package.lock.json
