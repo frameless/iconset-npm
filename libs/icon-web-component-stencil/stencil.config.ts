@@ -6,12 +6,12 @@ export const config: Config = {
   namespace: 'icons',
   outputTargets: [
     react({
-      componentCorePackage: 'icon-web-component-stencil',
+      componentCorePackage: '@frameless/icon-web-component-stencil',
       proxiesFile: '../icon-web-component-react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),
     vueOutputTarget({
-      componentCorePackage: 'icon-web-component-stencil',
+      componentCorePackage: '@frameless/icon-web-component-stencil',
       proxiesFile: '../icon-web-component-vue/src/components.ts',
     }),
     {
