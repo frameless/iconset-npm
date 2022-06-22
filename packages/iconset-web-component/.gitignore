@@ -1,4 +1,4 @@
-dist/
+/dist/
 www/
 loader/
 
@@ -24,3 +24,4 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 .env
+/tmp/
