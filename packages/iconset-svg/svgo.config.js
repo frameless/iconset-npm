@@ -9,6 +9,12 @@ module.exports = {
     'removeDimensions',
     'removeTitle',
     {
+      name: "removeAttrs",
+      params: {
+        attrs: "style"
+      }
+    },
+    {
       name: 'sortAttrs',
       params: {
         xmlnsOrder: 'alphabetical',
