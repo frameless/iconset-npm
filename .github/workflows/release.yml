@@ -29,6 +29,11 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
+      - name: Continuous Deployment to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: packages/iconset-web-component/www/
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.ICON_TOKEN }}
