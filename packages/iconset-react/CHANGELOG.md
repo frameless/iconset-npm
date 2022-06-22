@@ -1,3 +1,10 @@
+# @wip/iconset-react [1.2.0](https://github.com/frameless/iconset-npm/compare/@wip/iconset-react@1.1.0...@wip/iconset-react@1.2.0) (2022-06-22)
+
+
+### Features
+
+* add @wip/iconset-web-component as dependency ([277d893](https://github.com/frameless/iconset-npm/commit/277d893be7f2529df3557713ab34fcb0583528d0))
+
 # @wip/iconset-react [1.1.0](https://github.com/frameless/iconset-npm/compare/@wip/iconset-react@1.0.0...@wip/iconset-react@1.1.0) (2022-06-22)
 
 
