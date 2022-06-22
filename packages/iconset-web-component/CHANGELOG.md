@@ -1,3 +1,20 @@
+# @wip/iconset-web-component 1.0.0 (2022-06-22)
+
+
+### Bug Fixes
+
+* use relative path for GitHub Pages ([b38e72b](https://github.com/frameless/iconset-npm/commit/b38e72b6cd9f35a848668d070c90edc89f8d090b))
+
+
+### chore
+
+* **iconset-web-component:** rename package to iconset-web-component ([e15da89](https://github.com/frameless/iconset-npm/commit/e15da890d61f279625db278fb54c6a0a795db125))
+
+
+### BREAKING CHANGES
+
+* **iconset-web-component:** rename package name to @opengemeenten/iconset-web-component
+
 # @frameless/icon-web-component-stencil [3.0.0](https://github.com/frameless/opengemeenten-iconset/compare/@frameless/icon-web-component-stencil@2.0.0...@frameless/icon-web-component-stencil@3.0.0) (2022-06-22)
 
 
