@@ -3,10 +3,10 @@ name: Release
 on:
   push:
     branches: [main]
-
+  pull_request:
 jobs:
-  release:
-    name: Release
+
+  continuous-integration:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -29,13 +29,22 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
-      - name: Continuous Deployment to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: packages/iconset-web-component/www/
+  publish-npm:
+    if: github.ref == 'refs/heads/main'
+    needs: continuous-integration
+    runs-on: ubuntu-latest
+    steps:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.ICON_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm run release
+  deploy-to-github-pages-npm:
+    if: github.ref == 'refs/heads/main'
+    needs: continuous-integration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: packages/iconset-web-component/www/
