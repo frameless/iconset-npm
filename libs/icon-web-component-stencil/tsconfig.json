@@ -14,6 +14,6 @@
     "jsx": "react",
     "jsxFactory": "h"
   },
-  "include": ["src", "*/*.ts", "*/*.tsx"],
+  "include": ["src", "*/*.ts", "*/*.tsx", "./stencil.config.ts"],
   "exclude": ["node_modules"]
 }
