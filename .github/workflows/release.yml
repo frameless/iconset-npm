@@ -31,4 +31,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.ICON_TOKEN }}
-        run: npm run semantic-release
+        run: npm run release
