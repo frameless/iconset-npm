@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git+ssh",
-    "url": "https:git@github.com:frameless/opengemeenten-iconset.git"
+    "url": "https:git@github.com:frameless/iconset-npm.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@frameless"

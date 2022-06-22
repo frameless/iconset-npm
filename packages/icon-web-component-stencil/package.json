@@ -13,7 +13,7 @@
   "unpkg": "dist/icons/icons.esm.js",
   "repository": {
     "type": "git+ssh",
-    "url": "git@github.com:frameless/opengemeenten-iconset.git"
+    "url": "git@github.com:frameless/iconset-npm.git"
   },
   "files": [
     "dist/",
