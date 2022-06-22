@@ -10,7 +10,7 @@
     "registry": "https://npm.pkg.github.com/@frameless"
   },
   "workspaces": [
-    "libs/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "npm-run-all build:**",

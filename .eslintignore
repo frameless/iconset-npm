@@ -11,12 +11,12 @@ build
 tmp
 
 # Ignore generated files from Stencil
-libs/*/dist
-libs/icon-web-component-react/src/components
-libs/icon-web-component-vue/src/vue-component-lib
-libs/icon-web-component-vue/src/components.ts
-libs/icon-web-component-stencil/loader
-libs/icon-web-component-stencil/src/components.d.ts
-libs/icon-web-component-stencil/src/components/**/*.md
-libs/icon-web-component-stencil/www/
+packages/*/dist
+packages/icon-web-component-react/src/components
+packages/icon-web-component-vue/src/vue-component-lib
+packages/icon-web-component-vue/src/components.ts
+packages/icon-web-component-stencil/loader
+packages/icon-web-component-stencil/src/components.d.ts
+packages/icon-web-component-stencil/src/components/**/*.md
+packages/icon-web-component-stencil/www/
 

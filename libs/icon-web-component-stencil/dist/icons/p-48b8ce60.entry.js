@@ -1,1 +1,0 @@
-import{r as t,h as r}from"./p-60de404b.js";const c=class{constructor(r){t(this,r)}render(){return r("div",{class:"utrecht-icon-container"},r("slot",null))}};c.style=".utrecht-icon-container{color:var(--utrecht-icon-color);height:var(--utrecht-icon-size);width:var(--utrecht-icon-size)}";export{c as utrecht_icon_container}

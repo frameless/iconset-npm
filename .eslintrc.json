@@ -40,9 +40,9 @@
       "plugins": ["@typescript-eslint", "import", "jest"],
       "parserOptions": {
         "project": [
-          "libs/icon-web-component-react/tsconfig.json",
-          "libs/icon-web-component-vue/tsconfig.json",
-          "libs/icon-web-component-stencil/tsconfig.json"
+          "packages/icon-web-component-react/tsconfig.json",
+          "packages/icon-web-component-vue/tsconfig.json",
+          "packages/icon-web-component-stencil/tsconfig.json"
         ]
       }
     }
