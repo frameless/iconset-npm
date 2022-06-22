@@ -8,7 +8,7 @@ import { Component, h } from '@stencil/core';
 export class UtrechtIconContainer {
   render() {
     return (
-      <div className="utrecht-icon-container">
+      <div class="utrecht-icon-container">
         <slot />
       </div>
     );
