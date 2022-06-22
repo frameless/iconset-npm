@@ -10,15 +10,15 @@
     "registry": "https://registry.npmjs.org"
   },
   "workspaces": [
-    "packages/*"
+    "packages/iconset-svg",
+    "packages/iconset-web-component",
+    "packages/iconset-react",
+    "packages/iconset-vue"
   ],
   "scripts": {
-    "build": "npm-run-all build:**",
-    "build:web-component": "npm run build -w  @opengemeenten/iconset-web-component",
-    "build:react": "npm run build -w  @opengemeenten/iconset-react",
-    "build:vue": "npm run build -w  @opengemeenten/iconset-vue",
+    "build": "npm run --workspaces build",
     "test": "npm run test --workspaces --if-present",
-    "clean": "rimraf node_modules && npm run clean -ws",
+    "clean": "npm run --workspaces clean",
     "lint": "npm-run-all --continue-on-error lint:**",
     "lint:css": "stylelint '**/*.{css,scss}'",
     "lint:check": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --report-unused-disable-directives .",
