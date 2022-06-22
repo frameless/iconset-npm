@@ -13,7 +13,7 @@ const packageJson = require('./package.json');
 
 const outputGlobals = {
   vue: 'vue',
-  '@opengemeenten/iconset-web-component/loader': ['applyPolyfills', 'defineCustomElements'],
+  '@wip/iconset-web-component/loader': ['applyPolyfills', 'defineCustomElements'],
 };
 
 export default [
@@ -26,7 +26,7 @@ export default [
       sourcemap: true,
       globals: outputGlobals,
     },
-    external: ['vue', '@opengemeenten/iconset-web-component/loader'],
+    external: ['vue', '@wip/iconset-web-component/loader'],
     plugins: [vue(), typescript(), json()],
   },
   // SSR build.
@@ -38,7 +38,7 @@ export default [
       sourcemap: true,
       globals: outputGlobals,
     },
-    external: ['vue', '@opengemeenten/iconset-web-component/loader'],
+    external: ['vue', '@wip/iconset-web-component/loader'],
     plugins: [vue({ template: { optimizeSSR: true } }), typescript(), json()],
   },
   // Browser build.
@@ -50,7 +50,7 @@ export default [
       globals: outputGlobals,
       plugins: [terser()],
     },
-    external: ['vue', '@opengemeenten/iconset-web-component/loader'],
+    external: ['vue', '@wip/iconset-web-component/loader'],
     plugins: [vue(), typescript(), json()],
   },
 ];

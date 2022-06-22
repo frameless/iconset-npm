@@ -1,4 +1,4 @@
-# @opengemeenten/iconset-react
+# @wip/iconset-react
 
 This is an example repo of building plugins.
 

@@ -1,4 +1,4 @@
-import { applyPolyfills, defineCustomElements } from '@opengemeenten/iconset-web-component/loader';
+import { applyPolyfills, defineCustomElements } from '@wip/iconset-web-component/loader';
 import { Plugin } from 'vue';
 
 export const UtrechtIconWebComponent: Plugin = {
