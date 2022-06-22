@@ -1,0 +1,1 @@
+# OpenGemeenten iconset als SVG

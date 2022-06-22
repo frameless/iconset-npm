@@ -20,17 +20,16 @@
     "loader/"
   ],
   "scripts": {
-    "prebuild": "rimraf dist loader www",
-    "build": "stencil build --docs",
-    "clean": "rimraf node_modules && dist loader www",
+    "prebuild": "npm run clean",
+    "build": "npm run build:components && npm run build:stencil",
+    "build:components": "node src/build.js $1 --prefix opengemeenten-icon --path tmp/src/",
+    "build:stencil": "stencil build --docs",
+    "clean": "rimraf dist loader www tmp",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "svgo": "svgo -f ./src/svg -o ./src/optimized-svgs",
     "postgc": "npm run build",
-    "pregc": "rimraf src/components/icons",
-    "gc": "node src/.generate_component $1 --prefix opengemeenten-icon --path src/components/icons",
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
     "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
     "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --fix",
@@ -46,10 +45,8 @@
     "@types/uuid": "^8.3.4",
     "jest": "^27.0.3",
     "jest-cli": "^27.4.5",
-    "minimist": "^1.2.6",
     "puppeteer": "^14.2.1",
     "stencil-inline-svg": "^1.1.0",
-    "svgo": "^2.8.0",
     "uuid": "^8.3.2"
   },
   "license": "MIT"

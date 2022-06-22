@@ -1,0 +1,23 @@
+{
+  "name": "@opengemeenten/iconset-svg",
+  "version": "0.0.0-development",
+  "private": false,
+  "description": "OpenGemeenten Iconset as SVG",
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:frameless/iconset-npm.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "svgo --recursive --folder ./src/ --output ./dist/",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "minimist": "^1.2.6",
+    "svgo": "^2.8.0"
+  },
+  "license": "EUPL-1.2"
+}
