@@ -7,522 +7,264 @@
 import { HTMLStencilElement, JSXBase } from "./stencil-public-runtime";
 export namespace Components {
     interface UtrechtIconActueel {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfval {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalContainer {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalOphaal {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalScheiden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalkalender {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAgenda {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAirborne {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAttentie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAuto {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBedrijventerrein {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBegroting {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBelastingen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBevolking {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBevrijding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBezwaarEnBeroep {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBijstandsuitkering {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBladerenOpruimen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBouwenEnVerbouwen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBrandgevaar {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBuitengebied {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconComputerregeling {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconContactGemeente {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconContainer {
     }
     interface UtrechtIconDocumenten {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconDuurzaamheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEconomieWerkInkomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEikenprocessie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEnergietransitie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEvenementen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
+    }
+    interface UtrechtIconF1 {
     }
     interface UtrechtIconFiets {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
-    }
-    interface UtrechtIconFormule1 {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGebruikerCentraal {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGebruikerIngelogd {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGebruikersvraag {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGemeenteraad {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGemivaLocatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGezicht {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGladheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGrafiek {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGrofvuil {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHondenbelasting {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHorecavergunningen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHuis {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHuisEnOmgeving {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHulpmiddelenVinden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconIdkaart {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInEnOmUwHuis {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInformatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInformatieEnBetalen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInkomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconJeugd {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKerstbomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKindEnFamilie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKoningsdag {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKopenEnHuren {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKopenEnVerkopen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLeerlingenvervoer {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLetOp {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLiefdadigheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLocatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconManege {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMeeuwenoverlast {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMelding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMeldingOpenbareRuimte {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMobiliteit {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorAgrofood {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorDuurzaamheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorSociaal {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorVirus {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorWoningmarkt {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconNatuurLandschap {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconNieuwsbrief {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOmgeving {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOmgevingsvergunning {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOnderhoud {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOndernemen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOnderscheidingen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOnderwijs {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOpeningstijden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOverDeGemeente {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOverDeStad {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconParkeervoorzieningGehandicapten {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconParkeren {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconPaspoort {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconPaspoortIdkaartGecombineerd {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconPrijskaartje {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRaadEnCollege {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconReclame {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRecreatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRegelingLaagInkomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRijbewijs {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSchoolkostenregeling {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSinterklaas {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSociaalZorgWelzijn {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSport {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSportCultureleActiviteit {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSportkledingMuziekinstrumenten {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStationSneltrein {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStationStoptrein {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStookverbod {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStrand {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSubsidie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconTemperatuurMelding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconTrouwenEnGeregistreerdPartnerschap {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconTuinbouw {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconUittreksel {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconUwGemeente {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconUwWijk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVacatures {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVeerboot {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVeiligeWijk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVergaderen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVergunningAlgemeen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVerhuizen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVerkiezingen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVervoersvoorziening {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVirus {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVluchtelingenOpvang {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVoeding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVrijwilligerswerk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVuurwerk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWandelen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWerkzaamheden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWijkteam {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWinkelen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWinkelwagen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWmo {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWozWaarde {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconZwemabonnement {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
 }
 declare global {
@@ -706,17 +448,17 @@ declare global {
         prototype: HTMLUtrechtIconEvenementenElement;
         new (): HTMLUtrechtIconEvenementenElement;
     };
+    interface HTMLUtrechtIconF1Element extends Components.UtrechtIconF1, HTMLStencilElement {
+    }
+    var HTMLUtrechtIconF1Element: {
+        prototype: HTMLUtrechtIconF1Element;
+        new (): HTMLUtrechtIconF1Element;
+    };
     interface HTMLUtrechtIconFietsElement extends Components.UtrechtIconFiets, HTMLStencilElement {
     }
     var HTMLUtrechtIconFietsElement: {
         prototype: HTMLUtrechtIconFietsElement;
         new (): HTMLUtrechtIconFietsElement;
-    };
-    interface HTMLUtrechtIconFormule1Element extends Components.UtrechtIconFormule1, HTMLStencilElement {
-    }
-    var HTMLUtrechtIconFormule1Element: {
-        prototype: HTMLUtrechtIconFormule1Element;
-        new (): HTMLUtrechtIconFormule1Element;
     };
     interface HTMLUtrechtIconGebruikerCentraalElement extends Components.UtrechtIconGebruikerCentraal, HTMLStencilElement {
     }
@@ -1337,8 +1079,8 @@ declare global {
         "utrecht-icon-eikenprocessie": HTMLUtrechtIconEikenprocessieElement;
         "utrecht-icon-energietransitie": HTMLUtrechtIconEnergietransitieElement;
         "utrecht-icon-evenementen": HTMLUtrechtIconEvenementenElement;
+        "utrecht-icon-f-1": HTMLUtrechtIconF1Element;
         "utrecht-icon-fiets": HTMLUtrechtIconFietsElement;
-        "utrecht-icon-formule-1": HTMLUtrechtIconFormule1Element;
         "utrecht-icon-gebruiker-centraal": HTMLUtrechtIconGebruikerCentraalElement;
         "utrecht-icon-gebruiker-ingelogd": HTMLUtrechtIconGebruikerIngelogdElement;
         "utrecht-icon-gebruikersvraag": HTMLUtrechtIconGebruikersvraagElement;
@@ -1441,522 +1183,264 @@ declare global {
 }
 declare namespace LocalJSX {
     interface UtrechtIconActueel {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfval {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalContainer {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalOphaal {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalScheiden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAfvalkalender {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAgenda {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAirborne {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAttentie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconAuto {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBedrijventerrein {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBegroting {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBelastingen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBevolking {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBevrijding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBezwaarEnBeroep {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBijstandsuitkering {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBladerenOpruimen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBouwenEnVerbouwen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBrandgevaar {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconBuitengebied {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconComputerregeling {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconContactGemeente {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconContainer {
     }
     interface UtrechtIconDocumenten {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconDuurzaamheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEconomieWerkInkomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEikenprocessie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEnergietransitie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconEvenementen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
+    }
+    interface UtrechtIconF1 {
     }
     interface UtrechtIconFiets {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
-    }
-    interface UtrechtIconFormule1 {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGebruikerCentraal {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGebruikerIngelogd {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGebruikersvraag {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGemeenteraad {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGemivaLocatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGezicht {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGladheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGrafiek {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconGrofvuil {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHondenbelasting {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHorecavergunningen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHuis {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHuisEnOmgeving {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconHulpmiddelenVinden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconIdkaart {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInEnOmUwHuis {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInformatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInformatieEnBetalen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconInkomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconJeugd {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKerstbomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKindEnFamilie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKoningsdag {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKopenEnHuren {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconKopenEnVerkopen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLeerlingenvervoer {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLetOp {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLiefdadigheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconLocatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconManege {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMeeuwenoverlast {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMelding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMeldingOpenbareRuimte {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMobiliteit {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorAgrofood {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorDuurzaamheid {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorSociaal {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorVirus {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconMonitorWoningmarkt {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconNatuurLandschap {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconNieuwsbrief {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOmgeving {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOmgevingsvergunning {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOnderhoud {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOndernemen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOnderscheidingen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOnderwijs {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOpeningstijden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOverDeGemeente {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconOverDeStad {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconParkeervoorzieningGehandicapten {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconParkeren {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconPaspoort {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconPaspoortIdkaartGecombineerd {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconPrijskaartje {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRaadEnCollege {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconReclame {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRecreatie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRegelingLaagInkomen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconRijbewijs {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSchoolkostenregeling {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSinterklaas {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSociaalZorgWelzijn {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSport {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSportCultureleActiviteit {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSportkledingMuziekinstrumenten {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStationSneltrein {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStationStoptrein {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStookverbod {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconStrand {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconSubsidie {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconTemperatuurMelding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconTrouwenEnGeregistreerdPartnerschap {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconTuinbouw {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconUittreksel {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconUwGemeente {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconUwWijk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVacatures {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVeerboot {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVeiligeWijk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVergaderen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVergunningAlgemeen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVerhuizen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVerkiezingen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVervoersvoorziening {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVirus {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVluchtelingenOpvang {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVoeding {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVrijwilligerswerk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconVuurwerk {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWandelen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWerkzaamheden {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWijkteam {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWinkelen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWinkelwagen {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWmo {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconWozWaarde {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface UtrechtIconZwemabonnement {
-        "iconTitle"?: string;
-        "iconTitleId"?: string;
     }
     interface IntrinsicElements {
         "utrecht-icon-actueel": UtrechtIconActueel;
@@ -1989,8 +1473,8 @@ declare namespace LocalJSX {
         "utrecht-icon-eikenprocessie": UtrechtIconEikenprocessie;
         "utrecht-icon-energietransitie": UtrechtIconEnergietransitie;
         "utrecht-icon-evenementen": UtrechtIconEvenementen;
+        "utrecht-icon-f-1": UtrechtIconF1;
         "utrecht-icon-fiets": UtrechtIconFiets;
-        "utrecht-icon-formule-1": UtrechtIconFormule1;
         "utrecht-icon-gebruiker-centraal": UtrechtIconGebruikerCentraal;
         "utrecht-icon-gebruiker-ingelogd": UtrechtIconGebruikerIngelogd;
         "utrecht-icon-gebruikersvraag": UtrechtIconGebruikersvraag;
@@ -2125,8 +1609,8 @@ declare module "@stencil/core" {
             "utrecht-icon-eikenprocessie": LocalJSX.UtrechtIconEikenprocessie & JSXBase.HTMLAttributes<HTMLUtrechtIconEikenprocessieElement>;
             "utrecht-icon-energietransitie": LocalJSX.UtrechtIconEnergietransitie & JSXBase.HTMLAttributes<HTMLUtrechtIconEnergietransitieElement>;
             "utrecht-icon-evenementen": LocalJSX.UtrechtIconEvenementen & JSXBase.HTMLAttributes<HTMLUtrechtIconEvenementenElement>;
+            "utrecht-icon-f-1": LocalJSX.UtrechtIconF1 & JSXBase.HTMLAttributes<HTMLUtrechtIconF1Element>;
             "utrecht-icon-fiets": LocalJSX.UtrechtIconFiets & JSXBase.HTMLAttributes<HTMLUtrechtIconFietsElement>;
-            "utrecht-icon-formule-1": LocalJSX.UtrechtIconFormule1 & JSXBase.HTMLAttributes<HTMLUtrechtIconFormule1Element>;
             "utrecht-icon-gebruiker-centraal": LocalJSX.UtrechtIconGebruikerCentraal & JSXBase.HTMLAttributes<HTMLUtrechtIconGebruikerCentraalElement>;
             "utrecht-icon-gebruiker-ingelogd": LocalJSX.UtrechtIconGebruikerIngelogd & JSXBase.HTMLAttributes<HTMLUtrechtIconGebruikerIngelogdElement>;
             "utrecht-icon-gebruikersvraag": LocalJSX.UtrechtIconGebruikersvraag & JSXBase.HTMLAttributes<HTMLUtrechtIconGebruikersvraagElement>;

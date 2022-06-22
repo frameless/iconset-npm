@@ -1,3 +1,15 @@
+# @frameless/icon-web-component-stencil [2.0.0](https://github.com/frameless/opengemeenten-iconset/compare/@frameless/icon-web-component-stencil@1.0.0...@frameless/icon-web-component-stencil@2.0.0) (2022-06-21)
+
+
+### Features
+
+* **iwcs:** start use svgo to optimize the svgs ([fa87de3](https://github.com/frameless/opengemeenten-iconset/commit/fa87de348683c717d664bd42b2f876e7500b76a4))
+
+
+### BREAKING CHANGES
+
+* **iwcs:** remove `iconTitle iconTitleId` properties from `Icon`
+
 # @frameless/icon-web-component-stencil 1.0.0 (2022-06-20)
 
 

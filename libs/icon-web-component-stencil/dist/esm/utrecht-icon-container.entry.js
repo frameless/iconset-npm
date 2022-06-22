@@ -1,4 +1,4 @@
-import { r as registerInstance, h } from './index-da88101a.js';
+import { r as registerInstance, h } from './index-120a4e09.js';
 
 const utrechtIconContainerCss = ".utrecht-icon-container{color:var(--utrecht-icon-color);height:var(--utrecht-icon-size);width:var(--utrecht-icon-size)}";
 
