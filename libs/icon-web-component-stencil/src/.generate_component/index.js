@@ -9,7 +9,7 @@ const { component, test, generateIconsName, generateIconsSetPage } = require('./
 
 const componentPrefix = `${argv.prefix}-`;
 const componentsPath = argv.path;
-
+console.log({ componentsPath });
 if (fs.existsSync(componentsPath)) throw new Error(`A component with that name already exists.`);
 
 if (!componentsPath) throw new Error('You must include a components path name.');
@@ -20,7 +20,7 @@ function writeFileErrorHandler(err) {
   if (err) throw err;
 }
 
-const directoryPath = path.join(__dirname, '../src/optimized-svgs');
+const directoryPath = path.join(__dirname, '../optimized-svgs');
 
 fs.readdir(directoryPath, function (err, files) {
   //handling error
@@ -35,7 +35,7 @@ fs.readdir(directoryPath, function (err, files) {
     const fileName = `${componentPrefix}${kebabCase(file.replace('.svg', ''))}`;
     const dir = `${componentsPath}/${kebabCase(fileName)}/`;
 
-    fs.readFile(path.join(__dirname, `../src/optimized-svgs/${file}`), 'utf8', function (err, svg) {
+    fs.readFile(path.join(__dirname, `../optimized-svgs/${file}`), 'utf8', function (err, svg) {
       if (err) {
         return console.log(err);
       }
