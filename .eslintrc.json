@@ -39,11 +39,7 @@
       "parser": "@typescript-eslint/parser",
       "plugins": ["@typescript-eslint", "import", "jest"],
       "parserOptions": {
-        "project": [
-          "packages/iconset-react/tsconfig.json",
-          "packages/iconset-vue/tsconfig.json",
-          "packages/iconset-web-component/tsconfig.json"
-        ]
+        "project": ["packages/iconset-react/tsconfig.json", "packages/iconset-web-component/tsconfig.json"]
       }
     }
   ]

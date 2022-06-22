@@ -12,8 +12,7 @@
   "workspaces": [
     "packages/iconset-svg",
     "packages/iconset-web-component",
-    "packages/iconset-react",
-    "packages/iconset-vue"
+    "packages/iconset-react"
   ],
   "scripts": {
     "build": "npm run --workspaces build",

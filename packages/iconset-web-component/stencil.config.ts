@@ -1,6 +1,5 @@
 import { Config } from '@stencil/core';
 import { reactOutputTarget as react } from '@stencil/react-output-target';
-import { vueOutputTarget } from '@stencil/vue-output-target';
 
 export const config: Config = {
   namespace: 'icons',
@@ -9,10 +8,6 @@ export const config: Config = {
       componentCorePackage: '@wip/iconset-web-component',
       proxiesFile: '../iconset-react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
-    }),
-    vueOutputTarget({
-      componentCorePackage: '@wip/iconset-web-component',
-      proxiesFile: '../iconset-vue/src/components.ts',
     }),
     {
       type: 'dist',
