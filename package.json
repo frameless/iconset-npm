@@ -1,24 +1,33 @@
 {
-  "name": "utrecht-icon-library",
-  "version": "1.0.0",
+  "name": "@frameless/utrecht-icon-library",
+  "version": "0.0.0-development",
   "description": "",
-  "main": "index.js",
+  "repository": {
+    "type": "git+ssh",
+    "url": "https:git@github.com:frameless/opengemeenten-iconset.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@frameless"
+  },
   "workspaces": [
     "libs/*"
   ],
   "scripts": {
-    "build": "npm run build -w icon-web-component-stencil && npm run build -w icon-web-component-react",
-    "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
+    "build": "npm-run-all build:**",
+    "build:iwcs": "npm run build -w  @frameless/icon-web-component-stencil",
+    "build:iwcr": "npm run build -w  @frameless/icon-web-component-react",
+    "build:iwcv": "npm run build -w  @frameless/icon-web-component-vue",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm-run-all --continue-on-error lint:**",
     "lint:css": "stylelint '**/*.{css,scss}'",
     "lint:check": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --report-unused-disable-directives .",
-    "lint:package-json": "npmPkgJsonLint '**/package.json'",
     "lint:package-lock": "npm ls",
     "lint:prettier": "prettier --check .",
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
     "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
     "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --fix --report-unused-disable-directives .",
-    "lint-workspaces": "npm run lint --workspaces",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "semantic-release": "semantic-release -e semantic-release-monorepo"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +47,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.3",
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard-scss": "^4.0.0",

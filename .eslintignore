@@ -14,7 +14,9 @@ tmp
 libs/*/dist
 libs/icon-web-component-react/src/components
 libs/icon-web-component-vue/src/vue-component-lib
+libs/icon-web-component-vue/src/components.ts
 libs/icon-web-component-stencil/loader
 libs/icon-web-component-stencil/src/components.d.ts
-
+libs/icon-web-component-stencil/src/components/**/*.md
+libs/icon-web-component-stencil/www/
 
