@@ -1,14 +1,8 @@
 # utrecht-icon-sociaal-zorg-welzijn
 
+
+
 <!-- Auto Generated Below -->
-
-
-## Properties
-
-| Property      | Attribute       | Description | Type     | Default     |
-| ------------- | --------------- | ----------- | -------- | ----------- |
-| `iconTitle`   | `icon-title`    |             | `string` | `undefined` |
-| `iconTitleId` | `icon-title-id` |             | `string` | `undefined` |
 
 
 ## Dependencies

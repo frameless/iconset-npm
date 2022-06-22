@@ -1,19 +1,6 @@
-import { newSpecPage } from '@stencil/core/testing';
 import { UtrechtIconAirborne } from './utrecht-icon-airborne';
-
 describe('UtrechtIconAirborne', () => {
   it('builds', () => {
     expect(new UtrechtIconAirborne()).toBeTruthy();
   });
-});
-
-it('should has an icon-title-id prop', async () => {
-  const page = await newSpecPage({
-    components: [UtrechtIconAirborne],
-    html: '<utrecht-icon-airborne icon-title-id="1"></utrecht-icon-airborne>',
-  });
-  let component = page.doc.createElement('app-detail');
-  page.root.appendChild(component);
-  await page.waitForChanges();
-  expect(page.rootInstance.iconTitleId).toBe('1');
 });

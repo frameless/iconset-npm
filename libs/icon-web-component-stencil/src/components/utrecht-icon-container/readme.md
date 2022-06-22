@@ -36,8 +36,8 @@
  - [utrecht-icon-eikenprocessie](../icons/utrecht-icon-eikenprocessie)
  - [utrecht-icon-energietransitie](../icons/utrecht-icon-energietransitie)
  - [utrecht-icon-evenementen](../icons/utrecht-icon-evenementen)
+ - [utrecht-icon-f-1](../icons/utrecht-icon-f-1)
  - [utrecht-icon-fiets](../icons/utrecht-icon-fiets)
- - [utrecht-icon-formule-1](../icons/utrecht-icon-formule-1)
  - [utrecht-icon-gebruiker-centraal](../icons/utrecht-icon-gebruiker-centraal)
  - [utrecht-icon-gebruiker-ingelogd](../icons/utrecht-icon-gebruiker-ingelogd)
  - [utrecht-icon-gebruikersvraag](../icons/utrecht-icon-gebruikersvraag)
@@ -169,8 +169,8 @@ graph TD;
   utrecht-icon-eikenprocessie --> utrecht-icon-container
   utrecht-icon-energietransitie --> utrecht-icon-container
   utrecht-icon-evenementen --> utrecht-icon-container
+  utrecht-icon-f-1 --> utrecht-icon-container
   utrecht-icon-fiets --> utrecht-icon-container
-  utrecht-icon-formule-1 --> utrecht-icon-container
   utrecht-icon-gebruiker-centraal --> utrecht-icon-container
   utrecht-icon-gebruiker-ingelogd --> utrecht-icon-container
   utrecht-icon-gebruikersvraag --> utrecht-icon-container

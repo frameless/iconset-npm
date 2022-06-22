@@ -27,8 +27,13 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "pregc": "rimraf src/components/icons",
-    "gc": "node .generate_component $1 --prefix utrecht-icon --path src/components/icons"
+    "svgo": "svgo -f ./src/svg -o ./src/optimized-svgs",
+    "pregc": "rimraf src/components/icons && npm run lint-fix",
+    "gc": "node .generate_component $1 --prefix utrecht-icon --path src/components/icons",
+    "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
+    "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
+    "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --fix",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@stencil/core": "^2.16.0"
@@ -43,6 +48,7 @@
     "minimist": "^1.2.6",
     "puppeteer": "^14.2.1",
     "stencil-inline-svg": "^1.1.0",
+    "svgo": "^2.8.0",
     "uuid": "^8.3.2"
   },
   "license": "MIT"

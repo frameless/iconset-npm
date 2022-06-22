@@ -20,7 +20,7 @@ function writeFileErrorHandler(err) {
   if (err) throw err;
 }
 
-const directoryPath = path.join(__dirname, '../src/svg');
+const directoryPath = path.join(__dirname, '../src/optimized-svgs');
 
 fs.readdir(directoryPath, function (err, files) {
   //handling error
@@ -30,13 +30,12 @@ fs.readdir(directoryPath, function (err, files) {
 
   const iconsNames = files.map((file) => `${componentPrefix}${kebabCase(file.replace('.svg', ''))}`);
 
-  //listing all files using forEach
   files.forEach(function (file) {
     const iconTitle = startCase(file.replace('.svg', ''));
     const fileName = `${componentPrefix}${kebabCase(file.replace('.svg', ''))}`;
     const dir = `${componentsPath}/${kebabCase(fileName)}/`;
 
-    fs.readFile(path.join(__dirname, `../src/svg/${file}`), 'utf8', function (err, data) {
+    fs.readFile(path.join(__dirname, `../src/optimized-svgs/${file}`), 'utf8', function (err, svg) {
       if (err) {
         return console.log(err);
       }
@@ -46,9 +45,9 @@ fs.readdir(directoryPath, function (err, files) {
 
       // create the folder
       fs.mkdirSync(dir);
-      fs.writeFile(`${dir}/${kebabCase(fileName)}.tsx`, component(fileName, iconTitle, data), writeFileErrorHandler);
+      fs.writeFile(`${dir}/${kebabCase(fileName)}.tsx`, component(fileName, svg), writeFileErrorHandler);
       fs.writeFile(`${dir}/${kebabCase(fileName)}.stories.tsx`, story(fileName), writeFileErrorHandler);
-      fs.writeFile(`${dir}/${kebabCase(fileName)}.spec.tsx`, test(fileName, data), writeFileErrorHandler);
+      fs.writeFile(`${dir}/${kebabCase(fileName)}.spec.tsx`, test(fileName), writeFileErrorHandler);
     });
   });
 
