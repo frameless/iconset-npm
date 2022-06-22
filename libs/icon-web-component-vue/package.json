@@ -1,12 +1,17 @@
 {
-  "name": "icon-web-component-vue",
-  "version": "1.0.0",
+  "name": "@frameless/icon-web-component-vue",
+  "version": "0.0.0-development",
+  "private": false,
   "description": "",
   "types": "dist/index.d.ts",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
   "unpkg": "dist/index.js",
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:frameless/opengemeenten-iconset.git"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
