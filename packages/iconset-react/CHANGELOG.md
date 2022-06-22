@@ -1,3 +1,10 @@
+# @wip/iconset-react [1.1.0](https://github.com/frameless/iconset-npm/compare/@wip/iconset-react@1.0.0...@wip/iconset-react@1.1.0) (2022-06-22)
+
+
+### Features
+
+* **iconset-react:** support react 18 ([d0fec93](https://github.com/frameless/iconset-npm/commit/d0fec939bd6245d9bc8553a4864329649158d14d))
+
 # @wip/iconset-react 1.0.0 (2022-06-22)
 
 
