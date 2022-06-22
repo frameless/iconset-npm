@@ -1,4 +1,4 @@
-import { applyPolyfills, defineCustomElements } from 'icon-web-component-stencil/loader';
+import { applyPolyfills, defineCustomElements } from '@frameless/icon-web-component-stencil/loader';
 import { Plugin } from 'vue';
 
 export const UtrechtIconWebComponent: Plugin = {
