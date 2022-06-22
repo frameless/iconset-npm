@@ -64,4 +64,4 @@ typings/
 dist
 
 # Ignore generated files from Stencil
-src/stencil-generated
+src/components/stencil-generated
