@@ -5,7 +5,7 @@ const argv = require('minimist')(process.argv.slice(2), {
 });
 const { kebabCase, startCase } = require('lodash');
 
-const { component, story, test, generateIconsName } = require('./component_templates.js');
+const { component, test, generateIconsName, generateIconsSetPage } = require('./component_templates.js');
 
 const componentPrefix = `${argv.prefix}-`;
 const componentsPath = argv.path;
@@ -46,10 +46,10 @@ fs.readdir(directoryPath, function (err, files) {
       // create the folder
       fs.mkdirSync(dir);
       fs.writeFile(`${dir}/${kebabCase(fileName)}.tsx`, component(fileName, svg), writeFileErrorHandler);
-      fs.writeFile(`${dir}/${kebabCase(fileName)}.stories.tsx`, story(fileName), writeFileErrorHandler);
       fs.writeFile(`${dir}/${kebabCase(fileName)}.spec.tsx`, test(fileName), writeFileErrorHandler);
     });
   });
 
   fs.writeFile(`${componentsPath}/icons-name.ts`, generateIconsName(iconsNames), writeFileErrorHandler);
+  fs.writeFile(`${componentsPath}/icon-set.html`, generateIconsSetPage(iconsNames), writeFileErrorHandler);
 });
