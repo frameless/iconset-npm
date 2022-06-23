@@ -1,3 +1,15 @@
+# @opengemeenten/iconset-svg 1.0.0 (2022-06-23)
+
+
+### Bug Fixes
+
+* unable remove style attribute from svg ([ed47406](https://github.com/frameless/iconset-npm/commit/ed474064b3809528cc9aba330c4024cf90ea5efa))
+
+
+### Features
+
+* add latest SVG icons ([6e673e4](https://github.com/frameless/iconset-npm/commit/6e673e4734e9913d5bc48334956eb84eb7e4bca2))
+
 ## @opengemeenten/iconset-svg [1.0.1](https://github.com/frameless/iconset-npm/compare/@opengemeenten/iconset-svg@1.0.0...@opengemeenten/iconset-svg@1.0.1) (2022-06-22)
 
 
