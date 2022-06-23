@@ -52,5 +52,5 @@ fs.readdir(directoryPath, function (err, files) {
   });
 
   fs.writeFile(`${componentsPath}/icons-name.ts`, generateIconsName(iconsNames), writeFileErrorHandler);
-  fs.writeFile(`${componentsPath}/icon-set.html`, generateIconsSetPage(iconsNames), writeFileErrorHandler);
+  fs.writeFile(`${componentsPath}/index.html`, generateIconsSetPage(iconsNames), writeFileErrorHandler);
 });
