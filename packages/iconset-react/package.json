@@ -32,8 +32,5 @@
   "peerDependencies": {
     "react": "17 - 18",
     "react-dom": "17 - 18"
-  },
-  "dependencies": {
-    "@opengemeenten/iconset-web-component": "file:../iconset-web-component"
   }
 }
