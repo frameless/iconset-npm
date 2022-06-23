@@ -1,3 +1,25 @@
+# @opengemeenten/iconset-web-component 1.0.0 (2022-06-23)
+
+
+### Bug Fixes
+
+* use relative path for GitHub Pages ([b7f4f6e](https://github.com/frameless/iconset-npm/commit/b7f4f6e00be3acf4e579aedd9af1cedd517696b1))
+
+
+### chore
+
+* **iconset-web-component:** rename package to iconset-web-component ([9a729a0](https://github.com/frameless/iconset-npm/commit/9a729a0bb78e049bc4d1cbcd901b6ceadec60000))
+
+
+### Features
+
+* add latest SVG icons ([6e673e4](https://github.com/frameless/iconset-npm/commit/6e673e4734e9913d5bc48334956eb84eb7e4bca2))
+
+
+### BREAKING CHANGES
+
+* **iconset-web-component:** rename package name to @opengemeenten/iconset-web-component
+
 # @opengemeenten/iconset-web-component [1.1.0](https://github.com/frameless/iconset-npm/compare/@opengemeenten/iconset-web-component@1.0.0...@opengemeenten/iconset-web-component@1.1.0) (2022-06-22)
 
 ### Features

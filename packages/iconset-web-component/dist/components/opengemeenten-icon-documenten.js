@@ -1,0 +1,36 @@
+import { proxyCustomElement, HTMLElement, h } from '@stencil/core/internal/client';
+import { d as defineCustomElement$2 } from './opengemeenten-icon-container2.js';
+
+const OpengemeentenIconDocumenten$1 = /*@__PURE__*/ proxyCustomElement(class extends HTMLElement {
+  constructor() {
+    super();
+    this.__registerHost();
+    this.__attachShadow();
+  }
+  render() {
+    return (h("opengemeenten-icon-container", null, h("svg", { fill: "CurrentColor", viewBox: "0 0 48 48", xmlns: "http://www.w3.org/2000/svg" }, h("path", { d: "M39 9v25c0 1.66-1.34 3-3 3V12.01C36 10.35 34.65 9 32.99 9L14 9.02V9c0-1.66 1.34-3 3-3h19c1.66 0 3 1.34 3 3Zm-8 2c1.66 0 3 1.34 3 3v25c0 1.66-1.35 3-3.01 3l-13.03-.05L8.99 33V14c0-1.66 1.34-3 3-3H31Zm0 3-19 .02.02 16.98 7.98-.02V39h11V14ZM15 27h9v-2h-9v2Zm13-10H15v2h13v-2Zm-13 6h13v-2H15v2Z" }))));
+  }
+}, [1, "opengemeenten-icon-documenten"]);
+function defineCustomElement$1() {
+  if (typeof customElements === "undefined") {
+    return;
+  }
+  const components = ["opengemeenten-icon-documenten", "opengemeenten-icon-container"];
+  components.forEach(tagName => { switch (tagName) {
+    case "opengemeenten-icon-documenten":
+      if (!customElements.get(tagName)) {
+        customElements.define(tagName, OpengemeentenIconDocumenten$1);
+      }
+      break;
+    case "opengemeenten-icon-container":
+      if (!customElements.get(tagName)) {
+        defineCustomElement$2();
+      }
+      break;
+  } });
+}
+
+const OpengemeentenIconDocumenten = OpengemeentenIconDocumenten$1;
+const defineCustomElement = defineCustomElement$1;
+
+export { OpengemeentenIconDocumenten, defineCustomElement };
