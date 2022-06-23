@@ -8,10 +8,11 @@ module.exports = {
     'preset-default',
     'removeDimensions',
     'removeTitle',
+    'convertStyleToAttrs',
     {
       name: 'removeAttrs',
       params: {
-        attrs: 'style',
+        attrs: 'path:(fill|stroke)',
       },
     },
     {
