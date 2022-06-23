@@ -1,3 +1,10 @@
+## @opengemeenten/iconset-svg [1.0.1](https://github.com/frameless/iconset-npm/compare/@opengemeenten/iconset-svg@1.0.0...@opengemeenten/iconset-svg@1.0.1) (2022-06-23)
+
+
+### Bug Fixes
+
+* **iconsset-svg:** fix the broken svgs ([3627dae](https://github.com/frameless/iconset-npm/commit/3627daec38d338c4136f0ac881099fd2d47c046c))
+
 # @opengemeenten/iconset-svg 1.0.0 (2022-06-23)
 
 
