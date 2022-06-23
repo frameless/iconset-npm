@@ -1,0 +1,18 @@
+import { Component, h } from '@stencil/core';
+
+@Component({
+  tag: 'opengemeenten-icon-grafiek',
+  shadow: true,
+})
+export class OpengemeentenIconGrafiek {
+  render() {
+    return (
+      <opengemeenten-icon-container>
+        <svg fill="CurrentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <path d="m21 11.96 4 4 6-6 2 2L32.96 6 27 5.96l2 2-4.02 3.88L21 7.96l-9 9 2 2 7-7zM30 25v-6H18v11l-9 .02V42h30V25h-9ZM18 39h-6v-6h6v6Zm9 0h-6V22h6v17Zm9 0h-6V28h6v11Z"/>
+</svg>
+
+      </opengemeenten-icon-container>
+    );
+  }
+}
