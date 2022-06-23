@@ -9,10 +9,10 @@ module.exports = {
     'removeDimensions',
     'removeTitle',
     {
-      name: "removeAttrs",
+      name: 'removeAttrs',
       params: {
-        attrs: "style"
-      }
+        attrs: 'style',
+      },
     },
     {
       name: 'sortAttrs',
