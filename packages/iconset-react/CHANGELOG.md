@@ -1,3 +1,10 @@
+## @opengemeenten/iconset-react [1.0.1](https://github.com/frameless/iconset-npm/compare/@opengemeenten/iconset-react@1.0.0...@opengemeenten/iconset-react@1.0.1) (2022-06-23)
+
+
+### Bug Fixes
+
+* **iconset-react:** add web component as dependency ([b9a7af5](https://github.com/frameless/iconset-npm/commit/b9a7af5497be986dcd089caeb95919d272d2d88d))
+
 # @opengemeenten/iconset-react 1.0.0 (2022-06-23)
 
 
