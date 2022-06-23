@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import type { JSX } from '@wip/iconset-web-component';
+import type { JSX } from '@opengemeenten/iconset-web-component';
 export declare const OpengemeentenIconAanmelden: import("react").ForwardRefExoticComponent<JSX.OpengemeentenIconAanmelden & Omit<import("react").HTMLAttributes<HTMLOpengemeentenIconAanmeldenElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLOpengemeentenIconAanmeldenElement>>;
 export declare const OpengemeentenIconActueel: import("react").ForwardRefExoticComponent<JSX.OpengemeentenIconActueel & Omit<import("react").HTMLAttributes<HTMLOpengemeentenIconActueelElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLOpengemeentenIconActueelElement>>;
 export declare const OpengemeentenIconAfval: import("react").ForwardRefExoticComponent<JSX.OpengemeentenIconAfval & Omit<import("react").HTMLAttributes<HTMLOpengemeentenIconAfvalElement>, "style"> & import("./react-component-lib/interfaces").StyleReactProps & import("react").RefAttributes<HTMLOpengemeentenIconAfvalElement>>;

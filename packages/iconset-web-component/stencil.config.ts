@@ -5,7 +5,7 @@ export const config: Config = {
   namespace: 'icons',
   outputTargets: [
     react({
-      componentCorePackage: '@wip/iconset-web-component',
+      componentCorePackage: '@opengemeenten/iconset-web-component',
       proxiesFile: '../iconset-react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),

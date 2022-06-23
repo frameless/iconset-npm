@@ -1,38 +1,32 @@
-# @wip/iconset-web-component [1.1.0](https://github.com/frameless/iconset-npm/compare/@wip/iconset-web-component@1.0.0...@wip/iconset-web-component@1.1.0) (2022-06-22)
-
+# @opengemeenten/iconset-web-component [1.1.0](https://github.com/frameless/iconset-npm/compare/@opengemeenten/iconset-web-component@1.0.0...@opengemeenten/iconset-web-component@1.1.0) (2022-06-22)
 
 ### Features
 
-* add latest SVG icons ([a2e9d21](https://github.com/frameless/iconset-npm/commit/a2e9d21ed04a56445c146fc67ec2e8364fb1fc4a))
+- add latest SVG icons ([a2e9d21](https://github.com/frameless/iconset-npm/commit/a2e9d21ed04a56445c146fc67ec2e8364fb1fc4a))
 
-# @wip/iconset-web-component 1.0.0 (2022-06-22)
-
+# @opengemeenten/iconset-web-component 1.0.0 (2022-06-22)
 
 ### Bug Fixes
 
-* use relative path for GitHub Pages ([b38e72b](https://github.com/frameless/iconset-npm/commit/b38e72b6cd9f35a848668d070c90edc89f8d090b))
-
+- use relative path for GitHub Pages ([b38e72b](https://github.com/frameless/iconset-npm/commit/b38e72b6cd9f35a848668d070c90edc89f8d090b))
 
 ### chore
 
-* **iconset-web-component:** rename package to iconset-web-component ([e15da89](https://github.com/frameless/iconset-npm/commit/e15da890d61f279625db278fb54c6a0a795db125))
-
+- **iconset-web-component:** rename package to iconset-web-component ([e15da89](https://github.com/frameless/iconset-npm/commit/e15da890d61f279625db278fb54c6a0a795db125))
 
 ### BREAKING CHANGES
 
-* **iconset-web-component:** rename package name to @opengemeenten/iconset-web-component
+- **iconset-web-component:** rename package name to @opengemeenten/iconset-web-component
 
 # @frameless/icon-web-component-stencil [3.0.0](https://github.com/frameless/opengemeenten-iconset/compare/@frameless/icon-web-component-stencil@2.0.0...@frameless/icon-web-component-stencil@3.0.0) (2022-06-22)
 
-
 ### Features
 
-* **iconset-web-component:** change prefix to opengemeenten ([677126e](https://github.com/frameless/opengemeenten-iconset/commit/677126edb2539eea259b67e8e8c99285f3543cfb))
-
+- **iconset-web-component:** change prefix to opengemeenten ([677126e](https://github.com/frameless/opengemeenten-iconset/commit/677126edb2539eea259b67e8e8c99285f3543cfb))
 
 ### BREAKING CHANGES
 
-* **iconset-web-component:** all icons prefix renamed opengemeenten
+- **iconset-web-component:** all icons prefix renamed opengemeenten
 
 # @frameless/icon-web-component-stencil [2.0.0](https://github.com/frameless/opengemeenten-iconset/compare/@frameless/icon-web-component-stencil@1.0.0...@frameless/icon-web-component-stencil@2.0.0) (2022-06-21)
 

@@ -2,7 +2,7 @@
 /* tslint:disable */
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
-import { defineCustomElements } from '@wip/iconset-web-component/loader';
+import { defineCustomElements } from '@opengemeenten/iconset-web-component/loader';
 defineCustomElements();
 export const OpengemeentenIconAanmelden = /*@__PURE__*/ createReactComponent('opengemeenten-icon-aanmelden');
 export const OpengemeentenIconActueel = /*@__PURE__*/ createReactComponent('opengemeenten-icon-actueel');
