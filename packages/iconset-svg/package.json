@@ -19,8 +19,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "minimist": "^1.2.6",
-    "svgo": "^2.8.0"
+    "minimist": "1.2.6",
+    "svgo": "2.8.0"
   },
   "license": "EUPL-1.2"
 }

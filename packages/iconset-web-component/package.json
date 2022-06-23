@@ -39,17 +39,17 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "@stencil/core": "^2.16.0"
+    "@stencil/core": "2.17.0"
   },
   "devDependencies": {
-    "@stencil/react-output-target": "^0.3.1",
-    "@types/jest": "^27.0.3",
-    "@types/uuid": "^8.3.4",
-    "jest": "^27.0.3",
-    "jest-cli": "^27.4.5",
-    "puppeteer": "^14.2.1",
-    "stencil-inline-svg": "^1.1.0",
-    "uuid": "^8.3.2"
+    "@stencil/react-output-target": "0.3.1",
+    "@types/jest": "27.5.2",
+    "@types/uuid": "8.3.4",
+    "jest": "27.5.1",
+    "jest-cli": "27.5.1",
+    "puppeteer": "14.4.1",
+    "stencil-inline-svg": "1.1.0",
+    "uuid": "8.3.2"
   },
   "license": "MIT"
 }
