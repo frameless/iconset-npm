@@ -284,7 +284,10 @@ button {
           <p class="utrecht-paragraph">Kopieer deze code om het in HTML te gebruiken:</p>
           <pre>&lt;${svg}&gt;&lt;/${svg}&gt;</pre>
           <p class="utrecht-paragraph">Kopieer deze code om het in React te gebruiken:</p>
-          <pre>&lt;${upperFirst(camelCase(svg))} /&gt;</pre>
+          <pre>
+import { ${upperFirst(camelCase(svg))} } from "@opengemeenten/iconset-react";
+
+&lt;${upperFirst(camelCase(svg))} /&gt;</pre>
         </section>`,
       )
       .join('')}
