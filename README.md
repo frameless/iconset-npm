@@ -55,8 +55,8 @@ De licentiegever kan deze toestemming niet intrekken zolang aan de licentievoorw
 
 ## npm packages
 
-| name                                                                                                           | version                                                                                                                                                         |
-| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [@opengemeenten/iconset-svg](https://www.npmjs.com/package/@opengemeenten/iconset-svg)  | [![NPM version](https://img.shields.io/npm/v/@opengemeenten/iconset-svg)](https://www.npmjs.com/package/@opengemeenten/iconset-svg)
-| [@opengemeenten/iconset-web-component](https://www.npmjs.com/package/@opengemeenten/iconset-web-component)  | [![NPM version](https://img.shields.io/npm/v/@opengemeenten/iconset-web-component)](https://www.npmjs.com/package/@opengemeenten/iconset-web-component)
-| [@opengemeenten/iconset-react](https://www.npmjs.com/package/@opengemeenten/iconset-react)  | [![NPM version](https://img.shields.io/npm/v/@opengemeenten/iconset-react)](https://www.npmjs.com/package/@opengemeenten/iconset-react)
+| name                                                                                                       | version                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [@opengemeenten/iconset-svg](https://www.npmjs.com/package/@opengemeenten/iconset-svg)                     | [![NPM version](https://img.shields.io/npm/v/@opengemeenten/iconset-svg)](https://www.npmjs.com/package/@opengemeenten/iconset-svg)                     |
+| [@opengemeenten/iconset-web-component](https://www.npmjs.com/package/@opengemeenten/iconset-web-component) | [![NPM version](https://img.shields.io/npm/v/@opengemeenten/iconset-web-component)](https://www.npmjs.com/package/@opengemeenten/iconset-web-component) |
+| [@opengemeenten/iconset-react](https://www.npmjs.com/package/@opengemeenten/iconset-react)                 | [![NPM version](https://img.shields.io/npm/v/@opengemeenten/iconset-react)](https://www.npmjs.com/package/@opengemeenten/iconset-react)                 |
