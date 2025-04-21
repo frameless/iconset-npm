@@ -1,6 +1,6 @@
 {
   "name": "@opengemeenten/iconset-react",
-  "version": "0.0.0-development",
+  "version": "1.0.1",
   "private": false,
   "publishConfig": {
     "access": "public"
