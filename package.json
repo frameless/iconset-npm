@@ -9,6 +9,12 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971",
+  "engines": {
+    "//": "Update @types/node to match the highest node version here",
+    "node": ">=20 <=22",
+    "pnpm": "^10"
+  },
   "workspaces": [
     "packages/iconset-svg",
     "packages/iconset-web-component",
@@ -17,22 +23,25 @@
   "scripts": {
     "build": "npm run --workspaces build",
     "test": "npm run test --workspaces --if-present",
+    "changeset": "changeset add",
+    "changeset:empty": "changeset --empty",
+    "changeset:publish": "changeset publish",
+    "changeset:status": "changeset status --since origin/main",
     "clean": "npm run --workspaces clean",
     "lint": "npm-run-all --continue-on-error lint:**",
     "lint:css": "stylelint '**/*.{css,scss}'",
     "lint:check": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --report-unused-disable-directives .",
-    "lint:package-lock": "npm ls",
     "lint:prettier": "prettier --check .",
     "lint-fix": "npm-run-all --continue-on-error lint-fix:** prettier",
     "lint-fix:css": "stylelint --fix '**/*.{css,scss}'",
     "lint-fix:js": "eslint --ext '.js,.json,.jsx,.mdx,.ts,.tsx,.vue' --fix --report-unused-disable-directives .",
     "prettier": "prettier --write .",
-    "prepare": "husky install",
-    "release": "multi-semantic-release"
+    "prepare": "husky install"
   },
   "author": "",
   "license": "CC0-1.0",
   "devDependencies": {
+    "@changesets/cli": "2.28.1",
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
     "@types/node": "17.0.45",
@@ -47,7 +56,6 @@
     "husky": "8.0.1",
     "lint-staged": "13.0.2",
     "lodash": "4.17.21",
-    "multi-semantic-release": "2.13.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
