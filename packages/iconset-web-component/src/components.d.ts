@@ -18,15 +18,33 @@ export namespace Components {
     }
     interface OpengemeentenIconAfvalGft {
     }
-    interface OpengemeentenIconAfvalOphaal {
+    interface OpengemeentenIconAfvalGlascontainer {
+    }
+    interface OpengemeentenIconAfvalGroenbak {
+    }
+    interface OpengemeentenIconAfvalOphalen {
+    }
+    interface OpengemeentenIconAfvalPmd {
     }
     interface OpengemeentenIconAfvalScheiden {
     }
+    interface OpengemeentenIconAfvalbakAfvalzak {
+    }
+    interface OpengemeentenIconAfvalbakPmd {
+    }
+    interface OpengemeentenIconAfvalcontainerAfvalzak {
+    }
     interface OpengemeentenIconAfvalkalender {
+    }
+    interface OpengemeentenIconAfvalzak {
     }
     interface OpengemeentenIconAgenda {
     }
     interface OpengemeentenIconAirborne {
+    }
+    interface OpengemeentenIconArmoede {
+    }
+    interface OpengemeentenIconAsbestVerwijderen {
     }
     interface OpengemeentenIconAttentie {
     }
@@ -40,6 +58,8 @@ export namespace Components {
     }
     interface OpengemeentenIconBelastingen {
     }
+    interface OpengemeentenIconBetaaldatumsUitkering {
+    }
     interface OpengemeentenIconBevolking {
     }
     interface OpengemeentenIconBevrijding {
@@ -50,7 +70,11 @@ export namespace Components {
     }
     interface OpengemeentenIconBladerenOpruimen {
     }
+    interface OpengemeentenIconBomen {
+    }
     interface OpengemeentenIconBouwenEnVerbouwen {
+    }
+    interface OpengemeentenIconBouwprojecten {
     }
     interface OpengemeentenIconBrandgevaar {
     }
@@ -70,19 +94,29 @@ export namespace Components {
     }
     interface OpengemeentenIconContainer {
     }
+    interface OpengemeentenIconCultuur {
+    }
     interface OpengemeentenIconDocumenten {
     }
     interface OpengemeentenIconDuurzaamheid {
     }
     interface OpengemeentenIconEconomieWerkInkomen {
     }
+    interface OpengemeentenIconEenzaamheid {
+    }
     interface OpengemeentenIconEikenprocessie {
     }
-    interface OpengemeentenIconElectrischLaden {
+    interface OpengemeentenIconElektrischLaden {
     }
-    interface OpengemeentenIconElectrischRijden {
+    interface OpengemeentenIconElektrischRijden {
     }
     interface OpengemeentenIconEnergietransitie {
+    }
+    interface OpengemeentenIconEnquete {
+    }
+    interface OpengemeentenIconErfgoed {
+    }
+    interface OpengemeentenIconErfpacht {
     }
     interface OpengemeentenIconEvenementen {
     }
@@ -92,15 +126,23 @@ export namespace Components {
     }
     interface OpengemeentenIconGeboorte {
     }
+    interface OpengemeentenIconGebruiker {
+    }
     interface OpengemeentenIconGebruikerCentraal {
     }
     interface OpengemeentenIconGebruikerIngelogd {
     }
     interface OpengemeentenIconGebruikersvraag {
     }
+    interface OpengemeentenIconGegevenswoordenboek {
+    }
+    interface OpengemeentenIconGeld {
+    }
     interface OpengemeentenIconGeluid {
     }
     interface OpengemeentenIconGemeenteraad {
+    }
+    interface OpengemeentenIconGemeenteraadsvergadering {
     }
     interface OpengemeentenIconGemivaLocatie {
     }
@@ -114,13 +156,25 @@ export namespace Components {
     }
     interface OpengemeentenIconHerdenking {
     }
+    interface OpengemeentenIconHond {
+    }
     interface OpengemeentenIconHondenbelasting {
+    }
+    interface OpengemeentenIconHoogWater {
+    }
+    interface OpengemeentenIconHoogbouw {
+    }
+    interface OpengemeentenIconHoreca {
     }
     interface OpengemeentenIconHorecavergunningen {
     }
     interface OpengemeentenIconHuis {
     }
     interface OpengemeentenIconHuisEnOmgeving {
+    }
+    interface OpengemeentenIconHuiselijkGeweld {
+    }
+    interface OpengemeentenIconHulpHuishouden {
     }
     interface OpengemeentenIconHulpmiddelenVinden {
     }
@@ -134,7 +188,11 @@ export namespace Components {
     }
     interface OpengemeentenIconInkomen {
     }
+    interface OpengemeentenIconInloggen {
+    }
     interface OpengemeentenIconInspraak {
+    }
+    interface OpengemeentenIconIsolatie {
     }
     interface OpengemeentenIconJeugd {
     }
@@ -144,11 +202,15 @@ export namespace Components {
     }
     interface OpengemeentenIconKindEnFamilie {
     }
+    interface OpengemeentenIconKlacht {
+    }
     interface OpengemeentenIconKoningsdag {
     }
     interface OpengemeentenIconKopenEnHuren {
     }
     interface OpengemeentenIconKopenEnVerkopen {
+    }
+    interface OpengemeentenIconLaadStation {
     }
     interface OpengemeentenIconLeerlingenvervoer {
     }
@@ -160,6 +222,8 @@ export namespace Components {
     }
     interface OpengemeentenIconManege {
     }
+    interface OpengemeentenIconMarktgelden {
+    }
     interface OpengemeentenIconMeeuwenoverlast {
     }
     interface OpengemeentenIconMelding {
@@ -169,6 +233,8 @@ export namespace Components {
     interface OpengemeentenIconMeldingOpenbareRuimte {
     }
     interface OpengemeentenIconMeldingStraatverlichting {
+    }
+    interface OpengemeentenIconMilieuzone {
     }
     interface OpengemeentenIconMobiliteit {
     }
@@ -182,6 +248,12 @@ export namespace Components {
     }
     interface OpengemeentenIconMonitorWoningmarkt {
     }
+    interface OpengemeentenIconMonument {
+    }
+    interface OpengemeentenIconMonumentWoning {
+    }
+    interface OpengemeentenIconMuseum {
+    }
     interface OpengemeentenIconNatuurLandschap {
     }
     interface OpengemeentenIconNieuwsbrief {
@@ -189,6 +261,10 @@ export namespace Components {
     interface OpengemeentenIconOmgeving {
     }
     interface OpengemeentenIconOmgevingsvergunning {
+    }
+    interface OpengemeentenIconOmgevingsvisie {
+    }
+    interface OpengemeentenIconOmgevingsvisieDocument {
     }
     interface OpengemeentenIconOnderhoud {
     }
@@ -198,7 +274,17 @@ export namespace Components {
     }
     interface OpengemeentenIconOnderwijs {
     }
+    interface OpengemeentenIconOnderwijsBasis {
+    }
+    interface OpengemeentenIconOnderwijsHoger {
+    }
+    interface OpengemeentenIconOnderwijsVoortgezet {
+    }
+    interface OpengemeentenIconOntheffingMilieuzone {
+    }
     interface OpengemeentenIconOpeningstijden {
+    }
+    interface OpengemeentenIconOpeningstijdenWinkels {
     }
     interface OpengemeentenIconOverDeGemeente {
     }
@@ -206,9 +292,19 @@ export namespace Components {
     }
     interface OpengemeentenIconOverlijden {
     }
+    interface OpengemeentenIconParkeerkosten {
+    }
+    interface OpengemeentenIconParkeerplattegrond {
+    }
+    interface OpengemeentenIconParkeervergunning {
+    }
     interface OpengemeentenIconParkeervoorzieningGehandicapten {
     }
     interface OpengemeentenIconParkeren {
+    }
+    interface OpengemeentenIconParkerenBedrijven {
+    }
+    interface OpengemeentenIconParticipatie {
     }
     interface OpengemeentenIconParticipatieCampagne {
     }
@@ -224,11 +320,15 @@ export namespace Components {
     }
     interface OpengemeentenIconPaspoort {
     }
-    interface OpengemeentenIconPaspoortBelgie {
-    }
     interface OpengemeentenIconPaspoortIdkaartGecombineerd {
     }
-    interface OpengemeentenIconPaspoortIdkaartGecombineerdBelgie {
+    interface OpengemeentenIconPaspoortIdkaartGecombineerdInternationaal {
+    }
+    interface OpengemeentenIconPaspoortInternationaal {
+    }
+    interface OpengemeentenIconPolitiek {
+    }
+    interface OpengemeentenIconPresentatie {
     }
     interface OpengemeentenIconPrijskaartje {
     }
@@ -236,17 +336,31 @@ export namespace Components {
     }
     interface OpengemeentenIconReclame {
     }
+    interface OpengemeentenIconReclamebelasting {
+    }
     interface OpengemeentenIconRecreatie {
     }
     interface OpengemeentenIconRegelingLaagInkomen {
     }
     interface OpengemeentenIconRijbewijs {
     }
+    interface OpengemeentenIconRiool {
+    }
+    interface OpengemeentenIconRioolheffing {
+    }
+    interface OpengemeentenIconRioolwerkzaamheden {
+    }
+    interface OpengemeentenIconRoerendeZaakbelasting {
+    }
+    interface OpengemeentenIconRolstoel {
+    }
     interface OpengemeentenIconSchoolkostenregeling {
     }
     interface OpengemeentenIconSinterklaas {
     }
     interface OpengemeentenIconSociaalZorgWelzijn {
+    }
+    interface OpengemeentenIconSpeeltuin {
     }
     interface OpengemeentenIconSport {
     }
@@ -266,7 +380,11 @@ export namespace Components {
     }
     interface OpengemeentenIconTemperatuurMelding {
     }
+    interface OpengemeentenIconThuiswerken {
+    }
     interface OpengemeentenIconToegankelijkheid {
+    }
+    interface OpengemeentenIconToeslag {
     }
     interface OpengemeentenIconTrouwenEnGeregistreerdPartnerschap {
     }
@@ -288,11 +406,19 @@ export namespace Components {
     }
     interface OpengemeentenIconVergaderen {
     }
+    interface OpengemeentenIconVergaderenDigitaal {
+    }
+    interface OpengemeentenIconVergoedingEnergiekosten {
+    }
     interface OpengemeentenIconVergunningAlgemeen {
     }
     interface OpengemeentenIconVerhuizen {
     }
+    interface OpengemeentenIconVerkeerslicht {
+    }
     interface OpengemeentenIconVerkiezingen {
+    }
+    interface OpengemeentenIconVerslaving {
     }
     interface OpengemeentenIconVervoersvoorziening {
     }
@@ -310,9 +436,15 @@ export namespace Components {
     }
     interface OpengemeentenIconWandelen {
     }
+    interface OpengemeentenIconWelzijnswerk {
+    }
     interface OpengemeentenIconWerkzaamheden {
     }
+    interface OpengemeentenIconWieIsWie {
+    }
     interface OpengemeentenIconWijkteam {
+    }
+    interface OpengemeentenIconWindenergie {
     }
     interface OpengemeentenIconWinkelen {
     }
@@ -320,7 +452,15 @@ export namespace Components {
     }
     interface OpengemeentenIconWmo {
     }
+    interface OpengemeentenIconWolf {
+    }
+    interface OpengemeentenIconWoningZoeken {
+    }
     interface OpengemeentenIconWozWaarde {
+    }
+    interface OpengemeentenIconZelfbeheerTegel {
+    }
+    interface OpengemeentenIconZelfstandigWonen {
     }
     interface OpengemeentenIconZoeken {
     }
@@ -366,11 +506,29 @@ declare global {
         prototype: HTMLOpengemeentenIconAfvalGftElement;
         new (): HTMLOpengemeentenIconAfvalGftElement;
     };
-    interface HTMLOpengemeentenIconAfvalOphaalElement extends Components.OpengemeentenIconAfvalOphaal, HTMLStencilElement {
+    interface HTMLOpengemeentenIconAfvalGlascontainerElement extends Components.OpengemeentenIconAfvalGlascontainer, HTMLStencilElement {
     }
-    var HTMLOpengemeentenIconAfvalOphaalElement: {
-        prototype: HTMLOpengemeentenIconAfvalOphaalElement;
-        new (): HTMLOpengemeentenIconAfvalOphaalElement;
+    var HTMLOpengemeentenIconAfvalGlascontainerElement: {
+        prototype: HTMLOpengemeentenIconAfvalGlascontainerElement;
+        new (): HTMLOpengemeentenIconAfvalGlascontainerElement;
+    };
+    interface HTMLOpengemeentenIconAfvalGroenbakElement extends Components.OpengemeentenIconAfvalGroenbak, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalGroenbakElement: {
+        prototype: HTMLOpengemeentenIconAfvalGroenbakElement;
+        new (): HTMLOpengemeentenIconAfvalGroenbakElement;
+    };
+    interface HTMLOpengemeentenIconAfvalOphalenElement extends Components.OpengemeentenIconAfvalOphalen, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalOphalenElement: {
+        prototype: HTMLOpengemeentenIconAfvalOphalenElement;
+        new (): HTMLOpengemeentenIconAfvalOphalenElement;
+    };
+    interface HTMLOpengemeentenIconAfvalPmdElement extends Components.OpengemeentenIconAfvalPmd, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalPmdElement: {
+        prototype: HTMLOpengemeentenIconAfvalPmdElement;
+        new (): HTMLOpengemeentenIconAfvalPmdElement;
     };
     interface HTMLOpengemeentenIconAfvalScheidenElement extends Components.OpengemeentenIconAfvalScheiden, HTMLStencilElement {
     }
@@ -378,11 +536,35 @@ declare global {
         prototype: HTMLOpengemeentenIconAfvalScheidenElement;
         new (): HTMLOpengemeentenIconAfvalScheidenElement;
     };
+    interface HTMLOpengemeentenIconAfvalbakAfvalzakElement extends Components.OpengemeentenIconAfvalbakAfvalzak, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalbakAfvalzakElement: {
+        prototype: HTMLOpengemeentenIconAfvalbakAfvalzakElement;
+        new (): HTMLOpengemeentenIconAfvalbakAfvalzakElement;
+    };
+    interface HTMLOpengemeentenIconAfvalbakPmdElement extends Components.OpengemeentenIconAfvalbakPmd, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalbakPmdElement: {
+        prototype: HTMLOpengemeentenIconAfvalbakPmdElement;
+        new (): HTMLOpengemeentenIconAfvalbakPmdElement;
+    };
+    interface HTMLOpengemeentenIconAfvalcontainerAfvalzakElement extends Components.OpengemeentenIconAfvalcontainerAfvalzak, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalcontainerAfvalzakElement: {
+        prototype: HTMLOpengemeentenIconAfvalcontainerAfvalzakElement;
+        new (): HTMLOpengemeentenIconAfvalcontainerAfvalzakElement;
+    };
     interface HTMLOpengemeentenIconAfvalkalenderElement extends Components.OpengemeentenIconAfvalkalender, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconAfvalkalenderElement: {
         prototype: HTMLOpengemeentenIconAfvalkalenderElement;
         new (): HTMLOpengemeentenIconAfvalkalenderElement;
+    };
+    interface HTMLOpengemeentenIconAfvalzakElement extends Components.OpengemeentenIconAfvalzak, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAfvalzakElement: {
+        prototype: HTMLOpengemeentenIconAfvalzakElement;
+        new (): HTMLOpengemeentenIconAfvalzakElement;
     };
     interface HTMLOpengemeentenIconAgendaElement extends Components.OpengemeentenIconAgenda, HTMLStencilElement {
     }
@@ -395,6 +577,18 @@ declare global {
     var HTMLOpengemeentenIconAirborneElement: {
         prototype: HTMLOpengemeentenIconAirborneElement;
         new (): HTMLOpengemeentenIconAirborneElement;
+    };
+    interface HTMLOpengemeentenIconArmoedeElement extends Components.OpengemeentenIconArmoede, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconArmoedeElement: {
+        prototype: HTMLOpengemeentenIconArmoedeElement;
+        new (): HTMLOpengemeentenIconArmoedeElement;
+    };
+    interface HTMLOpengemeentenIconAsbestVerwijderenElement extends Components.OpengemeentenIconAsbestVerwijderen, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconAsbestVerwijderenElement: {
+        prototype: HTMLOpengemeentenIconAsbestVerwijderenElement;
+        new (): HTMLOpengemeentenIconAsbestVerwijderenElement;
     };
     interface HTMLOpengemeentenIconAttentieElement extends Components.OpengemeentenIconAttentie, HTMLStencilElement {
     }
@@ -432,6 +626,12 @@ declare global {
         prototype: HTMLOpengemeentenIconBelastingenElement;
         new (): HTMLOpengemeentenIconBelastingenElement;
     };
+    interface HTMLOpengemeentenIconBetaaldatumsUitkeringElement extends Components.OpengemeentenIconBetaaldatumsUitkering, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconBetaaldatumsUitkeringElement: {
+        prototype: HTMLOpengemeentenIconBetaaldatumsUitkeringElement;
+        new (): HTMLOpengemeentenIconBetaaldatumsUitkeringElement;
+    };
     interface HTMLOpengemeentenIconBevolkingElement extends Components.OpengemeentenIconBevolking, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconBevolkingElement: {
@@ -462,11 +662,23 @@ declare global {
         prototype: HTMLOpengemeentenIconBladerenOpruimenElement;
         new (): HTMLOpengemeentenIconBladerenOpruimenElement;
     };
+    interface HTMLOpengemeentenIconBomenElement extends Components.OpengemeentenIconBomen, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconBomenElement: {
+        prototype: HTMLOpengemeentenIconBomenElement;
+        new (): HTMLOpengemeentenIconBomenElement;
+    };
     interface HTMLOpengemeentenIconBouwenEnVerbouwenElement extends Components.OpengemeentenIconBouwenEnVerbouwen, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconBouwenEnVerbouwenElement: {
         prototype: HTMLOpengemeentenIconBouwenEnVerbouwenElement;
         new (): HTMLOpengemeentenIconBouwenEnVerbouwenElement;
+    };
+    interface HTMLOpengemeentenIconBouwprojectenElement extends Components.OpengemeentenIconBouwprojecten, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconBouwprojectenElement: {
+        prototype: HTMLOpengemeentenIconBouwprojectenElement;
+        new (): HTMLOpengemeentenIconBouwprojectenElement;
     };
     interface HTMLOpengemeentenIconBrandgevaarElement extends Components.OpengemeentenIconBrandgevaar, HTMLStencilElement {
     }
@@ -522,6 +734,12 @@ declare global {
         prototype: HTMLOpengemeentenIconContainerElement;
         new (): HTMLOpengemeentenIconContainerElement;
     };
+    interface HTMLOpengemeentenIconCultuurElement extends Components.OpengemeentenIconCultuur, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconCultuurElement: {
+        prototype: HTMLOpengemeentenIconCultuurElement;
+        new (): HTMLOpengemeentenIconCultuurElement;
+    };
     interface HTMLOpengemeentenIconDocumentenElement extends Components.OpengemeentenIconDocumenten, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconDocumentenElement: {
@@ -540,29 +758,53 @@ declare global {
         prototype: HTMLOpengemeentenIconEconomieWerkInkomenElement;
         new (): HTMLOpengemeentenIconEconomieWerkInkomenElement;
     };
+    interface HTMLOpengemeentenIconEenzaamheidElement extends Components.OpengemeentenIconEenzaamheid, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconEenzaamheidElement: {
+        prototype: HTMLOpengemeentenIconEenzaamheidElement;
+        new (): HTMLOpengemeentenIconEenzaamheidElement;
+    };
     interface HTMLOpengemeentenIconEikenprocessieElement extends Components.OpengemeentenIconEikenprocessie, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconEikenprocessieElement: {
         prototype: HTMLOpengemeentenIconEikenprocessieElement;
         new (): HTMLOpengemeentenIconEikenprocessieElement;
     };
-    interface HTMLOpengemeentenIconElectrischLadenElement extends Components.OpengemeentenIconElectrischLaden, HTMLStencilElement {
+    interface HTMLOpengemeentenIconElektrischLadenElement extends Components.OpengemeentenIconElektrischLaden, HTMLStencilElement {
     }
-    var HTMLOpengemeentenIconElectrischLadenElement: {
-        prototype: HTMLOpengemeentenIconElectrischLadenElement;
-        new (): HTMLOpengemeentenIconElectrischLadenElement;
+    var HTMLOpengemeentenIconElektrischLadenElement: {
+        prototype: HTMLOpengemeentenIconElektrischLadenElement;
+        new (): HTMLOpengemeentenIconElektrischLadenElement;
     };
-    interface HTMLOpengemeentenIconElectrischRijdenElement extends Components.OpengemeentenIconElectrischRijden, HTMLStencilElement {
+    interface HTMLOpengemeentenIconElektrischRijdenElement extends Components.OpengemeentenIconElektrischRijden, HTMLStencilElement {
     }
-    var HTMLOpengemeentenIconElectrischRijdenElement: {
-        prototype: HTMLOpengemeentenIconElectrischRijdenElement;
-        new (): HTMLOpengemeentenIconElectrischRijdenElement;
+    var HTMLOpengemeentenIconElektrischRijdenElement: {
+        prototype: HTMLOpengemeentenIconElektrischRijdenElement;
+        new (): HTMLOpengemeentenIconElektrischRijdenElement;
     };
     interface HTMLOpengemeentenIconEnergietransitieElement extends Components.OpengemeentenIconEnergietransitie, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconEnergietransitieElement: {
         prototype: HTMLOpengemeentenIconEnergietransitieElement;
         new (): HTMLOpengemeentenIconEnergietransitieElement;
+    };
+    interface HTMLOpengemeentenIconEnqueteElement extends Components.OpengemeentenIconEnquete, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconEnqueteElement: {
+        prototype: HTMLOpengemeentenIconEnqueteElement;
+        new (): HTMLOpengemeentenIconEnqueteElement;
+    };
+    interface HTMLOpengemeentenIconErfgoedElement extends Components.OpengemeentenIconErfgoed, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconErfgoedElement: {
+        prototype: HTMLOpengemeentenIconErfgoedElement;
+        new (): HTMLOpengemeentenIconErfgoedElement;
+    };
+    interface HTMLOpengemeentenIconErfpachtElement extends Components.OpengemeentenIconErfpacht, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconErfpachtElement: {
+        prototype: HTMLOpengemeentenIconErfpachtElement;
+        new (): HTMLOpengemeentenIconErfpachtElement;
     };
     interface HTMLOpengemeentenIconEvenementenElement extends Components.OpengemeentenIconEvenementen, HTMLStencilElement {
     }
@@ -588,6 +830,12 @@ declare global {
         prototype: HTMLOpengemeentenIconGeboorteElement;
         new (): HTMLOpengemeentenIconGeboorteElement;
     };
+    interface HTMLOpengemeentenIconGebruikerElement extends Components.OpengemeentenIconGebruiker, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconGebruikerElement: {
+        prototype: HTMLOpengemeentenIconGebruikerElement;
+        new (): HTMLOpengemeentenIconGebruikerElement;
+    };
     interface HTMLOpengemeentenIconGebruikerCentraalElement extends Components.OpengemeentenIconGebruikerCentraal, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconGebruikerCentraalElement: {
@@ -606,6 +854,18 @@ declare global {
         prototype: HTMLOpengemeentenIconGebruikersvraagElement;
         new (): HTMLOpengemeentenIconGebruikersvraagElement;
     };
+    interface HTMLOpengemeentenIconGegevenswoordenboekElement extends Components.OpengemeentenIconGegevenswoordenboek, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconGegevenswoordenboekElement: {
+        prototype: HTMLOpengemeentenIconGegevenswoordenboekElement;
+        new (): HTMLOpengemeentenIconGegevenswoordenboekElement;
+    };
+    interface HTMLOpengemeentenIconGeldElement extends Components.OpengemeentenIconGeld, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconGeldElement: {
+        prototype: HTMLOpengemeentenIconGeldElement;
+        new (): HTMLOpengemeentenIconGeldElement;
+    };
     interface HTMLOpengemeentenIconGeluidElement extends Components.OpengemeentenIconGeluid, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconGeluidElement: {
@@ -617,6 +877,12 @@ declare global {
     var HTMLOpengemeentenIconGemeenteraadElement: {
         prototype: HTMLOpengemeentenIconGemeenteraadElement;
         new (): HTMLOpengemeentenIconGemeenteraadElement;
+    };
+    interface HTMLOpengemeentenIconGemeenteraadsvergaderingElement extends Components.OpengemeentenIconGemeenteraadsvergadering, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconGemeenteraadsvergaderingElement: {
+        prototype: HTMLOpengemeentenIconGemeenteraadsvergaderingElement;
+        new (): HTMLOpengemeentenIconGemeenteraadsvergaderingElement;
     };
     interface HTMLOpengemeentenIconGemivaLocatieElement extends Components.OpengemeentenIconGemivaLocatie, HTMLStencilElement {
     }
@@ -654,11 +920,35 @@ declare global {
         prototype: HTMLOpengemeentenIconHerdenkingElement;
         new (): HTMLOpengemeentenIconHerdenkingElement;
     };
+    interface HTMLOpengemeentenIconHondElement extends Components.OpengemeentenIconHond, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconHondElement: {
+        prototype: HTMLOpengemeentenIconHondElement;
+        new (): HTMLOpengemeentenIconHondElement;
+    };
     interface HTMLOpengemeentenIconHondenbelastingElement extends Components.OpengemeentenIconHondenbelasting, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconHondenbelastingElement: {
         prototype: HTMLOpengemeentenIconHondenbelastingElement;
         new (): HTMLOpengemeentenIconHondenbelastingElement;
+    };
+    interface HTMLOpengemeentenIconHoogWaterElement extends Components.OpengemeentenIconHoogWater, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconHoogWaterElement: {
+        prototype: HTMLOpengemeentenIconHoogWaterElement;
+        new (): HTMLOpengemeentenIconHoogWaterElement;
+    };
+    interface HTMLOpengemeentenIconHoogbouwElement extends Components.OpengemeentenIconHoogbouw, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconHoogbouwElement: {
+        prototype: HTMLOpengemeentenIconHoogbouwElement;
+        new (): HTMLOpengemeentenIconHoogbouwElement;
+    };
+    interface HTMLOpengemeentenIconHorecaElement extends Components.OpengemeentenIconHoreca, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconHorecaElement: {
+        prototype: HTMLOpengemeentenIconHorecaElement;
+        new (): HTMLOpengemeentenIconHorecaElement;
     };
     interface HTMLOpengemeentenIconHorecavergunningenElement extends Components.OpengemeentenIconHorecavergunningen, HTMLStencilElement {
     }
@@ -677,6 +967,18 @@ declare global {
     var HTMLOpengemeentenIconHuisEnOmgevingElement: {
         prototype: HTMLOpengemeentenIconHuisEnOmgevingElement;
         new (): HTMLOpengemeentenIconHuisEnOmgevingElement;
+    };
+    interface HTMLOpengemeentenIconHuiselijkGeweldElement extends Components.OpengemeentenIconHuiselijkGeweld, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconHuiselijkGeweldElement: {
+        prototype: HTMLOpengemeentenIconHuiselijkGeweldElement;
+        new (): HTMLOpengemeentenIconHuiselijkGeweldElement;
+    };
+    interface HTMLOpengemeentenIconHulpHuishoudenElement extends Components.OpengemeentenIconHulpHuishouden, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconHulpHuishoudenElement: {
+        prototype: HTMLOpengemeentenIconHulpHuishoudenElement;
+        new (): HTMLOpengemeentenIconHulpHuishoudenElement;
     };
     interface HTMLOpengemeentenIconHulpmiddelenVindenElement extends Components.OpengemeentenIconHulpmiddelenVinden, HTMLStencilElement {
     }
@@ -714,11 +1016,23 @@ declare global {
         prototype: HTMLOpengemeentenIconInkomenElement;
         new (): HTMLOpengemeentenIconInkomenElement;
     };
+    interface HTMLOpengemeentenIconInloggenElement extends Components.OpengemeentenIconInloggen, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconInloggenElement: {
+        prototype: HTMLOpengemeentenIconInloggenElement;
+        new (): HTMLOpengemeentenIconInloggenElement;
+    };
     interface HTMLOpengemeentenIconInspraakElement extends Components.OpengemeentenIconInspraak, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconInspraakElement: {
         prototype: HTMLOpengemeentenIconInspraakElement;
         new (): HTMLOpengemeentenIconInspraakElement;
+    };
+    interface HTMLOpengemeentenIconIsolatieElement extends Components.OpengemeentenIconIsolatie, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconIsolatieElement: {
+        prototype: HTMLOpengemeentenIconIsolatieElement;
+        new (): HTMLOpengemeentenIconIsolatieElement;
     };
     interface HTMLOpengemeentenIconJeugdElement extends Components.OpengemeentenIconJeugd, HTMLStencilElement {
     }
@@ -744,6 +1058,12 @@ declare global {
         prototype: HTMLOpengemeentenIconKindEnFamilieElement;
         new (): HTMLOpengemeentenIconKindEnFamilieElement;
     };
+    interface HTMLOpengemeentenIconKlachtElement extends Components.OpengemeentenIconKlacht, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconKlachtElement: {
+        prototype: HTMLOpengemeentenIconKlachtElement;
+        new (): HTMLOpengemeentenIconKlachtElement;
+    };
     interface HTMLOpengemeentenIconKoningsdagElement extends Components.OpengemeentenIconKoningsdag, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconKoningsdagElement: {
@@ -761,6 +1081,12 @@ declare global {
     var HTMLOpengemeentenIconKopenEnVerkopenElement: {
         prototype: HTMLOpengemeentenIconKopenEnVerkopenElement;
         new (): HTMLOpengemeentenIconKopenEnVerkopenElement;
+    };
+    interface HTMLOpengemeentenIconLaadStationElement extends Components.OpengemeentenIconLaadStation, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconLaadStationElement: {
+        prototype: HTMLOpengemeentenIconLaadStationElement;
+        new (): HTMLOpengemeentenIconLaadStationElement;
     };
     interface HTMLOpengemeentenIconLeerlingenvervoerElement extends Components.OpengemeentenIconLeerlingenvervoer, HTMLStencilElement {
     }
@@ -792,6 +1118,12 @@ declare global {
         prototype: HTMLOpengemeentenIconManegeElement;
         new (): HTMLOpengemeentenIconManegeElement;
     };
+    interface HTMLOpengemeentenIconMarktgeldenElement extends Components.OpengemeentenIconMarktgelden, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconMarktgeldenElement: {
+        prototype: HTMLOpengemeentenIconMarktgeldenElement;
+        new (): HTMLOpengemeentenIconMarktgeldenElement;
+    };
     interface HTMLOpengemeentenIconMeeuwenoverlastElement extends Components.OpengemeentenIconMeeuwenoverlast, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconMeeuwenoverlastElement: {
@@ -821,6 +1153,12 @@ declare global {
     var HTMLOpengemeentenIconMeldingStraatverlichtingElement: {
         prototype: HTMLOpengemeentenIconMeldingStraatverlichtingElement;
         new (): HTMLOpengemeentenIconMeldingStraatverlichtingElement;
+    };
+    interface HTMLOpengemeentenIconMilieuzoneElement extends Components.OpengemeentenIconMilieuzone, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconMilieuzoneElement: {
+        prototype: HTMLOpengemeentenIconMilieuzoneElement;
+        new (): HTMLOpengemeentenIconMilieuzoneElement;
     };
     interface HTMLOpengemeentenIconMobiliteitElement extends Components.OpengemeentenIconMobiliteit, HTMLStencilElement {
     }
@@ -858,6 +1196,24 @@ declare global {
         prototype: HTMLOpengemeentenIconMonitorWoningmarktElement;
         new (): HTMLOpengemeentenIconMonitorWoningmarktElement;
     };
+    interface HTMLOpengemeentenIconMonumentElement extends Components.OpengemeentenIconMonument, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconMonumentElement: {
+        prototype: HTMLOpengemeentenIconMonumentElement;
+        new (): HTMLOpengemeentenIconMonumentElement;
+    };
+    interface HTMLOpengemeentenIconMonumentWoningElement extends Components.OpengemeentenIconMonumentWoning, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconMonumentWoningElement: {
+        prototype: HTMLOpengemeentenIconMonumentWoningElement;
+        new (): HTMLOpengemeentenIconMonumentWoningElement;
+    };
+    interface HTMLOpengemeentenIconMuseumElement extends Components.OpengemeentenIconMuseum, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconMuseumElement: {
+        prototype: HTMLOpengemeentenIconMuseumElement;
+        new (): HTMLOpengemeentenIconMuseumElement;
+    };
     interface HTMLOpengemeentenIconNatuurLandschapElement extends Components.OpengemeentenIconNatuurLandschap, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconNatuurLandschapElement: {
@@ -881,6 +1237,18 @@ declare global {
     var HTMLOpengemeentenIconOmgevingsvergunningElement: {
         prototype: HTMLOpengemeentenIconOmgevingsvergunningElement;
         new (): HTMLOpengemeentenIconOmgevingsvergunningElement;
+    };
+    interface HTMLOpengemeentenIconOmgevingsvisieElement extends Components.OpengemeentenIconOmgevingsvisie, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOmgevingsvisieElement: {
+        prototype: HTMLOpengemeentenIconOmgevingsvisieElement;
+        new (): HTMLOpengemeentenIconOmgevingsvisieElement;
+    };
+    interface HTMLOpengemeentenIconOmgevingsvisieDocumentElement extends Components.OpengemeentenIconOmgevingsvisieDocument, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOmgevingsvisieDocumentElement: {
+        prototype: HTMLOpengemeentenIconOmgevingsvisieDocumentElement;
+        new (): HTMLOpengemeentenIconOmgevingsvisieDocumentElement;
     };
     interface HTMLOpengemeentenIconOnderhoudElement extends Components.OpengemeentenIconOnderhoud, HTMLStencilElement {
     }
@@ -906,11 +1274,41 @@ declare global {
         prototype: HTMLOpengemeentenIconOnderwijsElement;
         new (): HTMLOpengemeentenIconOnderwijsElement;
     };
+    interface HTMLOpengemeentenIconOnderwijsBasisElement extends Components.OpengemeentenIconOnderwijsBasis, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOnderwijsBasisElement: {
+        prototype: HTMLOpengemeentenIconOnderwijsBasisElement;
+        new (): HTMLOpengemeentenIconOnderwijsBasisElement;
+    };
+    interface HTMLOpengemeentenIconOnderwijsHogerElement extends Components.OpengemeentenIconOnderwijsHoger, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOnderwijsHogerElement: {
+        prototype: HTMLOpengemeentenIconOnderwijsHogerElement;
+        new (): HTMLOpengemeentenIconOnderwijsHogerElement;
+    };
+    interface HTMLOpengemeentenIconOnderwijsVoortgezetElement extends Components.OpengemeentenIconOnderwijsVoortgezet, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOnderwijsVoortgezetElement: {
+        prototype: HTMLOpengemeentenIconOnderwijsVoortgezetElement;
+        new (): HTMLOpengemeentenIconOnderwijsVoortgezetElement;
+    };
+    interface HTMLOpengemeentenIconOntheffingMilieuzoneElement extends Components.OpengemeentenIconOntheffingMilieuzone, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOntheffingMilieuzoneElement: {
+        prototype: HTMLOpengemeentenIconOntheffingMilieuzoneElement;
+        new (): HTMLOpengemeentenIconOntheffingMilieuzoneElement;
+    };
     interface HTMLOpengemeentenIconOpeningstijdenElement extends Components.OpengemeentenIconOpeningstijden, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconOpeningstijdenElement: {
         prototype: HTMLOpengemeentenIconOpeningstijdenElement;
         new (): HTMLOpengemeentenIconOpeningstijdenElement;
+    };
+    interface HTMLOpengemeentenIconOpeningstijdenWinkelsElement extends Components.OpengemeentenIconOpeningstijdenWinkels, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconOpeningstijdenWinkelsElement: {
+        prototype: HTMLOpengemeentenIconOpeningstijdenWinkelsElement;
+        new (): HTMLOpengemeentenIconOpeningstijdenWinkelsElement;
     };
     interface HTMLOpengemeentenIconOverDeGemeenteElement extends Components.OpengemeentenIconOverDeGemeente, HTMLStencilElement {
     }
@@ -930,6 +1328,24 @@ declare global {
         prototype: HTMLOpengemeentenIconOverlijdenElement;
         new (): HTMLOpengemeentenIconOverlijdenElement;
     };
+    interface HTMLOpengemeentenIconParkeerkostenElement extends Components.OpengemeentenIconParkeerkosten, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconParkeerkostenElement: {
+        prototype: HTMLOpengemeentenIconParkeerkostenElement;
+        new (): HTMLOpengemeentenIconParkeerkostenElement;
+    };
+    interface HTMLOpengemeentenIconParkeerplattegrondElement extends Components.OpengemeentenIconParkeerplattegrond, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconParkeerplattegrondElement: {
+        prototype: HTMLOpengemeentenIconParkeerplattegrondElement;
+        new (): HTMLOpengemeentenIconParkeerplattegrondElement;
+    };
+    interface HTMLOpengemeentenIconParkeervergunningElement extends Components.OpengemeentenIconParkeervergunning, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconParkeervergunningElement: {
+        prototype: HTMLOpengemeentenIconParkeervergunningElement;
+        new (): HTMLOpengemeentenIconParkeervergunningElement;
+    };
     interface HTMLOpengemeentenIconParkeervoorzieningGehandicaptenElement extends Components.OpengemeentenIconParkeervoorzieningGehandicapten, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconParkeervoorzieningGehandicaptenElement: {
@@ -941,6 +1357,18 @@ declare global {
     var HTMLOpengemeentenIconParkerenElement: {
         prototype: HTMLOpengemeentenIconParkerenElement;
         new (): HTMLOpengemeentenIconParkerenElement;
+    };
+    interface HTMLOpengemeentenIconParkerenBedrijvenElement extends Components.OpengemeentenIconParkerenBedrijven, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconParkerenBedrijvenElement: {
+        prototype: HTMLOpengemeentenIconParkerenBedrijvenElement;
+        new (): HTMLOpengemeentenIconParkerenBedrijvenElement;
+    };
+    interface HTMLOpengemeentenIconParticipatieElement extends Components.OpengemeentenIconParticipatie, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconParticipatieElement: {
+        prototype: HTMLOpengemeentenIconParticipatieElement;
+        new (): HTMLOpengemeentenIconParticipatieElement;
     };
     interface HTMLOpengemeentenIconParticipatieCampagneElement extends Components.OpengemeentenIconParticipatieCampagne, HTMLStencilElement {
     }
@@ -984,23 +1412,35 @@ declare global {
         prototype: HTMLOpengemeentenIconPaspoortElement;
         new (): HTMLOpengemeentenIconPaspoortElement;
     };
-    interface HTMLOpengemeentenIconPaspoortBelgieElement extends Components.OpengemeentenIconPaspoortBelgie, HTMLStencilElement {
-    }
-    var HTMLOpengemeentenIconPaspoortBelgieElement: {
-        prototype: HTMLOpengemeentenIconPaspoortBelgieElement;
-        new (): HTMLOpengemeentenIconPaspoortBelgieElement;
-    };
     interface HTMLOpengemeentenIconPaspoortIdkaartGecombineerdElement extends Components.OpengemeentenIconPaspoortIdkaartGecombineerd, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconPaspoortIdkaartGecombineerdElement: {
         prototype: HTMLOpengemeentenIconPaspoortIdkaartGecombineerdElement;
         new (): HTMLOpengemeentenIconPaspoortIdkaartGecombineerdElement;
     };
-    interface HTMLOpengemeentenIconPaspoortIdkaartGecombineerdBelgieElement extends Components.OpengemeentenIconPaspoortIdkaartGecombineerdBelgie, HTMLStencilElement {
+    interface HTMLOpengemeentenIconPaspoortIdkaartGecombineerdInternationaalElement extends Components.OpengemeentenIconPaspoortIdkaartGecombineerdInternationaal, HTMLStencilElement {
     }
-    var HTMLOpengemeentenIconPaspoortIdkaartGecombineerdBelgieElement: {
-        prototype: HTMLOpengemeentenIconPaspoortIdkaartGecombineerdBelgieElement;
-        new (): HTMLOpengemeentenIconPaspoortIdkaartGecombineerdBelgieElement;
+    var HTMLOpengemeentenIconPaspoortIdkaartGecombineerdInternationaalElement: {
+        prototype: HTMLOpengemeentenIconPaspoortIdkaartGecombineerdInternationaalElement;
+        new (): HTMLOpengemeentenIconPaspoortIdkaartGecombineerdInternationaalElement;
+    };
+    interface HTMLOpengemeentenIconPaspoortInternationaalElement extends Components.OpengemeentenIconPaspoortInternationaal, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconPaspoortInternationaalElement: {
+        prototype: HTMLOpengemeentenIconPaspoortInternationaalElement;
+        new (): HTMLOpengemeentenIconPaspoortInternationaalElement;
+    };
+    interface HTMLOpengemeentenIconPolitiekElement extends Components.OpengemeentenIconPolitiek, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconPolitiekElement: {
+        prototype: HTMLOpengemeentenIconPolitiekElement;
+        new (): HTMLOpengemeentenIconPolitiekElement;
+    };
+    interface HTMLOpengemeentenIconPresentatieElement extends Components.OpengemeentenIconPresentatie, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconPresentatieElement: {
+        prototype: HTMLOpengemeentenIconPresentatieElement;
+        new (): HTMLOpengemeentenIconPresentatieElement;
     };
     interface HTMLOpengemeentenIconPrijskaartjeElement extends Components.OpengemeentenIconPrijskaartje, HTMLStencilElement {
     }
@@ -1020,6 +1460,12 @@ declare global {
         prototype: HTMLOpengemeentenIconReclameElement;
         new (): HTMLOpengemeentenIconReclameElement;
     };
+    interface HTMLOpengemeentenIconReclamebelastingElement extends Components.OpengemeentenIconReclamebelasting, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconReclamebelastingElement: {
+        prototype: HTMLOpengemeentenIconReclamebelastingElement;
+        new (): HTMLOpengemeentenIconReclamebelastingElement;
+    };
     interface HTMLOpengemeentenIconRecreatieElement extends Components.OpengemeentenIconRecreatie, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconRecreatieElement: {
@@ -1038,6 +1484,36 @@ declare global {
         prototype: HTMLOpengemeentenIconRijbewijsElement;
         new (): HTMLOpengemeentenIconRijbewijsElement;
     };
+    interface HTMLOpengemeentenIconRioolElement extends Components.OpengemeentenIconRiool, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconRioolElement: {
+        prototype: HTMLOpengemeentenIconRioolElement;
+        new (): HTMLOpengemeentenIconRioolElement;
+    };
+    interface HTMLOpengemeentenIconRioolheffingElement extends Components.OpengemeentenIconRioolheffing, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconRioolheffingElement: {
+        prototype: HTMLOpengemeentenIconRioolheffingElement;
+        new (): HTMLOpengemeentenIconRioolheffingElement;
+    };
+    interface HTMLOpengemeentenIconRioolwerkzaamhedenElement extends Components.OpengemeentenIconRioolwerkzaamheden, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconRioolwerkzaamhedenElement: {
+        prototype: HTMLOpengemeentenIconRioolwerkzaamhedenElement;
+        new (): HTMLOpengemeentenIconRioolwerkzaamhedenElement;
+    };
+    interface HTMLOpengemeentenIconRoerendeZaakbelastingElement extends Components.OpengemeentenIconRoerendeZaakbelasting, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconRoerendeZaakbelastingElement: {
+        prototype: HTMLOpengemeentenIconRoerendeZaakbelastingElement;
+        new (): HTMLOpengemeentenIconRoerendeZaakbelastingElement;
+    };
+    interface HTMLOpengemeentenIconRolstoelElement extends Components.OpengemeentenIconRolstoel, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconRolstoelElement: {
+        prototype: HTMLOpengemeentenIconRolstoelElement;
+        new (): HTMLOpengemeentenIconRolstoelElement;
+    };
     interface HTMLOpengemeentenIconSchoolkostenregelingElement extends Components.OpengemeentenIconSchoolkostenregeling, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconSchoolkostenregelingElement: {
@@ -1055,6 +1531,12 @@ declare global {
     var HTMLOpengemeentenIconSociaalZorgWelzijnElement: {
         prototype: HTMLOpengemeentenIconSociaalZorgWelzijnElement;
         new (): HTMLOpengemeentenIconSociaalZorgWelzijnElement;
+    };
+    interface HTMLOpengemeentenIconSpeeltuinElement extends Components.OpengemeentenIconSpeeltuin, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconSpeeltuinElement: {
+        prototype: HTMLOpengemeentenIconSpeeltuinElement;
+        new (): HTMLOpengemeentenIconSpeeltuinElement;
     };
     interface HTMLOpengemeentenIconSportElement extends Components.OpengemeentenIconSport, HTMLStencilElement {
     }
@@ -1110,11 +1592,23 @@ declare global {
         prototype: HTMLOpengemeentenIconTemperatuurMeldingElement;
         new (): HTMLOpengemeentenIconTemperatuurMeldingElement;
     };
+    interface HTMLOpengemeentenIconThuiswerkenElement extends Components.OpengemeentenIconThuiswerken, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconThuiswerkenElement: {
+        prototype: HTMLOpengemeentenIconThuiswerkenElement;
+        new (): HTMLOpengemeentenIconThuiswerkenElement;
+    };
     interface HTMLOpengemeentenIconToegankelijkheidElement extends Components.OpengemeentenIconToegankelijkheid, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconToegankelijkheidElement: {
         prototype: HTMLOpengemeentenIconToegankelijkheidElement;
         new (): HTMLOpengemeentenIconToegankelijkheidElement;
+    };
+    interface HTMLOpengemeentenIconToeslagElement extends Components.OpengemeentenIconToeslag, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconToeslagElement: {
+        prototype: HTMLOpengemeentenIconToeslagElement;
+        new (): HTMLOpengemeentenIconToeslagElement;
     };
     interface HTMLOpengemeentenIconTrouwenEnGeregistreerdPartnerschapElement extends Components.OpengemeentenIconTrouwenEnGeregistreerdPartnerschap, HTMLStencilElement {
     }
@@ -1176,6 +1670,18 @@ declare global {
         prototype: HTMLOpengemeentenIconVergaderenElement;
         new (): HTMLOpengemeentenIconVergaderenElement;
     };
+    interface HTMLOpengemeentenIconVergaderenDigitaalElement extends Components.OpengemeentenIconVergaderenDigitaal, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconVergaderenDigitaalElement: {
+        prototype: HTMLOpengemeentenIconVergaderenDigitaalElement;
+        new (): HTMLOpengemeentenIconVergaderenDigitaalElement;
+    };
+    interface HTMLOpengemeentenIconVergoedingEnergiekostenElement extends Components.OpengemeentenIconVergoedingEnergiekosten, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconVergoedingEnergiekostenElement: {
+        prototype: HTMLOpengemeentenIconVergoedingEnergiekostenElement;
+        new (): HTMLOpengemeentenIconVergoedingEnergiekostenElement;
+    };
     interface HTMLOpengemeentenIconVergunningAlgemeenElement extends Components.OpengemeentenIconVergunningAlgemeen, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconVergunningAlgemeenElement: {
@@ -1188,11 +1694,23 @@ declare global {
         prototype: HTMLOpengemeentenIconVerhuizenElement;
         new (): HTMLOpengemeentenIconVerhuizenElement;
     };
+    interface HTMLOpengemeentenIconVerkeerslichtElement extends Components.OpengemeentenIconVerkeerslicht, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconVerkeerslichtElement: {
+        prototype: HTMLOpengemeentenIconVerkeerslichtElement;
+        new (): HTMLOpengemeentenIconVerkeerslichtElement;
+    };
     interface HTMLOpengemeentenIconVerkiezingenElement extends Components.OpengemeentenIconVerkiezingen, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconVerkiezingenElement: {
         prototype: HTMLOpengemeentenIconVerkiezingenElement;
         new (): HTMLOpengemeentenIconVerkiezingenElement;
+    };
+    interface HTMLOpengemeentenIconVerslavingElement extends Components.OpengemeentenIconVerslaving, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconVerslavingElement: {
+        prototype: HTMLOpengemeentenIconVerslavingElement;
+        new (): HTMLOpengemeentenIconVerslavingElement;
     };
     interface HTMLOpengemeentenIconVervoersvoorzieningElement extends Components.OpengemeentenIconVervoersvoorziening, HTMLStencilElement {
     }
@@ -1242,17 +1760,35 @@ declare global {
         prototype: HTMLOpengemeentenIconWandelenElement;
         new (): HTMLOpengemeentenIconWandelenElement;
     };
+    interface HTMLOpengemeentenIconWelzijnswerkElement extends Components.OpengemeentenIconWelzijnswerk, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconWelzijnswerkElement: {
+        prototype: HTMLOpengemeentenIconWelzijnswerkElement;
+        new (): HTMLOpengemeentenIconWelzijnswerkElement;
+    };
     interface HTMLOpengemeentenIconWerkzaamhedenElement extends Components.OpengemeentenIconWerkzaamheden, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconWerkzaamhedenElement: {
         prototype: HTMLOpengemeentenIconWerkzaamhedenElement;
         new (): HTMLOpengemeentenIconWerkzaamhedenElement;
     };
+    interface HTMLOpengemeentenIconWieIsWieElement extends Components.OpengemeentenIconWieIsWie, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconWieIsWieElement: {
+        prototype: HTMLOpengemeentenIconWieIsWieElement;
+        new (): HTMLOpengemeentenIconWieIsWieElement;
+    };
     interface HTMLOpengemeentenIconWijkteamElement extends Components.OpengemeentenIconWijkteam, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconWijkteamElement: {
         prototype: HTMLOpengemeentenIconWijkteamElement;
         new (): HTMLOpengemeentenIconWijkteamElement;
+    };
+    interface HTMLOpengemeentenIconWindenergieElement extends Components.OpengemeentenIconWindenergie, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconWindenergieElement: {
+        prototype: HTMLOpengemeentenIconWindenergieElement;
+        new (): HTMLOpengemeentenIconWindenergieElement;
     };
     interface HTMLOpengemeentenIconWinkelenElement extends Components.OpengemeentenIconWinkelen, HTMLStencilElement {
     }
@@ -1272,11 +1808,35 @@ declare global {
         prototype: HTMLOpengemeentenIconWmoElement;
         new (): HTMLOpengemeentenIconWmoElement;
     };
+    interface HTMLOpengemeentenIconWolfElement extends Components.OpengemeentenIconWolf, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconWolfElement: {
+        prototype: HTMLOpengemeentenIconWolfElement;
+        new (): HTMLOpengemeentenIconWolfElement;
+    };
+    interface HTMLOpengemeentenIconWoningZoekenElement extends Components.OpengemeentenIconWoningZoeken, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconWoningZoekenElement: {
+        prototype: HTMLOpengemeentenIconWoningZoekenElement;
+        new (): HTMLOpengemeentenIconWoningZoekenElement;
+    };
     interface HTMLOpengemeentenIconWozWaardeElement extends Components.OpengemeentenIconWozWaarde, HTMLStencilElement {
     }
     var HTMLOpengemeentenIconWozWaardeElement: {
         prototype: HTMLOpengemeentenIconWozWaardeElement;
         new (): HTMLOpengemeentenIconWozWaardeElement;
+    };
+    interface HTMLOpengemeentenIconZelfbeheerTegelElement extends Components.OpengemeentenIconZelfbeheerTegel, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconZelfbeheerTegelElement: {
+        prototype: HTMLOpengemeentenIconZelfbeheerTegelElement;
+        new (): HTMLOpengemeentenIconZelfbeheerTegelElement;
+    };
+    interface HTMLOpengemeentenIconZelfstandigWonenElement extends Components.OpengemeentenIconZelfstandigWonen, HTMLStencilElement {
+    }
+    var HTMLOpengemeentenIconZelfstandigWonenElement: {
+        prototype: HTMLOpengemeentenIconZelfstandigWonenElement;
+        new (): HTMLOpengemeentenIconZelfstandigWonenElement;
     };
     interface HTMLOpengemeentenIconZoekenElement extends Components.OpengemeentenIconZoeken, HTMLStencilElement {
     }
@@ -1303,23 +1863,35 @@ declare global {
         "opengemeenten-icon-afval-container": HTMLOpengemeentenIconAfvalContainerElement;
         "opengemeenten-icon-afval-container-pas": HTMLOpengemeentenIconAfvalContainerPasElement;
         "opengemeenten-icon-afval-gft": HTMLOpengemeentenIconAfvalGftElement;
-        "opengemeenten-icon-afval-ophaal": HTMLOpengemeentenIconAfvalOphaalElement;
+        "opengemeenten-icon-afval-glascontainer": HTMLOpengemeentenIconAfvalGlascontainerElement;
+        "opengemeenten-icon-afval-groenbak": HTMLOpengemeentenIconAfvalGroenbakElement;
+        "opengemeenten-icon-afval-ophalen": HTMLOpengemeentenIconAfvalOphalenElement;
+        "opengemeenten-icon-afval-pmd": HTMLOpengemeentenIconAfvalPmdElement;
         "opengemeenten-icon-afval-scheiden": HTMLOpengemeentenIconAfvalScheidenElement;
+        "opengemeenten-icon-afvalbak-afvalzak": HTMLOpengemeentenIconAfvalbakAfvalzakElement;
+        "opengemeenten-icon-afvalbak-pmd": HTMLOpengemeentenIconAfvalbakPmdElement;
+        "opengemeenten-icon-afvalcontainer-afvalzak": HTMLOpengemeentenIconAfvalcontainerAfvalzakElement;
         "opengemeenten-icon-afvalkalender": HTMLOpengemeentenIconAfvalkalenderElement;
+        "opengemeenten-icon-afvalzak": HTMLOpengemeentenIconAfvalzakElement;
         "opengemeenten-icon-agenda": HTMLOpengemeentenIconAgendaElement;
         "opengemeenten-icon-airborne": HTMLOpengemeentenIconAirborneElement;
+        "opengemeenten-icon-armoede": HTMLOpengemeentenIconArmoedeElement;
+        "opengemeenten-icon-asbest-verwijderen": HTMLOpengemeentenIconAsbestVerwijderenElement;
         "opengemeenten-icon-attentie": HTMLOpengemeentenIconAttentieElement;
         "opengemeenten-icon-auto": HTMLOpengemeentenIconAutoElement;
         "opengemeenten-icon-bedrijventerrein": HTMLOpengemeentenIconBedrijventerreinElement;
         "opengemeenten-icon-begraafplaats": HTMLOpengemeentenIconBegraafplaatsElement;
         "opengemeenten-icon-begroting": HTMLOpengemeentenIconBegrotingElement;
         "opengemeenten-icon-belastingen": HTMLOpengemeentenIconBelastingenElement;
+        "opengemeenten-icon-betaaldatums-uitkering": HTMLOpengemeentenIconBetaaldatumsUitkeringElement;
         "opengemeenten-icon-bevolking": HTMLOpengemeentenIconBevolkingElement;
         "opengemeenten-icon-bevrijding": HTMLOpengemeentenIconBevrijdingElement;
         "opengemeenten-icon-bezwaar-en-beroep": HTMLOpengemeentenIconBezwaarEnBeroepElement;
         "opengemeenten-icon-bijstandsuitkering": HTMLOpengemeentenIconBijstandsuitkeringElement;
         "opengemeenten-icon-bladeren-opruimen": HTMLOpengemeentenIconBladerenOpruimenElement;
+        "opengemeenten-icon-bomen": HTMLOpengemeentenIconBomenElement;
         "opengemeenten-icon-bouwen-en-verbouwen": HTMLOpengemeentenIconBouwenEnVerbouwenElement;
+        "opengemeenten-icon-bouwprojecten": HTMLOpengemeentenIconBouwprojectenElement;
         "opengemeenten-icon-brandgevaar": HTMLOpengemeentenIconBrandgevaarElement;
         "opengemeenten-icon-brief": HTMLOpengemeentenIconBriefElement;
         "opengemeenten-icon-buitengebied": HTMLOpengemeentenIconBuitengebiedElement;
@@ -1329,76 +1901,112 @@ declare global {
         "opengemeenten-icon-computerregeling": HTMLOpengemeentenIconComputerregelingElement;
         "opengemeenten-icon-contact-gemeente": HTMLOpengemeentenIconContactGemeenteElement;
         "opengemeenten-icon-container": HTMLOpengemeentenIconContainerElement;
+        "opengemeenten-icon-cultuur": HTMLOpengemeentenIconCultuurElement;
         "opengemeenten-icon-documenten": HTMLOpengemeentenIconDocumentenElement;
         "opengemeenten-icon-duurzaamheid": HTMLOpengemeentenIconDuurzaamheidElement;
         "opengemeenten-icon-economie-werk-inkomen": HTMLOpengemeentenIconEconomieWerkInkomenElement;
+        "opengemeenten-icon-eenzaamheid": HTMLOpengemeentenIconEenzaamheidElement;
         "opengemeenten-icon-eikenprocessie": HTMLOpengemeentenIconEikenprocessieElement;
-        "opengemeenten-icon-electrisch-laden": HTMLOpengemeentenIconElectrischLadenElement;
-        "opengemeenten-icon-electrisch-rijden": HTMLOpengemeentenIconElectrischRijdenElement;
+        "opengemeenten-icon-elektrisch-laden": HTMLOpengemeentenIconElektrischLadenElement;
+        "opengemeenten-icon-elektrisch-rijden": HTMLOpengemeentenIconElektrischRijdenElement;
         "opengemeenten-icon-energietransitie": HTMLOpengemeentenIconEnergietransitieElement;
+        "opengemeenten-icon-enquete": HTMLOpengemeentenIconEnqueteElement;
+        "opengemeenten-icon-erfgoed": HTMLOpengemeentenIconErfgoedElement;
+        "opengemeenten-icon-erfpacht": HTMLOpengemeentenIconErfpachtElement;
         "opengemeenten-icon-evenementen": HTMLOpengemeentenIconEvenementenElement;
         "opengemeenten-icon-f-1": HTMLOpengemeentenIconF1Element;
         "opengemeenten-icon-fiets": HTMLOpengemeentenIconFietsElement;
         "opengemeenten-icon-geboorte": HTMLOpengemeentenIconGeboorteElement;
+        "opengemeenten-icon-gebruiker": HTMLOpengemeentenIconGebruikerElement;
         "opengemeenten-icon-gebruiker-centraal": HTMLOpengemeentenIconGebruikerCentraalElement;
         "opengemeenten-icon-gebruiker-ingelogd": HTMLOpengemeentenIconGebruikerIngelogdElement;
         "opengemeenten-icon-gebruikersvraag": HTMLOpengemeentenIconGebruikersvraagElement;
+        "opengemeenten-icon-gegevenswoordenboek": HTMLOpengemeentenIconGegevenswoordenboekElement;
+        "opengemeenten-icon-geld": HTMLOpengemeentenIconGeldElement;
         "opengemeenten-icon-geluid": HTMLOpengemeentenIconGeluidElement;
         "opengemeenten-icon-gemeenteraad": HTMLOpengemeentenIconGemeenteraadElement;
+        "opengemeenten-icon-gemeenteraadsvergadering": HTMLOpengemeentenIconGemeenteraadsvergaderingElement;
         "opengemeenten-icon-gemiva-locatie": HTMLOpengemeentenIconGemivaLocatieElement;
         "opengemeenten-icon-gezicht": HTMLOpengemeentenIconGezichtElement;
         "opengemeenten-icon-gladheid": HTMLOpengemeentenIconGladheidElement;
         "opengemeenten-icon-grafiek": HTMLOpengemeentenIconGrafiekElement;
         "opengemeenten-icon-grofvuil": HTMLOpengemeentenIconGrofvuilElement;
         "opengemeenten-icon-herdenking": HTMLOpengemeentenIconHerdenkingElement;
+        "opengemeenten-icon-hond": HTMLOpengemeentenIconHondElement;
         "opengemeenten-icon-hondenbelasting": HTMLOpengemeentenIconHondenbelastingElement;
+        "opengemeenten-icon-hoog-water": HTMLOpengemeentenIconHoogWaterElement;
+        "opengemeenten-icon-hoogbouw": HTMLOpengemeentenIconHoogbouwElement;
+        "opengemeenten-icon-horeca": HTMLOpengemeentenIconHorecaElement;
         "opengemeenten-icon-horecavergunningen": HTMLOpengemeentenIconHorecavergunningenElement;
         "opengemeenten-icon-huis": HTMLOpengemeentenIconHuisElement;
         "opengemeenten-icon-huis-en-omgeving": HTMLOpengemeentenIconHuisEnOmgevingElement;
+        "opengemeenten-icon-huiselijk-geweld": HTMLOpengemeentenIconHuiselijkGeweldElement;
+        "opengemeenten-icon-hulp-huishouden": HTMLOpengemeentenIconHulpHuishoudenElement;
         "opengemeenten-icon-hulpmiddelen-vinden": HTMLOpengemeentenIconHulpmiddelenVindenElement;
         "opengemeenten-icon-idkaart": HTMLOpengemeentenIconIdkaartElement;
         "opengemeenten-icon-in-en-om-uw-huis": HTMLOpengemeentenIconInEnOmUwHuisElement;
         "opengemeenten-icon-informatie": HTMLOpengemeentenIconInformatieElement;
         "opengemeenten-icon-informatie-en-betalen": HTMLOpengemeentenIconInformatieEnBetalenElement;
         "opengemeenten-icon-inkomen": HTMLOpengemeentenIconInkomenElement;
+        "opengemeenten-icon-inloggen": HTMLOpengemeentenIconInloggenElement;
         "opengemeenten-icon-inspraak": HTMLOpengemeentenIconInspraakElement;
+        "opengemeenten-icon-isolatie": HTMLOpengemeentenIconIsolatieElement;
         "opengemeenten-icon-jeugd": HTMLOpengemeentenIconJeugdElement;
         "opengemeenten-icon-kennis": HTMLOpengemeentenIconKennisElement;
         "opengemeenten-icon-kerstbomen": HTMLOpengemeentenIconKerstbomenElement;
         "opengemeenten-icon-kind-en-familie": HTMLOpengemeentenIconKindEnFamilieElement;
+        "opengemeenten-icon-klacht": HTMLOpengemeentenIconKlachtElement;
         "opengemeenten-icon-koningsdag": HTMLOpengemeentenIconKoningsdagElement;
         "opengemeenten-icon-kopen-en-huren": HTMLOpengemeentenIconKopenEnHurenElement;
         "opengemeenten-icon-kopen-en-verkopen": HTMLOpengemeentenIconKopenEnVerkopenElement;
+        "opengemeenten-icon-laad-station": HTMLOpengemeentenIconLaadStationElement;
         "opengemeenten-icon-leerlingenvervoer": HTMLOpengemeentenIconLeerlingenvervoerElement;
         "opengemeenten-icon-let-op": HTMLOpengemeentenIconLetOpElement;
         "opengemeenten-icon-liefdadigheid": HTMLOpengemeentenIconLiefdadigheidElement;
         "opengemeenten-icon-locatie": HTMLOpengemeentenIconLocatieElement;
         "opengemeenten-icon-manege": HTMLOpengemeentenIconManegeElement;
+        "opengemeenten-icon-marktgelden": HTMLOpengemeentenIconMarktgeldenElement;
         "opengemeenten-icon-meeuwenoverlast": HTMLOpengemeentenIconMeeuwenoverlastElement;
         "opengemeenten-icon-melding": HTMLOpengemeentenIconMeldingElement;
         "opengemeenten-icon-melding-omgevallen-boom": HTMLOpengemeentenIconMeldingOmgevallenBoomElement;
         "opengemeenten-icon-melding-openbare-ruimte": HTMLOpengemeentenIconMeldingOpenbareRuimteElement;
         "opengemeenten-icon-melding-straatverlichting": HTMLOpengemeentenIconMeldingStraatverlichtingElement;
+        "opengemeenten-icon-milieuzone": HTMLOpengemeentenIconMilieuzoneElement;
         "opengemeenten-icon-mobiliteit": HTMLOpengemeentenIconMobiliteitElement;
         "opengemeenten-icon-monitor-agrofood": HTMLOpengemeentenIconMonitorAgrofoodElement;
         "opengemeenten-icon-monitor-duurzaamheid": HTMLOpengemeentenIconMonitorDuurzaamheidElement;
         "opengemeenten-icon-monitor-sociaal": HTMLOpengemeentenIconMonitorSociaalElement;
         "opengemeenten-icon-monitor-virus": HTMLOpengemeentenIconMonitorVirusElement;
         "opengemeenten-icon-monitor-woningmarkt": HTMLOpengemeentenIconMonitorWoningmarktElement;
+        "opengemeenten-icon-monument": HTMLOpengemeentenIconMonumentElement;
+        "opengemeenten-icon-monument-woning": HTMLOpengemeentenIconMonumentWoningElement;
+        "opengemeenten-icon-museum": HTMLOpengemeentenIconMuseumElement;
         "opengemeenten-icon-natuur-landschap": HTMLOpengemeentenIconNatuurLandschapElement;
         "opengemeenten-icon-nieuwsbrief": HTMLOpengemeentenIconNieuwsbriefElement;
         "opengemeenten-icon-omgeving": HTMLOpengemeentenIconOmgevingElement;
         "opengemeenten-icon-omgevingsvergunning": HTMLOpengemeentenIconOmgevingsvergunningElement;
+        "opengemeenten-icon-omgevingsvisie": HTMLOpengemeentenIconOmgevingsvisieElement;
+        "opengemeenten-icon-omgevingsvisie-document": HTMLOpengemeentenIconOmgevingsvisieDocumentElement;
         "opengemeenten-icon-onderhoud": HTMLOpengemeentenIconOnderhoudElement;
         "opengemeenten-icon-ondernemen": HTMLOpengemeentenIconOndernemenElement;
         "opengemeenten-icon-onderscheidingen": HTMLOpengemeentenIconOnderscheidingenElement;
         "opengemeenten-icon-onderwijs": HTMLOpengemeentenIconOnderwijsElement;
+        "opengemeenten-icon-onderwijs-basis": HTMLOpengemeentenIconOnderwijsBasisElement;
+        "opengemeenten-icon-onderwijs-hoger": HTMLOpengemeentenIconOnderwijsHogerElement;
+        "opengemeenten-icon-onderwijs-voortgezet": HTMLOpengemeentenIconOnderwijsVoortgezetElement;
+        "opengemeenten-icon-ontheffing-milieuzone": HTMLOpengemeentenIconOntheffingMilieuzoneElement;
         "opengemeenten-icon-openingstijden": HTMLOpengemeentenIconOpeningstijdenElement;
+        "opengemeenten-icon-openingstijden-winkels": HTMLOpengemeentenIconOpeningstijdenWinkelsElement;
         "opengemeenten-icon-over-de-gemeente": HTMLOpengemeentenIconOverDeGemeenteElement;
         "opengemeenten-icon-over-de-stad": HTMLOpengemeentenIconOverDeStadElement;
         "opengemeenten-icon-overlijden": HTMLOpengemeentenIconOverlijdenElement;
+        "opengemeenten-icon-parkeerkosten": HTMLOpengemeentenIconParkeerkostenElement;
+        "opengemeenten-icon-parkeerplattegrond": HTMLOpengemeentenIconParkeerplattegrondElement;
+        "opengemeenten-icon-parkeervergunning": HTMLOpengemeentenIconParkeervergunningElement;
         "opengemeenten-icon-parkeervoorziening-gehandicapten": HTMLOpengemeentenIconParkeervoorzieningGehandicaptenElement;
         "opengemeenten-icon-parkeren": HTMLOpengemeentenIconParkerenElement;
+        "opengemeenten-icon-parkeren-bedrijven": HTMLOpengemeentenIconParkerenBedrijvenElement;
+        "opengemeenten-icon-participatie": HTMLOpengemeentenIconParticipatieElement;
         "opengemeenten-icon-participatie-campagne": HTMLOpengemeentenIconParticipatieCampagneElement;
         "opengemeenten-icon-participatie-checklist": HTMLOpengemeentenIconParticipatieChecklistElement;
         "opengemeenten-icon-participatie-like": HTMLOpengemeentenIconParticipatieLikeElement;
@@ -1406,18 +2014,27 @@ declare global {
         "opengemeenten-icon-participatie-plan": HTMLOpengemeentenIconParticipatiePlanElement;
         "opengemeenten-icon-participatie-uitvoering": HTMLOpengemeentenIconParticipatieUitvoeringElement;
         "opengemeenten-icon-paspoort": HTMLOpengemeentenIconPaspoortElement;
-        "opengemeenten-icon-paspoort-belgie": HTMLOpengemeentenIconPaspoortBelgieElement;
         "opengemeenten-icon-paspoort-idkaart-gecombineerd": HTMLOpengemeentenIconPaspoortIdkaartGecombineerdElement;
-        "opengemeenten-icon-paspoort-idkaart-gecombineerd-belgie": HTMLOpengemeentenIconPaspoortIdkaartGecombineerdBelgieElement;
+        "opengemeenten-icon-paspoort-idkaart-gecombineerd-internationaal": HTMLOpengemeentenIconPaspoortIdkaartGecombineerdInternationaalElement;
+        "opengemeenten-icon-paspoort-internationaal": HTMLOpengemeentenIconPaspoortInternationaalElement;
+        "opengemeenten-icon-politiek": HTMLOpengemeentenIconPolitiekElement;
+        "opengemeenten-icon-presentatie": HTMLOpengemeentenIconPresentatieElement;
         "opengemeenten-icon-prijskaartje": HTMLOpengemeentenIconPrijskaartjeElement;
         "opengemeenten-icon-raad-en-college": HTMLOpengemeentenIconRaadEnCollegeElement;
         "opengemeenten-icon-reclame": HTMLOpengemeentenIconReclameElement;
+        "opengemeenten-icon-reclamebelasting": HTMLOpengemeentenIconReclamebelastingElement;
         "opengemeenten-icon-recreatie": HTMLOpengemeentenIconRecreatieElement;
         "opengemeenten-icon-regeling-laag-inkomen": HTMLOpengemeentenIconRegelingLaagInkomenElement;
         "opengemeenten-icon-rijbewijs": HTMLOpengemeentenIconRijbewijsElement;
+        "opengemeenten-icon-riool": HTMLOpengemeentenIconRioolElement;
+        "opengemeenten-icon-rioolheffing": HTMLOpengemeentenIconRioolheffingElement;
+        "opengemeenten-icon-rioolwerkzaamheden": HTMLOpengemeentenIconRioolwerkzaamhedenElement;
+        "opengemeenten-icon-roerende-zaakbelasting": HTMLOpengemeentenIconRoerendeZaakbelastingElement;
+        "opengemeenten-icon-rolstoel": HTMLOpengemeentenIconRolstoelElement;
         "opengemeenten-icon-schoolkostenregeling": HTMLOpengemeentenIconSchoolkostenregelingElement;
         "opengemeenten-icon-sinterklaas": HTMLOpengemeentenIconSinterklaasElement;
         "opengemeenten-icon-sociaal-zorg-welzijn": HTMLOpengemeentenIconSociaalZorgWelzijnElement;
+        "opengemeenten-icon-speeltuin": HTMLOpengemeentenIconSpeeltuinElement;
         "opengemeenten-icon-sport": HTMLOpengemeentenIconSportElement;
         "opengemeenten-icon-sport-culturele-activiteit": HTMLOpengemeentenIconSportCultureleActiviteitElement;
         "opengemeenten-icon-sportkleding-muziekinstrumenten": HTMLOpengemeentenIconSportkledingMuziekinstrumentenElement;
@@ -1427,7 +2044,9 @@ declare global {
         "opengemeenten-icon-strand": HTMLOpengemeentenIconStrandElement;
         "opengemeenten-icon-subsidie": HTMLOpengemeentenIconSubsidieElement;
         "opengemeenten-icon-temperatuur-melding": HTMLOpengemeentenIconTemperatuurMeldingElement;
+        "opengemeenten-icon-thuiswerken": HTMLOpengemeentenIconThuiswerkenElement;
         "opengemeenten-icon-toegankelijkheid": HTMLOpengemeentenIconToegankelijkheidElement;
+        "opengemeenten-icon-toeslag": HTMLOpengemeentenIconToeslagElement;
         "opengemeenten-icon-trouwen-en-geregistreerd-partnerschap": HTMLOpengemeentenIconTrouwenEnGeregistreerdPartnerschapElement;
         "opengemeenten-icon-tuinbouw": HTMLOpengemeentenIconTuinbouwElement;
         "opengemeenten-icon-uittreksel": HTMLOpengemeentenIconUittrekselElement;
@@ -1438,9 +2057,13 @@ declare global {
         "opengemeenten-icon-veerboot": HTMLOpengemeentenIconVeerbootElement;
         "opengemeenten-icon-veilige-wijk": HTMLOpengemeentenIconVeiligeWijkElement;
         "opengemeenten-icon-vergaderen": HTMLOpengemeentenIconVergaderenElement;
+        "opengemeenten-icon-vergaderen-digitaal": HTMLOpengemeentenIconVergaderenDigitaalElement;
+        "opengemeenten-icon-vergoeding-energiekosten": HTMLOpengemeentenIconVergoedingEnergiekostenElement;
         "opengemeenten-icon-vergunning-algemeen": HTMLOpengemeentenIconVergunningAlgemeenElement;
         "opengemeenten-icon-verhuizen": HTMLOpengemeentenIconVerhuizenElement;
+        "opengemeenten-icon-verkeerslicht": HTMLOpengemeentenIconVerkeerslichtElement;
         "opengemeenten-icon-verkiezingen": HTMLOpengemeentenIconVerkiezingenElement;
+        "opengemeenten-icon-verslaving": HTMLOpengemeentenIconVerslavingElement;
         "opengemeenten-icon-vervoersvoorziening": HTMLOpengemeentenIconVervoersvoorzieningElement;
         "opengemeenten-icon-virus": HTMLOpengemeentenIconVirusElement;
         "opengemeenten-icon-vlag": HTMLOpengemeentenIconVlagElement;
@@ -1449,12 +2072,19 @@ declare global {
         "opengemeenten-icon-vrijwilligerswerk": HTMLOpengemeentenIconVrijwilligerswerkElement;
         "opengemeenten-icon-vuurwerk": HTMLOpengemeentenIconVuurwerkElement;
         "opengemeenten-icon-wandelen": HTMLOpengemeentenIconWandelenElement;
+        "opengemeenten-icon-welzijnswerk": HTMLOpengemeentenIconWelzijnswerkElement;
         "opengemeenten-icon-werkzaamheden": HTMLOpengemeentenIconWerkzaamhedenElement;
+        "opengemeenten-icon-wie-is-wie": HTMLOpengemeentenIconWieIsWieElement;
         "opengemeenten-icon-wijkteam": HTMLOpengemeentenIconWijkteamElement;
+        "opengemeenten-icon-windenergie": HTMLOpengemeentenIconWindenergieElement;
         "opengemeenten-icon-winkelen": HTMLOpengemeentenIconWinkelenElement;
         "opengemeenten-icon-winkelwagen": HTMLOpengemeentenIconWinkelwagenElement;
         "opengemeenten-icon-wmo": HTMLOpengemeentenIconWmoElement;
+        "opengemeenten-icon-wolf": HTMLOpengemeentenIconWolfElement;
+        "opengemeenten-icon-woning-zoeken": HTMLOpengemeentenIconWoningZoekenElement;
         "opengemeenten-icon-woz-waarde": HTMLOpengemeentenIconWozWaardeElement;
+        "opengemeenten-icon-zelfbeheer-tegel": HTMLOpengemeentenIconZelfbeheerTegelElement;
+        "opengemeenten-icon-zelfstandig-wonen": HTMLOpengemeentenIconZelfstandigWonenElement;
         "opengemeenten-icon-zoeken": HTMLOpengemeentenIconZoekenElement;
         "opengemeenten-icon-zwemabonnement": HTMLOpengemeentenIconZwemabonnementElement;
         "opengemeenten-icon-zwemmen": HTMLOpengemeentenIconZwemmenElement;
@@ -1473,15 +2103,33 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconAfvalGft {
     }
-    interface OpengemeentenIconAfvalOphaal {
+    interface OpengemeentenIconAfvalGlascontainer {
+    }
+    interface OpengemeentenIconAfvalGroenbak {
+    }
+    interface OpengemeentenIconAfvalOphalen {
+    }
+    interface OpengemeentenIconAfvalPmd {
     }
     interface OpengemeentenIconAfvalScheiden {
     }
+    interface OpengemeentenIconAfvalbakAfvalzak {
+    }
+    interface OpengemeentenIconAfvalbakPmd {
+    }
+    interface OpengemeentenIconAfvalcontainerAfvalzak {
+    }
     interface OpengemeentenIconAfvalkalender {
+    }
+    interface OpengemeentenIconAfvalzak {
     }
     interface OpengemeentenIconAgenda {
     }
     interface OpengemeentenIconAirborne {
+    }
+    interface OpengemeentenIconArmoede {
+    }
+    interface OpengemeentenIconAsbestVerwijderen {
     }
     interface OpengemeentenIconAttentie {
     }
@@ -1495,6 +2143,8 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconBelastingen {
     }
+    interface OpengemeentenIconBetaaldatumsUitkering {
+    }
     interface OpengemeentenIconBevolking {
     }
     interface OpengemeentenIconBevrijding {
@@ -1505,7 +2155,11 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconBladerenOpruimen {
     }
+    interface OpengemeentenIconBomen {
+    }
     interface OpengemeentenIconBouwenEnVerbouwen {
+    }
+    interface OpengemeentenIconBouwprojecten {
     }
     interface OpengemeentenIconBrandgevaar {
     }
@@ -1525,19 +2179,29 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconContainer {
     }
+    interface OpengemeentenIconCultuur {
+    }
     interface OpengemeentenIconDocumenten {
     }
     interface OpengemeentenIconDuurzaamheid {
     }
     interface OpengemeentenIconEconomieWerkInkomen {
     }
+    interface OpengemeentenIconEenzaamheid {
+    }
     interface OpengemeentenIconEikenprocessie {
     }
-    interface OpengemeentenIconElectrischLaden {
+    interface OpengemeentenIconElektrischLaden {
     }
-    interface OpengemeentenIconElectrischRijden {
+    interface OpengemeentenIconElektrischRijden {
     }
     interface OpengemeentenIconEnergietransitie {
+    }
+    interface OpengemeentenIconEnquete {
+    }
+    interface OpengemeentenIconErfgoed {
+    }
+    interface OpengemeentenIconErfpacht {
     }
     interface OpengemeentenIconEvenementen {
     }
@@ -1547,15 +2211,23 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconGeboorte {
     }
+    interface OpengemeentenIconGebruiker {
+    }
     interface OpengemeentenIconGebruikerCentraal {
     }
     interface OpengemeentenIconGebruikerIngelogd {
     }
     interface OpengemeentenIconGebruikersvraag {
     }
+    interface OpengemeentenIconGegevenswoordenboek {
+    }
+    interface OpengemeentenIconGeld {
+    }
     interface OpengemeentenIconGeluid {
     }
     interface OpengemeentenIconGemeenteraad {
+    }
+    interface OpengemeentenIconGemeenteraadsvergadering {
     }
     interface OpengemeentenIconGemivaLocatie {
     }
@@ -1569,13 +2241,25 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconHerdenking {
     }
+    interface OpengemeentenIconHond {
+    }
     interface OpengemeentenIconHondenbelasting {
+    }
+    interface OpengemeentenIconHoogWater {
+    }
+    interface OpengemeentenIconHoogbouw {
+    }
+    interface OpengemeentenIconHoreca {
     }
     interface OpengemeentenIconHorecavergunningen {
     }
     interface OpengemeentenIconHuis {
     }
     interface OpengemeentenIconHuisEnOmgeving {
+    }
+    interface OpengemeentenIconHuiselijkGeweld {
+    }
+    interface OpengemeentenIconHulpHuishouden {
     }
     interface OpengemeentenIconHulpmiddelenVinden {
     }
@@ -1589,7 +2273,11 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconInkomen {
     }
+    interface OpengemeentenIconInloggen {
+    }
     interface OpengemeentenIconInspraak {
+    }
+    interface OpengemeentenIconIsolatie {
     }
     interface OpengemeentenIconJeugd {
     }
@@ -1599,11 +2287,15 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconKindEnFamilie {
     }
+    interface OpengemeentenIconKlacht {
+    }
     interface OpengemeentenIconKoningsdag {
     }
     interface OpengemeentenIconKopenEnHuren {
     }
     interface OpengemeentenIconKopenEnVerkopen {
+    }
+    interface OpengemeentenIconLaadStation {
     }
     interface OpengemeentenIconLeerlingenvervoer {
     }
@@ -1615,6 +2307,8 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconManege {
     }
+    interface OpengemeentenIconMarktgelden {
+    }
     interface OpengemeentenIconMeeuwenoverlast {
     }
     interface OpengemeentenIconMelding {
@@ -1624,6 +2318,8 @@ declare namespace LocalJSX {
     interface OpengemeentenIconMeldingOpenbareRuimte {
     }
     interface OpengemeentenIconMeldingStraatverlichting {
+    }
+    interface OpengemeentenIconMilieuzone {
     }
     interface OpengemeentenIconMobiliteit {
     }
@@ -1637,6 +2333,12 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconMonitorWoningmarkt {
     }
+    interface OpengemeentenIconMonument {
+    }
+    interface OpengemeentenIconMonumentWoning {
+    }
+    interface OpengemeentenIconMuseum {
+    }
     interface OpengemeentenIconNatuurLandschap {
     }
     interface OpengemeentenIconNieuwsbrief {
@@ -1644,6 +2346,10 @@ declare namespace LocalJSX {
     interface OpengemeentenIconOmgeving {
     }
     interface OpengemeentenIconOmgevingsvergunning {
+    }
+    interface OpengemeentenIconOmgevingsvisie {
+    }
+    interface OpengemeentenIconOmgevingsvisieDocument {
     }
     interface OpengemeentenIconOnderhoud {
     }
@@ -1653,7 +2359,17 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconOnderwijs {
     }
+    interface OpengemeentenIconOnderwijsBasis {
+    }
+    interface OpengemeentenIconOnderwijsHoger {
+    }
+    interface OpengemeentenIconOnderwijsVoortgezet {
+    }
+    interface OpengemeentenIconOntheffingMilieuzone {
+    }
     interface OpengemeentenIconOpeningstijden {
+    }
+    interface OpengemeentenIconOpeningstijdenWinkels {
     }
     interface OpengemeentenIconOverDeGemeente {
     }
@@ -1661,9 +2377,19 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconOverlijden {
     }
+    interface OpengemeentenIconParkeerkosten {
+    }
+    interface OpengemeentenIconParkeerplattegrond {
+    }
+    interface OpengemeentenIconParkeervergunning {
+    }
     interface OpengemeentenIconParkeervoorzieningGehandicapten {
     }
     interface OpengemeentenIconParkeren {
+    }
+    interface OpengemeentenIconParkerenBedrijven {
+    }
+    interface OpengemeentenIconParticipatie {
     }
     interface OpengemeentenIconParticipatieCampagne {
     }
@@ -1679,11 +2405,15 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconPaspoort {
     }
-    interface OpengemeentenIconPaspoortBelgie {
-    }
     interface OpengemeentenIconPaspoortIdkaartGecombineerd {
     }
-    interface OpengemeentenIconPaspoortIdkaartGecombineerdBelgie {
+    interface OpengemeentenIconPaspoortIdkaartGecombineerdInternationaal {
+    }
+    interface OpengemeentenIconPaspoortInternationaal {
+    }
+    interface OpengemeentenIconPolitiek {
+    }
+    interface OpengemeentenIconPresentatie {
     }
     interface OpengemeentenIconPrijskaartje {
     }
@@ -1691,17 +2421,31 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconReclame {
     }
+    interface OpengemeentenIconReclamebelasting {
+    }
     interface OpengemeentenIconRecreatie {
     }
     interface OpengemeentenIconRegelingLaagInkomen {
     }
     interface OpengemeentenIconRijbewijs {
     }
+    interface OpengemeentenIconRiool {
+    }
+    interface OpengemeentenIconRioolheffing {
+    }
+    interface OpengemeentenIconRioolwerkzaamheden {
+    }
+    interface OpengemeentenIconRoerendeZaakbelasting {
+    }
+    interface OpengemeentenIconRolstoel {
+    }
     interface OpengemeentenIconSchoolkostenregeling {
     }
     interface OpengemeentenIconSinterklaas {
     }
     interface OpengemeentenIconSociaalZorgWelzijn {
+    }
+    interface OpengemeentenIconSpeeltuin {
     }
     interface OpengemeentenIconSport {
     }
@@ -1721,7 +2465,11 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconTemperatuurMelding {
     }
+    interface OpengemeentenIconThuiswerken {
+    }
     interface OpengemeentenIconToegankelijkheid {
+    }
+    interface OpengemeentenIconToeslag {
     }
     interface OpengemeentenIconTrouwenEnGeregistreerdPartnerschap {
     }
@@ -1743,11 +2491,19 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconVergaderen {
     }
+    interface OpengemeentenIconVergaderenDigitaal {
+    }
+    interface OpengemeentenIconVergoedingEnergiekosten {
+    }
     interface OpengemeentenIconVergunningAlgemeen {
     }
     interface OpengemeentenIconVerhuizen {
     }
+    interface OpengemeentenIconVerkeerslicht {
+    }
     interface OpengemeentenIconVerkiezingen {
+    }
+    interface OpengemeentenIconVerslaving {
     }
     interface OpengemeentenIconVervoersvoorziening {
     }
@@ -1765,9 +2521,15 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconWandelen {
     }
+    interface OpengemeentenIconWelzijnswerk {
+    }
     interface OpengemeentenIconWerkzaamheden {
     }
+    interface OpengemeentenIconWieIsWie {
+    }
     interface OpengemeentenIconWijkteam {
+    }
+    interface OpengemeentenIconWindenergie {
     }
     interface OpengemeentenIconWinkelen {
     }
@@ -1775,7 +2537,15 @@ declare namespace LocalJSX {
     }
     interface OpengemeentenIconWmo {
     }
+    interface OpengemeentenIconWolf {
+    }
+    interface OpengemeentenIconWoningZoeken {
+    }
     interface OpengemeentenIconWozWaarde {
+    }
+    interface OpengemeentenIconZelfbeheerTegel {
+    }
+    interface OpengemeentenIconZelfstandigWonen {
     }
     interface OpengemeentenIconZoeken {
     }
@@ -1790,23 +2560,35 @@ declare namespace LocalJSX {
         "opengemeenten-icon-afval-container": OpengemeentenIconAfvalContainer;
         "opengemeenten-icon-afval-container-pas": OpengemeentenIconAfvalContainerPas;
         "opengemeenten-icon-afval-gft": OpengemeentenIconAfvalGft;
-        "opengemeenten-icon-afval-ophaal": OpengemeentenIconAfvalOphaal;
+        "opengemeenten-icon-afval-glascontainer": OpengemeentenIconAfvalGlascontainer;
+        "opengemeenten-icon-afval-groenbak": OpengemeentenIconAfvalGroenbak;
+        "opengemeenten-icon-afval-ophalen": OpengemeentenIconAfvalOphalen;
+        "opengemeenten-icon-afval-pmd": OpengemeentenIconAfvalPmd;
         "opengemeenten-icon-afval-scheiden": OpengemeentenIconAfvalScheiden;
+        "opengemeenten-icon-afvalbak-afvalzak": OpengemeentenIconAfvalbakAfvalzak;
+        "opengemeenten-icon-afvalbak-pmd": OpengemeentenIconAfvalbakPmd;
+        "opengemeenten-icon-afvalcontainer-afvalzak": OpengemeentenIconAfvalcontainerAfvalzak;
         "opengemeenten-icon-afvalkalender": OpengemeentenIconAfvalkalender;
+        "opengemeenten-icon-afvalzak": OpengemeentenIconAfvalzak;
         "opengemeenten-icon-agenda": OpengemeentenIconAgenda;
         "opengemeenten-icon-airborne": OpengemeentenIconAirborne;
+        "opengemeenten-icon-armoede": OpengemeentenIconArmoede;
+        "opengemeenten-icon-asbest-verwijderen": OpengemeentenIconAsbestVerwijderen;
         "opengemeenten-icon-attentie": OpengemeentenIconAttentie;
         "opengemeenten-icon-auto": OpengemeentenIconAuto;
         "opengemeenten-icon-bedrijventerrein": OpengemeentenIconBedrijventerrein;
         "opengemeenten-icon-begraafplaats": OpengemeentenIconBegraafplaats;
         "opengemeenten-icon-begroting": OpengemeentenIconBegroting;
         "opengemeenten-icon-belastingen": OpengemeentenIconBelastingen;
+        "opengemeenten-icon-betaaldatums-uitkering": OpengemeentenIconBetaaldatumsUitkering;
         "opengemeenten-icon-bevolking": OpengemeentenIconBevolking;
         "opengemeenten-icon-bevrijding": OpengemeentenIconBevrijding;
         "opengemeenten-icon-bezwaar-en-beroep": OpengemeentenIconBezwaarEnBeroep;
         "opengemeenten-icon-bijstandsuitkering": OpengemeentenIconBijstandsuitkering;
         "opengemeenten-icon-bladeren-opruimen": OpengemeentenIconBladerenOpruimen;
+        "opengemeenten-icon-bomen": OpengemeentenIconBomen;
         "opengemeenten-icon-bouwen-en-verbouwen": OpengemeentenIconBouwenEnVerbouwen;
+        "opengemeenten-icon-bouwprojecten": OpengemeentenIconBouwprojecten;
         "opengemeenten-icon-brandgevaar": OpengemeentenIconBrandgevaar;
         "opengemeenten-icon-brief": OpengemeentenIconBrief;
         "opengemeenten-icon-buitengebied": OpengemeentenIconBuitengebied;
@@ -1816,76 +2598,112 @@ declare namespace LocalJSX {
         "opengemeenten-icon-computerregeling": OpengemeentenIconComputerregeling;
         "opengemeenten-icon-contact-gemeente": OpengemeentenIconContactGemeente;
         "opengemeenten-icon-container": OpengemeentenIconContainer;
+        "opengemeenten-icon-cultuur": OpengemeentenIconCultuur;
         "opengemeenten-icon-documenten": OpengemeentenIconDocumenten;
         "opengemeenten-icon-duurzaamheid": OpengemeentenIconDuurzaamheid;
         "opengemeenten-icon-economie-werk-inkomen": OpengemeentenIconEconomieWerkInkomen;
+        "opengemeenten-icon-eenzaamheid": OpengemeentenIconEenzaamheid;
         "opengemeenten-icon-eikenprocessie": OpengemeentenIconEikenprocessie;
-        "opengemeenten-icon-electrisch-laden": OpengemeentenIconElectrischLaden;
-        "opengemeenten-icon-electrisch-rijden": OpengemeentenIconElectrischRijden;
+        "opengemeenten-icon-elektrisch-laden": OpengemeentenIconElektrischLaden;
+        "opengemeenten-icon-elektrisch-rijden": OpengemeentenIconElektrischRijden;
         "opengemeenten-icon-energietransitie": OpengemeentenIconEnergietransitie;
+        "opengemeenten-icon-enquete": OpengemeentenIconEnquete;
+        "opengemeenten-icon-erfgoed": OpengemeentenIconErfgoed;
+        "opengemeenten-icon-erfpacht": OpengemeentenIconErfpacht;
         "opengemeenten-icon-evenementen": OpengemeentenIconEvenementen;
         "opengemeenten-icon-f-1": OpengemeentenIconF1;
         "opengemeenten-icon-fiets": OpengemeentenIconFiets;
         "opengemeenten-icon-geboorte": OpengemeentenIconGeboorte;
+        "opengemeenten-icon-gebruiker": OpengemeentenIconGebruiker;
         "opengemeenten-icon-gebruiker-centraal": OpengemeentenIconGebruikerCentraal;
         "opengemeenten-icon-gebruiker-ingelogd": OpengemeentenIconGebruikerIngelogd;
         "opengemeenten-icon-gebruikersvraag": OpengemeentenIconGebruikersvraag;
+        "opengemeenten-icon-gegevenswoordenboek": OpengemeentenIconGegevenswoordenboek;
+        "opengemeenten-icon-geld": OpengemeentenIconGeld;
         "opengemeenten-icon-geluid": OpengemeentenIconGeluid;
         "opengemeenten-icon-gemeenteraad": OpengemeentenIconGemeenteraad;
+        "opengemeenten-icon-gemeenteraadsvergadering": OpengemeentenIconGemeenteraadsvergadering;
         "opengemeenten-icon-gemiva-locatie": OpengemeentenIconGemivaLocatie;
         "opengemeenten-icon-gezicht": OpengemeentenIconGezicht;
         "opengemeenten-icon-gladheid": OpengemeentenIconGladheid;
         "opengemeenten-icon-grafiek": OpengemeentenIconGrafiek;
         "opengemeenten-icon-grofvuil": OpengemeentenIconGrofvuil;
         "opengemeenten-icon-herdenking": OpengemeentenIconHerdenking;
+        "opengemeenten-icon-hond": OpengemeentenIconHond;
         "opengemeenten-icon-hondenbelasting": OpengemeentenIconHondenbelasting;
+        "opengemeenten-icon-hoog-water": OpengemeentenIconHoogWater;
+        "opengemeenten-icon-hoogbouw": OpengemeentenIconHoogbouw;
+        "opengemeenten-icon-horeca": OpengemeentenIconHoreca;
         "opengemeenten-icon-horecavergunningen": OpengemeentenIconHorecavergunningen;
         "opengemeenten-icon-huis": OpengemeentenIconHuis;
         "opengemeenten-icon-huis-en-omgeving": OpengemeentenIconHuisEnOmgeving;
+        "opengemeenten-icon-huiselijk-geweld": OpengemeentenIconHuiselijkGeweld;
+        "opengemeenten-icon-hulp-huishouden": OpengemeentenIconHulpHuishouden;
         "opengemeenten-icon-hulpmiddelen-vinden": OpengemeentenIconHulpmiddelenVinden;
         "opengemeenten-icon-idkaart": OpengemeentenIconIdkaart;
         "opengemeenten-icon-in-en-om-uw-huis": OpengemeentenIconInEnOmUwHuis;
         "opengemeenten-icon-informatie": OpengemeentenIconInformatie;
         "opengemeenten-icon-informatie-en-betalen": OpengemeentenIconInformatieEnBetalen;
         "opengemeenten-icon-inkomen": OpengemeentenIconInkomen;
+        "opengemeenten-icon-inloggen": OpengemeentenIconInloggen;
         "opengemeenten-icon-inspraak": OpengemeentenIconInspraak;
+        "opengemeenten-icon-isolatie": OpengemeentenIconIsolatie;
         "opengemeenten-icon-jeugd": OpengemeentenIconJeugd;
         "opengemeenten-icon-kennis": OpengemeentenIconKennis;
         "opengemeenten-icon-kerstbomen": OpengemeentenIconKerstbomen;
         "opengemeenten-icon-kind-en-familie": OpengemeentenIconKindEnFamilie;
+        "opengemeenten-icon-klacht": OpengemeentenIconKlacht;
         "opengemeenten-icon-koningsdag": OpengemeentenIconKoningsdag;
         "opengemeenten-icon-kopen-en-huren": OpengemeentenIconKopenEnHuren;
         "opengemeenten-icon-kopen-en-verkopen": OpengemeentenIconKopenEnVerkopen;
+        "opengemeenten-icon-laad-station": OpengemeentenIconLaadStation;
         "opengemeenten-icon-leerlingenvervoer": OpengemeentenIconLeerlingenvervoer;
         "opengemeenten-icon-let-op": OpengemeentenIconLetOp;
         "opengemeenten-icon-liefdadigheid": OpengemeentenIconLiefdadigheid;
         "opengemeenten-icon-locatie": OpengemeentenIconLocatie;
         "opengemeenten-icon-manege": OpengemeentenIconManege;
+        "opengemeenten-icon-marktgelden": OpengemeentenIconMarktgelden;
         "opengemeenten-icon-meeuwenoverlast": OpengemeentenIconMeeuwenoverlast;
         "opengemeenten-icon-melding": OpengemeentenIconMelding;
         "opengemeenten-icon-melding-omgevallen-boom": OpengemeentenIconMeldingOmgevallenBoom;
         "opengemeenten-icon-melding-openbare-ruimte": OpengemeentenIconMeldingOpenbareRuimte;
         "opengemeenten-icon-melding-straatverlichting": OpengemeentenIconMeldingStraatverlichting;
+        "opengemeenten-icon-milieuzone": OpengemeentenIconMilieuzone;
         "opengemeenten-icon-mobiliteit": OpengemeentenIconMobiliteit;
         "opengemeenten-icon-monitor-agrofood": OpengemeentenIconMonitorAgrofood;
         "opengemeenten-icon-monitor-duurzaamheid": OpengemeentenIconMonitorDuurzaamheid;
         "opengemeenten-icon-monitor-sociaal": OpengemeentenIconMonitorSociaal;
         "opengemeenten-icon-monitor-virus": OpengemeentenIconMonitorVirus;
         "opengemeenten-icon-monitor-woningmarkt": OpengemeentenIconMonitorWoningmarkt;
+        "opengemeenten-icon-monument": OpengemeentenIconMonument;
+        "opengemeenten-icon-monument-woning": OpengemeentenIconMonumentWoning;
+        "opengemeenten-icon-museum": OpengemeentenIconMuseum;
         "opengemeenten-icon-natuur-landschap": OpengemeentenIconNatuurLandschap;
         "opengemeenten-icon-nieuwsbrief": OpengemeentenIconNieuwsbrief;
         "opengemeenten-icon-omgeving": OpengemeentenIconOmgeving;
         "opengemeenten-icon-omgevingsvergunning": OpengemeentenIconOmgevingsvergunning;
+        "opengemeenten-icon-omgevingsvisie": OpengemeentenIconOmgevingsvisie;
+        "opengemeenten-icon-omgevingsvisie-document": OpengemeentenIconOmgevingsvisieDocument;
         "opengemeenten-icon-onderhoud": OpengemeentenIconOnderhoud;
         "opengemeenten-icon-ondernemen": OpengemeentenIconOndernemen;
         "opengemeenten-icon-onderscheidingen": OpengemeentenIconOnderscheidingen;
         "opengemeenten-icon-onderwijs": OpengemeentenIconOnderwijs;
+        "opengemeenten-icon-onderwijs-basis": OpengemeentenIconOnderwijsBasis;
+        "opengemeenten-icon-onderwijs-hoger": OpengemeentenIconOnderwijsHoger;
+        "opengemeenten-icon-onderwijs-voortgezet": OpengemeentenIconOnderwijsVoortgezet;
+        "opengemeenten-icon-ontheffing-milieuzone": OpengemeentenIconOntheffingMilieuzone;
         "opengemeenten-icon-openingstijden": OpengemeentenIconOpeningstijden;
+        "opengemeenten-icon-openingstijden-winkels": OpengemeentenIconOpeningstijdenWinkels;
         "opengemeenten-icon-over-de-gemeente": OpengemeentenIconOverDeGemeente;
         "opengemeenten-icon-over-de-stad": OpengemeentenIconOverDeStad;
         "opengemeenten-icon-overlijden": OpengemeentenIconOverlijden;
+        "opengemeenten-icon-parkeerkosten": OpengemeentenIconParkeerkosten;
+        "opengemeenten-icon-parkeerplattegrond": OpengemeentenIconParkeerplattegrond;
+        "opengemeenten-icon-parkeervergunning": OpengemeentenIconParkeervergunning;
         "opengemeenten-icon-parkeervoorziening-gehandicapten": OpengemeentenIconParkeervoorzieningGehandicapten;
         "opengemeenten-icon-parkeren": OpengemeentenIconParkeren;
+        "opengemeenten-icon-parkeren-bedrijven": OpengemeentenIconParkerenBedrijven;
+        "opengemeenten-icon-participatie": OpengemeentenIconParticipatie;
         "opengemeenten-icon-participatie-campagne": OpengemeentenIconParticipatieCampagne;
         "opengemeenten-icon-participatie-checklist": OpengemeentenIconParticipatieChecklist;
         "opengemeenten-icon-participatie-like": OpengemeentenIconParticipatieLike;
@@ -1893,18 +2711,27 @@ declare namespace LocalJSX {
         "opengemeenten-icon-participatie-plan": OpengemeentenIconParticipatiePlan;
         "opengemeenten-icon-participatie-uitvoering": OpengemeentenIconParticipatieUitvoering;
         "opengemeenten-icon-paspoort": OpengemeentenIconPaspoort;
-        "opengemeenten-icon-paspoort-belgie": OpengemeentenIconPaspoortBelgie;
         "opengemeenten-icon-paspoort-idkaart-gecombineerd": OpengemeentenIconPaspoortIdkaartGecombineerd;
-        "opengemeenten-icon-paspoort-idkaart-gecombineerd-belgie": OpengemeentenIconPaspoortIdkaartGecombineerdBelgie;
+        "opengemeenten-icon-paspoort-idkaart-gecombineerd-internationaal": OpengemeentenIconPaspoortIdkaartGecombineerdInternationaal;
+        "opengemeenten-icon-paspoort-internationaal": OpengemeentenIconPaspoortInternationaal;
+        "opengemeenten-icon-politiek": OpengemeentenIconPolitiek;
+        "opengemeenten-icon-presentatie": OpengemeentenIconPresentatie;
         "opengemeenten-icon-prijskaartje": OpengemeentenIconPrijskaartje;
         "opengemeenten-icon-raad-en-college": OpengemeentenIconRaadEnCollege;
         "opengemeenten-icon-reclame": OpengemeentenIconReclame;
+        "opengemeenten-icon-reclamebelasting": OpengemeentenIconReclamebelasting;
         "opengemeenten-icon-recreatie": OpengemeentenIconRecreatie;
         "opengemeenten-icon-regeling-laag-inkomen": OpengemeentenIconRegelingLaagInkomen;
         "opengemeenten-icon-rijbewijs": OpengemeentenIconRijbewijs;
+        "opengemeenten-icon-riool": OpengemeentenIconRiool;
+        "opengemeenten-icon-rioolheffing": OpengemeentenIconRioolheffing;
+        "opengemeenten-icon-rioolwerkzaamheden": OpengemeentenIconRioolwerkzaamheden;
+        "opengemeenten-icon-roerende-zaakbelasting": OpengemeentenIconRoerendeZaakbelasting;
+        "opengemeenten-icon-rolstoel": OpengemeentenIconRolstoel;
         "opengemeenten-icon-schoolkostenregeling": OpengemeentenIconSchoolkostenregeling;
         "opengemeenten-icon-sinterklaas": OpengemeentenIconSinterklaas;
         "opengemeenten-icon-sociaal-zorg-welzijn": OpengemeentenIconSociaalZorgWelzijn;
+        "opengemeenten-icon-speeltuin": OpengemeentenIconSpeeltuin;
         "opengemeenten-icon-sport": OpengemeentenIconSport;
         "opengemeenten-icon-sport-culturele-activiteit": OpengemeentenIconSportCultureleActiviteit;
         "opengemeenten-icon-sportkleding-muziekinstrumenten": OpengemeentenIconSportkledingMuziekinstrumenten;
@@ -1914,7 +2741,9 @@ declare namespace LocalJSX {
         "opengemeenten-icon-strand": OpengemeentenIconStrand;
         "opengemeenten-icon-subsidie": OpengemeentenIconSubsidie;
         "opengemeenten-icon-temperatuur-melding": OpengemeentenIconTemperatuurMelding;
+        "opengemeenten-icon-thuiswerken": OpengemeentenIconThuiswerken;
         "opengemeenten-icon-toegankelijkheid": OpengemeentenIconToegankelijkheid;
+        "opengemeenten-icon-toeslag": OpengemeentenIconToeslag;
         "opengemeenten-icon-trouwen-en-geregistreerd-partnerschap": OpengemeentenIconTrouwenEnGeregistreerdPartnerschap;
         "opengemeenten-icon-tuinbouw": OpengemeentenIconTuinbouw;
         "opengemeenten-icon-uittreksel": OpengemeentenIconUittreksel;
@@ -1925,9 +2754,13 @@ declare namespace LocalJSX {
         "opengemeenten-icon-veerboot": OpengemeentenIconVeerboot;
         "opengemeenten-icon-veilige-wijk": OpengemeentenIconVeiligeWijk;
         "opengemeenten-icon-vergaderen": OpengemeentenIconVergaderen;
+        "opengemeenten-icon-vergaderen-digitaal": OpengemeentenIconVergaderenDigitaal;
+        "opengemeenten-icon-vergoeding-energiekosten": OpengemeentenIconVergoedingEnergiekosten;
         "opengemeenten-icon-vergunning-algemeen": OpengemeentenIconVergunningAlgemeen;
         "opengemeenten-icon-verhuizen": OpengemeentenIconVerhuizen;
+        "opengemeenten-icon-verkeerslicht": OpengemeentenIconVerkeerslicht;
         "opengemeenten-icon-verkiezingen": OpengemeentenIconVerkiezingen;
+        "opengemeenten-icon-verslaving": OpengemeentenIconVerslaving;
         "opengemeenten-icon-vervoersvoorziening": OpengemeentenIconVervoersvoorziening;
         "opengemeenten-icon-virus": OpengemeentenIconVirus;
         "opengemeenten-icon-vlag": OpengemeentenIconVlag;
@@ -1936,12 +2769,19 @@ declare namespace LocalJSX {
         "opengemeenten-icon-vrijwilligerswerk": OpengemeentenIconVrijwilligerswerk;
         "opengemeenten-icon-vuurwerk": OpengemeentenIconVuurwerk;
         "opengemeenten-icon-wandelen": OpengemeentenIconWandelen;
+        "opengemeenten-icon-welzijnswerk": OpengemeentenIconWelzijnswerk;
         "opengemeenten-icon-werkzaamheden": OpengemeentenIconWerkzaamheden;
+        "opengemeenten-icon-wie-is-wie": OpengemeentenIconWieIsWie;
         "opengemeenten-icon-wijkteam": OpengemeentenIconWijkteam;
+        "opengemeenten-icon-windenergie": OpengemeentenIconWindenergie;
         "opengemeenten-icon-winkelen": OpengemeentenIconWinkelen;
         "opengemeenten-icon-winkelwagen": OpengemeentenIconWinkelwagen;
         "opengemeenten-icon-wmo": OpengemeentenIconWmo;
+        "opengemeenten-icon-wolf": OpengemeentenIconWolf;
+        "opengemeenten-icon-woning-zoeken": OpengemeentenIconWoningZoeken;
         "opengemeenten-icon-woz-waarde": OpengemeentenIconWozWaarde;
+        "opengemeenten-icon-zelfbeheer-tegel": OpengemeentenIconZelfbeheerTegel;
+        "opengemeenten-icon-zelfstandig-wonen": OpengemeentenIconZelfstandigWonen;
         "opengemeenten-icon-zoeken": OpengemeentenIconZoeken;
         "opengemeenten-icon-zwemabonnement": OpengemeentenIconZwemabonnement;
         "opengemeenten-icon-zwemmen": OpengemeentenIconZwemmen;
@@ -1957,23 +2797,35 @@ declare module "@stencil/core" {
             "opengemeenten-icon-afval-container": LocalJSX.OpengemeentenIconAfvalContainer & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalContainerElement>;
             "opengemeenten-icon-afval-container-pas": LocalJSX.OpengemeentenIconAfvalContainerPas & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalContainerPasElement>;
             "opengemeenten-icon-afval-gft": LocalJSX.OpengemeentenIconAfvalGft & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalGftElement>;
-            "opengemeenten-icon-afval-ophaal": LocalJSX.OpengemeentenIconAfvalOphaal & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalOphaalElement>;
+            "opengemeenten-icon-afval-glascontainer": LocalJSX.OpengemeentenIconAfvalGlascontainer & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalGlascontainerElement>;
+            "opengemeenten-icon-afval-groenbak": LocalJSX.OpengemeentenIconAfvalGroenbak & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalGroenbakElement>;
+            "opengemeenten-icon-afval-ophalen": LocalJSX.OpengemeentenIconAfvalOphalen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalOphalenElement>;
+            "opengemeenten-icon-afval-pmd": LocalJSX.OpengemeentenIconAfvalPmd & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalPmdElement>;
             "opengemeenten-icon-afval-scheiden": LocalJSX.OpengemeentenIconAfvalScheiden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalScheidenElement>;
+            "opengemeenten-icon-afvalbak-afvalzak": LocalJSX.OpengemeentenIconAfvalbakAfvalzak & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalbakAfvalzakElement>;
+            "opengemeenten-icon-afvalbak-pmd": LocalJSX.OpengemeentenIconAfvalbakPmd & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalbakPmdElement>;
+            "opengemeenten-icon-afvalcontainer-afvalzak": LocalJSX.OpengemeentenIconAfvalcontainerAfvalzak & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalcontainerAfvalzakElement>;
             "opengemeenten-icon-afvalkalender": LocalJSX.OpengemeentenIconAfvalkalender & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalkalenderElement>;
+            "opengemeenten-icon-afvalzak": LocalJSX.OpengemeentenIconAfvalzak & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAfvalzakElement>;
             "opengemeenten-icon-agenda": LocalJSX.OpengemeentenIconAgenda & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAgendaElement>;
             "opengemeenten-icon-airborne": LocalJSX.OpengemeentenIconAirborne & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAirborneElement>;
+            "opengemeenten-icon-armoede": LocalJSX.OpengemeentenIconArmoede & JSXBase.HTMLAttributes<HTMLOpengemeentenIconArmoedeElement>;
+            "opengemeenten-icon-asbest-verwijderen": LocalJSX.OpengemeentenIconAsbestVerwijderen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAsbestVerwijderenElement>;
             "opengemeenten-icon-attentie": LocalJSX.OpengemeentenIconAttentie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAttentieElement>;
             "opengemeenten-icon-auto": LocalJSX.OpengemeentenIconAuto & JSXBase.HTMLAttributes<HTMLOpengemeentenIconAutoElement>;
             "opengemeenten-icon-bedrijventerrein": LocalJSX.OpengemeentenIconBedrijventerrein & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBedrijventerreinElement>;
             "opengemeenten-icon-begraafplaats": LocalJSX.OpengemeentenIconBegraafplaats & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBegraafplaatsElement>;
             "opengemeenten-icon-begroting": LocalJSX.OpengemeentenIconBegroting & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBegrotingElement>;
             "opengemeenten-icon-belastingen": LocalJSX.OpengemeentenIconBelastingen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBelastingenElement>;
+            "opengemeenten-icon-betaaldatums-uitkering": LocalJSX.OpengemeentenIconBetaaldatumsUitkering & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBetaaldatumsUitkeringElement>;
             "opengemeenten-icon-bevolking": LocalJSX.OpengemeentenIconBevolking & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBevolkingElement>;
             "opengemeenten-icon-bevrijding": LocalJSX.OpengemeentenIconBevrijding & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBevrijdingElement>;
             "opengemeenten-icon-bezwaar-en-beroep": LocalJSX.OpengemeentenIconBezwaarEnBeroep & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBezwaarEnBeroepElement>;
             "opengemeenten-icon-bijstandsuitkering": LocalJSX.OpengemeentenIconBijstandsuitkering & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBijstandsuitkeringElement>;
             "opengemeenten-icon-bladeren-opruimen": LocalJSX.OpengemeentenIconBladerenOpruimen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBladerenOpruimenElement>;
+            "opengemeenten-icon-bomen": LocalJSX.OpengemeentenIconBomen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBomenElement>;
             "opengemeenten-icon-bouwen-en-verbouwen": LocalJSX.OpengemeentenIconBouwenEnVerbouwen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBouwenEnVerbouwenElement>;
+            "opengemeenten-icon-bouwprojecten": LocalJSX.OpengemeentenIconBouwprojecten & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBouwprojectenElement>;
             "opengemeenten-icon-brandgevaar": LocalJSX.OpengemeentenIconBrandgevaar & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBrandgevaarElement>;
             "opengemeenten-icon-brief": LocalJSX.OpengemeentenIconBrief & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBriefElement>;
             "opengemeenten-icon-buitengebied": LocalJSX.OpengemeentenIconBuitengebied & JSXBase.HTMLAttributes<HTMLOpengemeentenIconBuitengebiedElement>;
@@ -1983,76 +2835,112 @@ declare module "@stencil/core" {
             "opengemeenten-icon-computerregeling": LocalJSX.OpengemeentenIconComputerregeling & JSXBase.HTMLAttributes<HTMLOpengemeentenIconComputerregelingElement>;
             "opengemeenten-icon-contact-gemeente": LocalJSX.OpengemeentenIconContactGemeente & JSXBase.HTMLAttributes<HTMLOpengemeentenIconContactGemeenteElement>;
             "opengemeenten-icon-container": LocalJSX.OpengemeentenIconContainer & JSXBase.HTMLAttributes<HTMLOpengemeentenIconContainerElement>;
+            "opengemeenten-icon-cultuur": LocalJSX.OpengemeentenIconCultuur & JSXBase.HTMLAttributes<HTMLOpengemeentenIconCultuurElement>;
             "opengemeenten-icon-documenten": LocalJSX.OpengemeentenIconDocumenten & JSXBase.HTMLAttributes<HTMLOpengemeentenIconDocumentenElement>;
             "opengemeenten-icon-duurzaamheid": LocalJSX.OpengemeentenIconDuurzaamheid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconDuurzaamheidElement>;
             "opengemeenten-icon-economie-werk-inkomen": LocalJSX.OpengemeentenIconEconomieWerkInkomen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconEconomieWerkInkomenElement>;
+            "opengemeenten-icon-eenzaamheid": LocalJSX.OpengemeentenIconEenzaamheid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconEenzaamheidElement>;
             "opengemeenten-icon-eikenprocessie": LocalJSX.OpengemeentenIconEikenprocessie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconEikenprocessieElement>;
-            "opengemeenten-icon-electrisch-laden": LocalJSX.OpengemeentenIconElectrischLaden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconElectrischLadenElement>;
-            "opengemeenten-icon-electrisch-rijden": LocalJSX.OpengemeentenIconElectrischRijden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconElectrischRijdenElement>;
+            "opengemeenten-icon-elektrisch-laden": LocalJSX.OpengemeentenIconElektrischLaden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconElektrischLadenElement>;
+            "opengemeenten-icon-elektrisch-rijden": LocalJSX.OpengemeentenIconElektrischRijden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconElektrischRijdenElement>;
             "opengemeenten-icon-energietransitie": LocalJSX.OpengemeentenIconEnergietransitie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconEnergietransitieElement>;
+            "opengemeenten-icon-enquete": LocalJSX.OpengemeentenIconEnquete & JSXBase.HTMLAttributes<HTMLOpengemeentenIconEnqueteElement>;
+            "opengemeenten-icon-erfgoed": LocalJSX.OpengemeentenIconErfgoed & JSXBase.HTMLAttributes<HTMLOpengemeentenIconErfgoedElement>;
+            "opengemeenten-icon-erfpacht": LocalJSX.OpengemeentenIconErfpacht & JSXBase.HTMLAttributes<HTMLOpengemeentenIconErfpachtElement>;
             "opengemeenten-icon-evenementen": LocalJSX.OpengemeentenIconEvenementen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconEvenementenElement>;
             "opengemeenten-icon-f-1": LocalJSX.OpengemeentenIconF1 & JSXBase.HTMLAttributes<HTMLOpengemeentenIconF1Element>;
             "opengemeenten-icon-fiets": LocalJSX.OpengemeentenIconFiets & JSXBase.HTMLAttributes<HTMLOpengemeentenIconFietsElement>;
             "opengemeenten-icon-geboorte": LocalJSX.OpengemeentenIconGeboorte & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGeboorteElement>;
+            "opengemeenten-icon-gebruiker": LocalJSX.OpengemeentenIconGebruiker & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGebruikerElement>;
             "opengemeenten-icon-gebruiker-centraal": LocalJSX.OpengemeentenIconGebruikerCentraal & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGebruikerCentraalElement>;
             "opengemeenten-icon-gebruiker-ingelogd": LocalJSX.OpengemeentenIconGebruikerIngelogd & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGebruikerIngelogdElement>;
             "opengemeenten-icon-gebruikersvraag": LocalJSX.OpengemeentenIconGebruikersvraag & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGebruikersvraagElement>;
+            "opengemeenten-icon-gegevenswoordenboek": LocalJSX.OpengemeentenIconGegevenswoordenboek & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGegevenswoordenboekElement>;
+            "opengemeenten-icon-geld": LocalJSX.OpengemeentenIconGeld & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGeldElement>;
             "opengemeenten-icon-geluid": LocalJSX.OpengemeentenIconGeluid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGeluidElement>;
             "opengemeenten-icon-gemeenteraad": LocalJSX.OpengemeentenIconGemeenteraad & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGemeenteraadElement>;
+            "opengemeenten-icon-gemeenteraadsvergadering": LocalJSX.OpengemeentenIconGemeenteraadsvergadering & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGemeenteraadsvergaderingElement>;
             "opengemeenten-icon-gemiva-locatie": LocalJSX.OpengemeentenIconGemivaLocatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGemivaLocatieElement>;
             "opengemeenten-icon-gezicht": LocalJSX.OpengemeentenIconGezicht & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGezichtElement>;
             "opengemeenten-icon-gladheid": LocalJSX.OpengemeentenIconGladheid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGladheidElement>;
             "opengemeenten-icon-grafiek": LocalJSX.OpengemeentenIconGrafiek & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGrafiekElement>;
             "opengemeenten-icon-grofvuil": LocalJSX.OpengemeentenIconGrofvuil & JSXBase.HTMLAttributes<HTMLOpengemeentenIconGrofvuilElement>;
             "opengemeenten-icon-herdenking": LocalJSX.OpengemeentenIconHerdenking & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHerdenkingElement>;
+            "opengemeenten-icon-hond": LocalJSX.OpengemeentenIconHond & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHondElement>;
             "opengemeenten-icon-hondenbelasting": LocalJSX.OpengemeentenIconHondenbelasting & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHondenbelastingElement>;
+            "opengemeenten-icon-hoog-water": LocalJSX.OpengemeentenIconHoogWater & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHoogWaterElement>;
+            "opengemeenten-icon-hoogbouw": LocalJSX.OpengemeentenIconHoogbouw & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHoogbouwElement>;
+            "opengemeenten-icon-horeca": LocalJSX.OpengemeentenIconHoreca & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHorecaElement>;
             "opengemeenten-icon-horecavergunningen": LocalJSX.OpengemeentenIconHorecavergunningen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHorecavergunningenElement>;
             "opengemeenten-icon-huis": LocalJSX.OpengemeentenIconHuis & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHuisElement>;
             "opengemeenten-icon-huis-en-omgeving": LocalJSX.OpengemeentenIconHuisEnOmgeving & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHuisEnOmgevingElement>;
+            "opengemeenten-icon-huiselijk-geweld": LocalJSX.OpengemeentenIconHuiselijkGeweld & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHuiselijkGeweldElement>;
+            "opengemeenten-icon-hulp-huishouden": LocalJSX.OpengemeentenIconHulpHuishouden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHulpHuishoudenElement>;
             "opengemeenten-icon-hulpmiddelen-vinden": LocalJSX.OpengemeentenIconHulpmiddelenVinden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconHulpmiddelenVindenElement>;
             "opengemeenten-icon-idkaart": LocalJSX.OpengemeentenIconIdkaart & JSXBase.HTMLAttributes<HTMLOpengemeentenIconIdkaartElement>;
             "opengemeenten-icon-in-en-om-uw-huis": LocalJSX.OpengemeentenIconInEnOmUwHuis & JSXBase.HTMLAttributes<HTMLOpengemeentenIconInEnOmUwHuisElement>;
             "opengemeenten-icon-informatie": LocalJSX.OpengemeentenIconInformatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconInformatieElement>;
             "opengemeenten-icon-informatie-en-betalen": LocalJSX.OpengemeentenIconInformatieEnBetalen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconInformatieEnBetalenElement>;
             "opengemeenten-icon-inkomen": LocalJSX.OpengemeentenIconInkomen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconInkomenElement>;
+            "opengemeenten-icon-inloggen": LocalJSX.OpengemeentenIconInloggen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconInloggenElement>;
             "opengemeenten-icon-inspraak": LocalJSX.OpengemeentenIconInspraak & JSXBase.HTMLAttributes<HTMLOpengemeentenIconInspraakElement>;
+            "opengemeenten-icon-isolatie": LocalJSX.OpengemeentenIconIsolatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconIsolatieElement>;
             "opengemeenten-icon-jeugd": LocalJSX.OpengemeentenIconJeugd & JSXBase.HTMLAttributes<HTMLOpengemeentenIconJeugdElement>;
             "opengemeenten-icon-kennis": LocalJSX.OpengemeentenIconKennis & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKennisElement>;
             "opengemeenten-icon-kerstbomen": LocalJSX.OpengemeentenIconKerstbomen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKerstbomenElement>;
             "opengemeenten-icon-kind-en-familie": LocalJSX.OpengemeentenIconKindEnFamilie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKindEnFamilieElement>;
+            "opengemeenten-icon-klacht": LocalJSX.OpengemeentenIconKlacht & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKlachtElement>;
             "opengemeenten-icon-koningsdag": LocalJSX.OpengemeentenIconKoningsdag & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKoningsdagElement>;
             "opengemeenten-icon-kopen-en-huren": LocalJSX.OpengemeentenIconKopenEnHuren & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKopenEnHurenElement>;
             "opengemeenten-icon-kopen-en-verkopen": LocalJSX.OpengemeentenIconKopenEnVerkopen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconKopenEnVerkopenElement>;
+            "opengemeenten-icon-laad-station": LocalJSX.OpengemeentenIconLaadStation & JSXBase.HTMLAttributes<HTMLOpengemeentenIconLaadStationElement>;
             "opengemeenten-icon-leerlingenvervoer": LocalJSX.OpengemeentenIconLeerlingenvervoer & JSXBase.HTMLAttributes<HTMLOpengemeentenIconLeerlingenvervoerElement>;
             "opengemeenten-icon-let-op": LocalJSX.OpengemeentenIconLetOp & JSXBase.HTMLAttributes<HTMLOpengemeentenIconLetOpElement>;
             "opengemeenten-icon-liefdadigheid": LocalJSX.OpengemeentenIconLiefdadigheid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconLiefdadigheidElement>;
             "opengemeenten-icon-locatie": LocalJSX.OpengemeentenIconLocatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconLocatieElement>;
             "opengemeenten-icon-manege": LocalJSX.OpengemeentenIconManege & JSXBase.HTMLAttributes<HTMLOpengemeentenIconManegeElement>;
+            "opengemeenten-icon-marktgelden": LocalJSX.OpengemeentenIconMarktgelden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMarktgeldenElement>;
             "opengemeenten-icon-meeuwenoverlast": LocalJSX.OpengemeentenIconMeeuwenoverlast & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMeeuwenoverlastElement>;
             "opengemeenten-icon-melding": LocalJSX.OpengemeentenIconMelding & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMeldingElement>;
             "opengemeenten-icon-melding-omgevallen-boom": LocalJSX.OpengemeentenIconMeldingOmgevallenBoom & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMeldingOmgevallenBoomElement>;
             "opengemeenten-icon-melding-openbare-ruimte": LocalJSX.OpengemeentenIconMeldingOpenbareRuimte & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMeldingOpenbareRuimteElement>;
             "opengemeenten-icon-melding-straatverlichting": LocalJSX.OpengemeentenIconMeldingStraatverlichting & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMeldingStraatverlichtingElement>;
+            "opengemeenten-icon-milieuzone": LocalJSX.OpengemeentenIconMilieuzone & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMilieuzoneElement>;
             "opengemeenten-icon-mobiliteit": LocalJSX.OpengemeentenIconMobiliteit & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMobiliteitElement>;
             "opengemeenten-icon-monitor-agrofood": LocalJSX.OpengemeentenIconMonitorAgrofood & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonitorAgrofoodElement>;
             "opengemeenten-icon-monitor-duurzaamheid": LocalJSX.OpengemeentenIconMonitorDuurzaamheid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonitorDuurzaamheidElement>;
             "opengemeenten-icon-monitor-sociaal": LocalJSX.OpengemeentenIconMonitorSociaal & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonitorSociaalElement>;
             "opengemeenten-icon-monitor-virus": LocalJSX.OpengemeentenIconMonitorVirus & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonitorVirusElement>;
             "opengemeenten-icon-monitor-woningmarkt": LocalJSX.OpengemeentenIconMonitorWoningmarkt & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonitorWoningmarktElement>;
+            "opengemeenten-icon-monument": LocalJSX.OpengemeentenIconMonument & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonumentElement>;
+            "opengemeenten-icon-monument-woning": LocalJSX.OpengemeentenIconMonumentWoning & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMonumentWoningElement>;
+            "opengemeenten-icon-museum": LocalJSX.OpengemeentenIconMuseum & JSXBase.HTMLAttributes<HTMLOpengemeentenIconMuseumElement>;
             "opengemeenten-icon-natuur-landschap": LocalJSX.OpengemeentenIconNatuurLandschap & JSXBase.HTMLAttributes<HTMLOpengemeentenIconNatuurLandschapElement>;
             "opengemeenten-icon-nieuwsbrief": LocalJSX.OpengemeentenIconNieuwsbrief & JSXBase.HTMLAttributes<HTMLOpengemeentenIconNieuwsbriefElement>;
             "opengemeenten-icon-omgeving": LocalJSX.OpengemeentenIconOmgeving & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOmgevingElement>;
             "opengemeenten-icon-omgevingsvergunning": LocalJSX.OpengemeentenIconOmgevingsvergunning & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOmgevingsvergunningElement>;
+            "opengemeenten-icon-omgevingsvisie": LocalJSX.OpengemeentenIconOmgevingsvisie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOmgevingsvisieElement>;
+            "opengemeenten-icon-omgevingsvisie-document": LocalJSX.OpengemeentenIconOmgevingsvisieDocument & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOmgevingsvisieDocumentElement>;
             "opengemeenten-icon-onderhoud": LocalJSX.OpengemeentenIconOnderhoud & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOnderhoudElement>;
             "opengemeenten-icon-ondernemen": LocalJSX.OpengemeentenIconOndernemen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOndernemenElement>;
             "opengemeenten-icon-onderscheidingen": LocalJSX.OpengemeentenIconOnderscheidingen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOnderscheidingenElement>;
             "opengemeenten-icon-onderwijs": LocalJSX.OpengemeentenIconOnderwijs & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOnderwijsElement>;
+            "opengemeenten-icon-onderwijs-basis": LocalJSX.OpengemeentenIconOnderwijsBasis & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOnderwijsBasisElement>;
+            "opengemeenten-icon-onderwijs-hoger": LocalJSX.OpengemeentenIconOnderwijsHoger & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOnderwijsHogerElement>;
+            "opengemeenten-icon-onderwijs-voortgezet": LocalJSX.OpengemeentenIconOnderwijsVoortgezet & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOnderwijsVoortgezetElement>;
+            "opengemeenten-icon-ontheffing-milieuzone": LocalJSX.OpengemeentenIconOntheffingMilieuzone & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOntheffingMilieuzoneElement>;
             "opengemeenten-icon-openingstijden": LocalJSX.OpengemeentenIconOpeningstijden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOpeningstijdenElement>;
+            "opengemeenten-icon-openingstijden-winkels": LocalJSX.OpengemeentenIconOpeningstijdenWinkels & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOpeningstijdenWinkelsElement>;
             "opengemeenten-icon-over-de-gemeente": LocalJSX.OpengemeentenIconOverDeGemeente & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOverDeGemeenteElement>;
             "opengemeenten-icon-over-de-stad": LocalJSX.OpengemeentenIconOverDeStad & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOverDeStadElement>;
             "opengemeenten-icon-overlijden": LocalJSX.OpengemeentenIconOverlijden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconOverlijdenElement>;
+            "opengemeenten-icon-parkeerkosten": LocalJSX.OpengemeentenIconParkeerkosten & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParkeerkostenElement>;
+            "opengemeenten-icon-parkeerplattegrond": LocalJSX.OpengemeentenIconParkeerplattegrond & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParkeerplattegrondElement>;
+            "opengemeenten-icon-parkeervergunning": LocalJSX.OpengemeentenIconParkeervergunning & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParkeervergunningElement>;
             "opengemeenten-icon-parkeervoorziening-gehandicapten": LocalJSX.OpengemeentenIconParkeervoorzieningGehandicapten & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParkeervoorzieningGehandicaptenElement>;
             "opengemeenten-icon-parkeren": LocalJSX.OpengemeentenIconParkeren & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParkerenElement>;
+            "opengemeenten-icon-parkeren-bedrijven": LocalJSX.OpengemeentenIconParkerenBedrijven & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParkerenBedrijvenElement>;
+            "opengemeenten-icon-participatie": LocalJSX.OpengemeentenIconParticipatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParticipatieElement>;
             "opengemeenten-icon-participatie-campagne": LocalJSX.OpengemeentenIconParticipatieCampagne & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParticipatieCampagneElement>;
             "opengemeenten-icon-participatie-checklist": LocalJSX.OpengemeentenIconParticipatieChecklist & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParticipatieChecklistElement>;
             "opengemeenten-icon-participatie-like": LocalJSX.OpengemeentenIconParticipatieLike & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParticipatieLikeElement>;
@@ -2060,18 +2948,27 @@ declare module "@stencil/core" {
             "opengemeenten-icon-participatie-plan": LocalJSX.OpengemeentenIconParticipatiePlan & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParticipatiePlanElement>;
             "opengemeenten-icon-participatie-uitvoering": LocalJSX.OpengemeentenIconParticipatieUitvoering & JSXBase.HTMLAttributes<HTMLOpengemeentenIconParticipatieUitvoeringElement>;
             "opengemeenten-icon-paspoort": LocalJSX.OpengemeentenIconPaspoort & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPaspoortElement>;
-            "opengemeenten-icon-paspoort-belgie": LocalJSX.OpengemeentenIconPaspoortBelgie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPaspoortBelgieElement>;
             "opengemeenten-icon-paspoort-idkaart-gecombineerd": LocalJSX.OpengemeentenIconPaspoortIdkaartGecombineerd & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPaspoortIdkaartGecombineerdElement>;
-            "opengemeenten-icon-paspoort-idkaart-gecombineerd-belgie": LocalJSX.OpengemeentenIconPaspoortIdkaartGecombineerdBelgie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPaspoortIdkaartGecombineerdBelgieElement>;
+            "opengemeenten-icon-paspoort-idkaart-gecombineerd-internationaal": LocalJSX.OpengemeentenIconPaspoortIdkaartGecombineerdInternationaal & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPaspoortIdkaartGecombineerdInternationaalElement>;
+            "opengemeenten-icon-paspoort-internationaal": LocalJSX.OpengemeentenIconPaspoortInternationaal & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPaspoortInternationaalElement>;
+            "opengemeenten-icon-politiek": LocalJSX.OpengemeentenIconPolitiek & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPolitiekElement>;
+            "opengemeenten-icon-presentatie": LocalJSX.OpengemeentenIconPresentatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPresentatieElement>;
             "opengemeenten-icon-prijskaartje": LocalJSX.OpengemeentenIconPrijskaartje & JSXBase.HTMLAttributes<HTMLOpengemeentenIconPrijskaartjeElement>;
             "opengemeenten-icon-raad-en-college": LocalJSX.OpengemeentenIconRaadEnCollege & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRaadEnCollegeElement>;
             "opengemeenten-icon-reclame": LocalJSX.OpengemeentenIconReclame & JSXBase.HTMLAttributes<HTMLOpengemeentenIconReclameElement>;
+            "opengemeenten-icon-reclamebelasting": LocalJSX.OpengemeentenIconReclamebelasting & JSXBase.HTMLAttributes<HTMLOpengemeentenIconReclamebelastingElement>;
             "opengemeenten-icon-recreatie": LocalJSX.OpengemeentenIconRecreatie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRecreatieElement>;
             "opengemeenten-icon-regeling-laag-inkomen": LocalJSX.OpengemeentenIconRegelingLaagInkomen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRegelingLaagInkomenElement>;
             "opengemeenten-icon-rijbewijs": LocalJSX.OpengemeentenIconRijbewijs & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRijbewijsElement>;
+            "opengemeenten-icon-riool": LocalJSX.OpengemeentenIconRiool & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRioolElement>;
+            "opengemeenten-icon-rioolheffing": LocalJSX.OpengemeentenIconRioolheffing & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRioolheffingElement>;
+            "opengemeenten-icon-rioolwerkzaamheden": LocalJSX.OpengemeentenIconRioolwerkzaamheden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRioolwerkzaamhedenElement>;
+            "opengemeenten-icon-roerende-zaakbelasting": LocalJSX.OpengemeentenIconRoerendeZaakbelasting & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRoerendeZaakbelastingElement>;
+            "opengemeenten-icon-rolstoel": LocalJSX.OpengemeentenIconRolstoel & JSXBase.HTMLAttributes<HTMLOpengemeentenIconRolstoelElement>;
             "opengemeenten-icon-schoolkostenregeling": LocalJSX.OpengemeentenIconSchoolkostenregeling & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSchoolkostenregelingElement>;
             "opengemeenten-icon-sinterklaas": LocalJSX.OpengemeentenIconSinterklaas & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSinterklaasElement>;
             "opengemeenten-icon-sociaal-zorg-welzijn": LocalJSX.OpengemeentenIconSociaalZorgWelzijn & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSociaalZorgWelzijnElement>;
+            "opengemeenten-icon-speeltuin": LocalJSX.OpengemeentenIconSpeeltuin & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSpeeltuinElement>;
             "opengemeenten-icon-sport": LocalJSX.OpengemeentenIconSport & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSportElement>;
             "opengemeenten-icon-sport-culturele-activiteit": LocalJSX.OpengemeentenIconSportCultureleActiviteit & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSportCultureleActiviteitElement>;
             "opengemeenten-icon-sportkleding-muziekinstrumenten": LocalJSX.OpengemeentenIconSportkledingMuziekinstrumenten & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSportkledingMuziekinstrumentenElement>;
@@ -2081,7 +2978,9 @@ declare module "@stencil/core" {
             "opengemeenten-icon-strand": LocalJSX.OpengemeentenIconStrand & JSXBase.HTMLAttributes<HTMLOpengemeentenIconStrandElement>;
             "opengemeenten-icon-subsidie": LocalJSX.OpengemeentenIconSubsidie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconSubsidieElement>;
             "opengemeenten-icon-temperatuur-melding": LocalJSX.OpengemeentenIconTemperatuurMelding & JSXBase.HTMLAttributes<HTMLOpengemeentenIconTemperatuurMeldingElement>;
+            "opengemeenten-icon-thuiswerken": LocalJSX.OpengemeentenIconThuiswerken & JSXBase.HTMLAttributes<HTMLOpengemeentenIconThuiswerkenElement>;
             "opengemeenten-icon-toegankelijkheid": LocalJSX.OpengemeentenIconToegankelijkheid & JSXBase.HTMLAttributes<HTMLOpengemeentenIconToegankelijkheidElement>;
+            "opengemeenten-icon-toeslag": LocalJSX.OpengemeentenIconToeslag & JSXBase.HTMLAttributes<HTMLOpengemeentenIconToeslagElement>;
             "opengemeenten-icon-trouwen-en-geregistreerd-partnerschap": LocalJSX.OpengemeentenIconTrouwenEnGeregistreerdPartnerschap & JSXBase.HTMLAttributes<HTMLOpengemeentenIconTrouwenEnGeregistreerdPartnerschapElement>;
             "opengemeenten-icon-tuinbouw": LocalJSX.OpengemeentenIconTuinbouw & JSXBase.HTMLAttributes<HTMLOpengemeentenIconTuinbouwElement>;
             "opengemeenten-icon-uittreksel": LocalJSX.OpengemeentenIconUittreksel & JSXBase.HTMLAttributes<HTMLOpengemeentenIconUittrekselElement>;
@@ -2092,9 +2991,13 @@ declare module "@stencil/core" {
             "opengemeenten-icon-veerboot": LocalJSX.OpengemeentenIconVeerboot & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVeerbootElement>;
             "opengemeenten-icon-veilige-wijk": LocalJSX.OpengemeentenIconVeiligeWijk & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVeiligeWijkElement>;
             "opengemeenten-icon-vergaderen": LocalJSX.OpengemeentenIconVergaderen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVergaderenElement>;
+            "opengemeenten-icon-vergaderen-digitaal": LocalJSX.OpengemeentenIconVergaderenDigitaal & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVergaderenDigitaalElement>;
+            "opengemeenten-icon-vergoeding-energiekosten": LocalJSX.OpengemeentenIconVergoedingEnergiekosten & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVergoedingEnergiekostenElement>;
             "opengemeenten-icon-vergunning-algemeen": LocalJSX.OpengemeentenIconVergunningAlgemeen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVergunningAlgemeenElement>;
             "opengemeenten-icon-verhuizen": LocalJSX.OpengemeentenIconVerhuizen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVerhuizenElement>;
+            "opengemeenten-icon-verkeerslicht": LocalJSX.OpengemeentenIconVerkeerslicht & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVerkeerslichtElement>;
             "opengemeenten-icon-verkiezingen": LocalJSX.OpengemeentenIconVerkiezingen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVerkiezingenElement>;
+            "opengemeenten-icon-verslaving": LocalJSX.OpengemeentenIconVerslaving & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVerslavingElement>;
             "opengemeenten-icon-vervoersvoorziening": LocalJSX.OpengemeentenIconVervoersvoorziening & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVervoersvoorzieningElement>;
             "opengemeenten-icon-virus": LocalJSX.OpengemeentenIconVirus & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVirusElement>;
             "opengemeenten-icon-vlag": LocalJSX.OpengemeentenIconVlag & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVlagElement>;
@@ -2103,12 +3006,19 @@ declare module "@stencil/core" {
             "opengemeenten-icon-vrijwilligerswerk": LocalJSX.OpengemeentenIconVrijwilligerswerk & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVrijwilligerswerkElement>;
             "opengemeenten-icon-vuurwerk": LocalJSX.OpengemeentenIconVuurwerk & JSXBase.HTMLAttributes<HTMLOpengemeentenIconVuurwerkElement>;
             "opengemeenten-icon-wandelen": LocalJSX.OpengemeentenIconWandelen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWandelenElement>;
+            "opengemeenten-icon-welzijnswerk": LocalJSX.OpengemeentenIconWelzijnswerk & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWelzijnswerkElement>;
             "opengemeenten-icon-werkzaamheden": LocalJSX.OpengemeentenIconWerkzaamheden & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWerkzaamhedenElement>;
+            "opengemeenten-icon-wie-is-wie": LocalJSX.OpengemeentenIconWieIsWie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWieIsWieElement>;
             "opengemeenten-icon-wijkteam": LocalJSX.OpengemeentenIconWijkteam & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWijkteamElement>;
+            "opengemeenten-icon-windenergie": LocalJSX.OpengemeentenIconWindenergie & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWindenergieElement>;
             "opengemeenten-icon-winkelen": LocalJSX.OpengemeentenIconWinkelen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWinkelenElement>;
             "opengemeenten-icon-winkelwagen": LocalJSX.OpengemeentenIconWinkelwagen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWinkelwagenElement>;
             "opengemeenten-icon-wmo": LocalJSX.OpengemeentenIconWmo & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWmoElement>;
+            "opengemeenten-icon-wolf": LocalJSX.OpengemeentenIconWolf & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWolfElement>;
+            "opengemeenten-icon-woning-zoeken": LocalJSX.OpengemeentenIconWoningZoeken & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWoningZoekenElement>;
             "opengemeenten-icon-woz-waarde": LocalJSX.OpengemeentenIconWozWaarde & JSXBase.HTMLAttributes<HTMLOpengemeentenIconWozWaardeElement>;
+            "opengemeenten-icon-zelfbeheer-tegel": LocalJSX.OpengemeentenIconZelfbeheerTegel & JSXBase.HTMLAttributes<HTMLOpengemeentenIconZelfbeheerTegelElement>;
+            "opengemeenten-icon-zelfstandig-wonen": LocalJSX.OpengemeentenIconZelfstandigWonen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconZelfstandigWonenElement>;
             "opengemeenten-icon-zoeken": LocalJSX.OpengemeentenIconZoeken & JSXBase.HTMLAttributes<HTMLOpengemeentenIconZoekenElement>;
             "opengemeenten-icon-zwemabonnement": LocalJSX.OpengemeentenIconZwemabonnement & JSXBase.HTMLAttributes<HTMLOpengemeentenIconZwemabonnementElement>;
             "opengemeenten-icon-zwemmen": LocalJSX.OpengemeentenIconZwemmen & JSXBase.HTMLAttributes<HTMLOpengemeentenIconZwemmenElement>;
