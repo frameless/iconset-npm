@@ -15,7 +15,7 @@
     "build": "tsc -p .",
     "clean": "rimraf node_modules && rimraf dist"
   },
-  "license": "CC-BY-NC-ND-4.0",
+  "license": "CC0-1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

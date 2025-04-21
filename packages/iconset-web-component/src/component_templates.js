@@ -196,7 +196,7 @@ exports.generateIconsSetPage = (iconsNames) => {
 <main class="utrecht-page-content">
 <h1 class="utrecht-heading-1">OpenGemeenten iconenset voor&nbsp;NL&nbsp;Design&nbsp;System</h1>
 <p class="utrecht-paragraph">De code open source beschikbaar: <a href="https://github.com/frameless/iconset-npm" class="utrecht-link" rel="external noreferer noopener">frameless/iconset-npm op GitHub</a>.</p>
-<p class="utrecht-paragraph">De licentie is: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.nl" class="utrecht-link" rel="external noreferer noopener">Creative Commons BY-NC-ND 4.0</a>.</p>
+<p class="utrecht-paragraph">De licentie is: <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="utrecht-link" rel="external noreferer noopener">CC0 1.0 Universal</a>.</p>
 <div class="grid-container">
 ${iconsNames.map((svg) => `<a href="#${svg}" title="${svg}"><${svg}></${svg}></a>`).join('\n')}
 </div>

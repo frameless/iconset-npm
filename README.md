@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.opengemeenten.nl/_Resources/Persistent/27808426fba97bd0102331c01f7c1088451d0a60/opengemeenten.svg"></p>
+![Overview of icon set](https://www.opengemeenten.nl/fileadmin/afbeeldingen/iconenset.png)
 
 # OpenGemeenten Iconenset
 
@@ -6,10 +6,10 @@ We onthouden slechts 10% van wat we horen, ongeveer 20% van wat we lezen en maar
 
 OpenGemeenten heeft samen met gemeente Veenendaal een iconenset ontwikkeld voor gemeentelijke toptaken websites. Door de iconen te combineren met toptaken vindt een bezoeker sneller en makkelijker de informatie waar hij naar op zoek is.
 
-De iconenset bestaat uit meer dan 70 iconen en wordt doorlopend aangevuld door andere gemeenten en overheidsinstanties.
+De iconenset bestaat uit 161 iconen en wordt doorlopend aangevuld door andere gemeenten en overheidsinstanties.
 
 Bekijk het volledige overzicht van de iconenset op onze website.
-[Naar iconen overzicht](https://www.opengemeenten.nl/projecten/iconen/overzicht.html)
+[Naar iconen overzicht](https://www.gemeenteniconen.nl)
 
 ## Mis je een icoon?
 
@@ -17,30 +17,40 @@ Bekijk het volledige overzicht van de iconenset op onze website.
 2. Je ontvangt een offerte
 3. Na akkoord wordt het icoon ontworpen en toegevoegd aan de set
 
-## Dit werk valt onder een CC BY-NC-ND 4.0\* licentie
+## Dit werk valt onder de CC0 1.0 UNIVERSEEL\* verklaring
 
-\*_Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal_
+_Creative Commons CC0 publieke domein verklaring_
 
-### Je bent vrij om:
+### Geen auteursrecht
 
-**het werk te delen** — te kopiëren, te verspreiden en door te geven via elk medium of bestandsformaat
-De licentiegever kan deze toestemming niet intrekken zolang aan de licentievoorwaarden voldaan wordt.
+De persoon die deze akte aan een werk heeft verbonden heeft het werk **toegewezen** aan het publiek domein door
+wereldwijd zijn of haar rechten op het werk onder het auteursrecht, inclusief alle bijbehorende en naburige rechten,
+af te staan, voor zover door de wet is toegestaan.
 
-### Onder de volgende voorwaarden:
+Je mag het werk zonder toestemming kopiëren, veranderen, verspreiden en uitvoeren, zelfs voor commerciële doeleinden.
+Zie **Overige Informatie** verderop.
 
-**Naamsvermelding** — De gebruiker dient de maker van het werk te vermelden, een link naar de licentie te plaatsen en aan te geven of het werk veranderd is. Je mag dat op redelijke wijze doen, maar niet zodanig dat de indruk gewekt wordt dat de licentiegever instemt met je werk of je gebruik van het werk.
+### Overige informatie
 
-**NietCommercieel** — Je mag het werk niet gebruiken voor commerciële doeleinden.
+Niemands patent- of merkrechten zijn op enige wijze betroffen door CC0, noch de rechten die andere personen kunnen
+hebben op het werk of op hoe het werk is gepubliceerd, zoals
+[advertentie- of privacyrechten](https://creativecommons.org/publicdomain/zero/1.0/deed.nl#ref-publicity-rights).
 
-**GeenAfgeleideWerken** — Je mag het veranderde materiaal niet verspreiden als je het werk hebt geremixt, veranderd, of op het werk hebt voortgebouwd.
+Tenzij nadrukkelijk anders is vermeld, geeft de persoon die een werk in verband met deze akte geeft geen garanties over
+het werk, en wijst elke aansprakelijkheid af voor alle toepassingen van het werk, voor zover toegestaan door de
+toepasselijke wetgeving.
 
-**Geen aanvullende restricties** — Je mag geen juridische voorwaarden of technologische voorzieningen toepassen die anderen er juridisch in beperken om iets te doen wat de licentie toestaat.
+Bij gebruik van of verwijzing naar het werk, mag je geen
+[goedkeuring](https://creativecommons.org/publicdomain/zero/1.0/deed.nl#ref-endorsement)van de auteur of rechthebbende
+impliceren.
 
-[Bekijk de volledige licentie](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.nl)
+[Bekijk de volledige akte](https://creativecommons.org/publicdomain/zero/1.0/deed.nl)
+[See the deed in English](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 ## Mede mogelijk gemaakt door
 
 - [Gemeente Veenendaal](https://www.veenendaal.nl/)
+- [Pony Design Club](https://www.ponydesignclub.nl/)
 - [Gemeente Barneveld](https://www.barneveld.nl/)
 - [Gemeente Wijk bij Duurstede](https://www.wijkbijduurstede.nl/)
 - [Gemiva-SVG Groep](https://www.gemiva-svg.nl/)
@@ -50,8 +60,11 @@ De licentiegever kan deze toestemming niet intrekken zolang aan de licentievoorw
 - [Gemeente Uitgeest](https://www.uitgeest.nl/)
 - [Gemeente Castricum](https://www.castricum.nl/)
 - [Gemeente Heiloo](https://www.heiloo.nl/)
-- [Gemeente Medemblik](https://www.medemblik.nl/)
-- [Frameless](https://frameless.io/)
+- [Gemeente Ede](https://www.ede.nl/)
+- [Gemeente Den Helder](https://www.denhelder.nl/)
+- [Gemeente Bloemendaal](https://www.bloemendaal.nl/)
+- [Gemeente Zeist](https://www.zeist.nl/)
+- [Gemeente Utrecht](https://www.utrecht.nl/)
 
 ## npm packages
 
