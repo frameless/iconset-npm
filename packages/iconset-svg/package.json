@@ -19,7 +19,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "minimist": "1.2.6",
     "svgo": "2.8.0"
   },
   "license": "CC0-1.0"
