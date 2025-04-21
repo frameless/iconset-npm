@@ -25,7 +25,7 @@
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm run build:components && npm run build:stencil",
-    "build:components": "node src/build.js $1 --prefix opengemeenten-icon --path tmp/src/",
+    "build:components": "node src/build.mjs $1 --prefix opengemeenten-icon --path tmp/src/",
     "build:stencil": "stencil build --docs",
     "clean": "rimraf dist loader www tmp",
     "start": "stencil build --dev --watch --serve",
