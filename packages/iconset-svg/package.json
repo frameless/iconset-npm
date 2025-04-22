@@ -1,6 +1,6 @@
 {
   "name": "@opengemeenten/iconset-svg",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "private": false,
   "publishConfig": {
     "access": "public"
